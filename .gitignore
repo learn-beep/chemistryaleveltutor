@@ -1,5 +1,5 @@
 node_modules/
 dist/
 .astro/
-past-papers/
+/past-papers/
 *.zip

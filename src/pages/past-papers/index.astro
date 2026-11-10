@@ -1,0 +1,22 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allPapers, OCR_MATERIALS } from '../../lib/data';
+const seriesList = [...new Set(allPapers.map((p) => p.series))];
+const cell = (series, spec, n) => allPapers.find((p) => p.series === series && p.spec === spec && Number(p.paperNo) === n);
+---
+<Base title="OCR A-level Chemistry past papers (H432 and AS H032) 2016–2025 with question-by-question tables" context="past-papers">
+  <h1>OCR A-level Chemistry past papers</h1>
+  <p>Every H432 and H032 series since 2016, all from OCR's own downloads. Each paper page lists every question with its topic, marks and type, and shows the questions with their mark schemes and examiner's comments.</p>
+  <p><a class="btn" href={OCR_MATERIALS} rel="noopener">OCR's assessment resources</a></p>
+  <h2>A level (H432)</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Series</th><th>Paper 1</th><th>Paper 2</th><th>Paper 3</th></tr></thead>
+    <tbody>{seriesList.map((s) => <tr><td>{s}</td>{[1, 2, 3].map((n) => { const p = cell(s, 'H432', n); return <td>{p ? <a href={`/past-papers/${p.slug}/`}>{p.paper}</a> : '—'}</td>; })}</tr>)}</tbody>
+  </table></div>
+  <h2 id="as">AS (H032)</h2>
+  <div class="table-wrap"><table>
+    <thead><tr><th>Series</th><th>Paper 1</th><th>Paper 2</th></tr></thead>
+    <tbody>{seriesList.map((s) => <tr><td>{s}</td>{[1, 2].map((n) => { const p = cell(s, 'H032', n); return <td>{p ? <a href={`/past-papers/${p.slug}/`}>{p.paper}</a> : '—'}</td>; })}</tr>)}</tbody>
+  </table></div>
+  <p class="muted">There were no summer exams in 2020 or 2021; the November 2020 and November 2021 papers are the autumn series OCR ran instead (the covers are dated October). The A-level papers start in June 2017 and the AS papers in June 2016. The June 2026 papers will be added when OCR makes them public.</p>
+</Base>
