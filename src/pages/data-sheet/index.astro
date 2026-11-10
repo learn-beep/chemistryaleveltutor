@@ -1,0 +1,47 @@
+---
+import Base from '../../layouts/Base.astro';
+import { OCR_MATERIALS } from '../../lib/data';
+const given = [
+  ['Molar gas volume', '24.0 dm³ mol⁻¹ at room temperature and pressure (RTP)'],
+  ['Avogadro constant, NA', '6.02 × 10²³ mol⁻¹'],
+  ['Specific heat capacity of water, c', '4.18 J g⁻¹ K⁻¹'],
+  ['Ionic product of water, Kw', '1.00 × 10⁻¹⁴ mol² dm⁻⁶ at 298 K'],
+  ['Gas constant, R', '8.314 J mol⁻¹ K⁻¹'],
+  ['1 tonne', '10⁶ g'],
+  ['Arrhenius equation', 'k = Ae^(–Ea/RT), or ln k = –Ea/RT + ln A'],
+  ['Infrared absorptions', 'The table of characteristic absorptions: C–H, O–H (alcohols and carboxylic acids), N–H, C=O, C=C, C–O, C–X and others, with their wavenumber ranges'],
+  ['¹³C NMR chemical shifts', 'The chart of chemical shift ranges for carbon environments'],
+  ['¹H NMR chemical shifts', 'The chart of chemical shift ranges for proton environments'],
+  ['The Periodic Table', 'With relative atomic masses and atomic numbers. Use these values, to the decimal places printed'],
+];
+const learn = [
+  ['Moles', 'n = m/M; n = cV (V in dm³); n = V/24.0 for a gas at RTP (V in dm³)'],
+  ['Ideal gas equation', 'pV = nRT, with p in Pa, V in m³ and T in K'],
+  ['Yield and atom economy', '% yield = actual ÷ theoretical × 100; atom economy = Mr of desired product ÷ sum of Mr of all products × 100'],
+  ['Enthalpy', 'q = mcΔT; ΔH = –q ÷ n, in kJ mol⁻¹ with the sign'],
+  ['Uncertainty', '% uncertainty = uncertainty ÷ quantity measured × 100 (doubled for a difference of two readings)'],
+  ['Free energy', 'ΔG = ΔH – TΔS, with ΔS converted to kJ K⁻¹ mol⁻¹; feasible when ΔG ≤ 0'],
+  ['pH', 'pH = –log[H⁺]; [H⁺] = 10^–pH; Kw = [H⁺][OH⁻]; Ka = [H⁺][A⁻]/[HA]; pKa = –log Ka'],
+  ['Rates', 'rate = k[A]^m[B]^n; for first order, k = ln 2 ÷ t½'],
+  ['Equilibrium', 'Kc and Kp expressions from the equation; mole fraction × total pressure = partial pressure'],
+  ['Cell potential', 'E cell = E (positive electrode) – E (negative electrode)'],
+];
+---
+<Base title="OCR A-level Chemistry Data Sheet: what is given and what you must learn" description="What is on the OCR Chemistry A Data Sheet (constants, the Arrhenius equation, infrared and NMR tables, the Periodic Table) and the equations that are not on it and have to be learnt, such as pV = nRT, q = mcΔT and ΔG = ΔH – TΔS." context="data-sheet" leadLine="Not sure which equations you are expected to know? A tutor can go through them with you.">
+  <h1>The Data Sheet: what is given, and what you must learn</h1>
+  <p>Every OCR Chemistry A paper comes with the Data Sheet. It gives you a few constants, the spectroscopy tables and the Periodic Table, and very few equations. Since 2022 it has been printed at the back of the question paper; before that it was a separate booklet. The past-paper questions on this site do not include it, so have a copy beside you.</p>
+  <p><a class="btn" href={OCR_MATERIALS} rel="noopener">Get the Data Sheet from OCR</a></p>
+  <h2>On the Data Sheet</h2>
+  <div class="table-wrap"><table><thead><tr><th>Item</th><th>What it gives</th></tr></thead><tbody>{given.map(([a, b]) => <tr><td>{a}</td><td>{b}</td></tr>)}</tbody></table></div>
+  <h2>Not on the Data Sheet: learn these</h2>
+  <div class="table-wrap"><table><thead><tr><th>Area</th><th>What to know</th></tr></thead><tbody>{learn.map(([a, b]) => <tr><td>{a}</td><td>{b}</td></tr>)}</tbody></table></div>
+  <p class="muted">Both lists were written by the site from OCR's Data Sheet and specification and are being checked by our tutor. If something here differs from the Data Sheet in front of you, the Data Sheet is right: please <a href="/report/">tell us</a>.</p>
+  <h2>Using it in the exam</h2>
+  <ul>
+    <li>Use the relative atomic masses as printed, to one decimal place. Mark schemes are written from those values.</li>
+    <li>In infrared questions quote the wavenumber range and the bond, for example "broad peak at 2500–3300 cm⁻¹, O–H in a carboxylic acid".</li>
+    <li>In NMR questions quote the chemical shift, the environment from the chart, the relative peak area and the splitting.</li>
+    <li>Check units before substituting: R is in J, so energies must be in J; molar gas volume is in dm³.</li>
+  </ul>
+  <p><a href="/maths-skills/">Calculations and maths skills</a> · <a href="/questions/type/calculations/">Every calculation question</a> · <a href="/questions/nmr-spectroscopy/">NMR questions</a></p>
+</Base>

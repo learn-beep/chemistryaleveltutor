@@ -1,0 +1,48 @@
+{
+ "topic": "enthalpy-changes",
+ "name": "Enthalpy changes",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Standard conditions",
+   "definition": "A pressure of 100 kPa and a stated temperature, usually 298 K; solutions at 1 mol dm⁻³.",
+   "examiner": "Standard states are the physical states of substances under standard conditions."
+  },
+  {
+   "term": "Enthalpy change of reaction",
+   "definition": "The enthalpy change that accompanies a reaction in the molar quantities shown in a stated equation.",
+   "examiner": "It always refers to an equation: quote the equation or the value has no meaning."
+  },
+  {
+   "term": "Enthalpy change of formation",
+   "definition": "The enthalpy change when one mole of a compound is formed from its elements, with all reactants and products in their standard states under standard conditions.",
+   "examiner": "One mole of the compound; from its elements. The value for an element in its standard state is zero."
+  },
+  {
+   "term": "Enthalpy change of combustion",
+   "definition": "The enthalpy change when one mole of a substance reacts completely with oxygen, with all reactants and products in their standard states under standard conditions.",
+   "examiner": "\"Completely\" or \"in excess oxygen\" is needed. Experimental values are less exothermic than data-book values because of heat loss and incomplete combustion."
+  },
+  {
+   "term": "Enthalpy change of neutralisation",
+   "definition": "The enthalpy change when an acid and a base react to form one mole of water, under standard conditions.",
+   "examiner": "Per mole of water formed, not per mole of acid: watch H₂SO₄."
+  },
+  {
+   "term": "Activation energy",
+   "definition": "The minimum energy required for a reaction to take place.",
+   "examiner": "On an enthalpy profile it is the gap from the reactants to the top of the curve."
+  },
+  {
+   "term": "Average bond enthalpy",
+   "definition": "The energy required to break one mole of a given type of bond in gaseous molecules, averaged over many different compounds.",
+   "examiner": "Bond breaking is endothermic. Calculations from average values differ from the real value because the actual bond enthalpy depends on the molecule."
+  },
+  {
+   "term": "Hess’ law",
+   "definition": "If a reaction can take place by more than one route and the initial and final conditions are the same, the total enthalpy change is the same for each route.",
+   "examiner": "With formation data: products − reactants. With combustion data: reactants − products."
+  }
+ ]
+}

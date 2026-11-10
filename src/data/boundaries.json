@@ -1,0 +1,102 @@
+{
+  "source": "OCR's published overall grade boundaries (AS and A Level grade boundaries, June series). The A-level total is the three papers added together: 100 + 100 + 70 = 270 raw marks, with no weighting. The AS total is 140 (two 70-mark papers). The June 2026 papers themselves are not yet public.",
+  "alevel": [
+    {
+      "series": "June 2026",
+      "max": 270,
+      "A*": 234,
+      "A": 200,
+      "B": 164,
+      "C": 128,
+      "D": 92,
+      "E": 56
+    },
+    {
+      "series": "June 2025",
+      "max": 270,
+      "A*": 243,
+      "A": 213,
+      "B": 175,
+      "C": 137,
+      "D": 99,
+      "E": 61
+    },
+    {
+      "series": "June 2024",
+      "max": 270,
+      "A*": 243,
+      "A": 212,
+      "B": 173,
+      "C": 134,
+      "D": 96,
+      "E": 58
+    },
+    {
+      "series": "June 2023",
+      "max": 270,
+      "A*": 234,
+      "A": 198,
+      "B": 158,
+      "C": 118,
+      "D": 79,
+      "E": 40
+    },
+    {
+      "series": "June 2022",
+      "max": 270,
+      "A*": 213,
+      "A": 168,
+      "B": 132,
+      "C": 97,
+      "D": 62,
+      "E": 27
+    }
+  ],
+  "as": [
+    {
+      "series": "June 2026",
+      "max": 140,
+      "A": 110,
+      "B": 96,
+      "C": 82,
+      "D": 68,
+      "E": 55
+    },
+    {
+      "series": "June 2025",
+      "max": 140,
+      "A": 113,
+      "B": 99,
+      "C": 85,
+      "D": 72,
+      "E": 59
+    },
+    {
+      "series": "June 2024",
+      "max": 140,
+      "A": 117,
+      "B": 104,
+      "C": 91,
+      "D": 78,
+      "E": 65
+    },
+    {
+      "series": "June 2023",
+      "max": 140,
+      "A": 108,
+      "B": 93,
+      "C": 78,
+      "D": 63,
+      "E": 49
+    },
+    {
+      "series": "June 2022",
+      "max": 140,
+      "A": 106,
+      "B": 89,
+      "C": 72,
+      "D": 55,
+      "E": 38
+    }
+  ]
+}

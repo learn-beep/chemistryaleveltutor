@@ -1,0 +1,40 @@
+---
+import Base from '../../layouts/Base.astro';
+import Hint from '../../components/Hint.astro';
+import spec from '../../data/spec.json';
+const sections = spec.filter((s) => s.statements.length);
+const total = sections.reduce((n, s) => n + s.statements.length, 0);
+const papers = [[1, 'Module 1: Development of practical skills in chemistry (AS and A level, all papers)'], [2, 'Module 2: Foundations in chemistry (AS and A level, all papers)'], [3, 'Module 3: Periodic table and energy (AS and A level; A-level Papers 1 and 3)'], [4, 'Module 4: Core organic chemistry (AS and A level; A-level Papers 2 and 3)'], [5, 'Module 5: Physical chemistry and transition elements (A level only; Papers 1 and 3)'], [6, 'Module 6: Organic chemistry and analysis (A level only; Papers 2 and 3)']];
+---
+<Base title={`OCR A-level Chemistry specification checklist (H432): all ${total} learning outcomes, tickable`} description={`All ${total} learning outcomes of the OCR A-level Chemistry A specification (H432) as a tickable checklist, with the AS content (Modules 1 to 4) marked and links to the past-paper questions for each topic.`} context="specification" leadLine="Big gaps on the checklist? A tutor can plan the order to close them.">
+  <h1>Specification checklist</h1>
+  <p>Every learning outcome in the OCR Chemistry A specification (H432, Version 3.1), numbered as OCR numbers them. Tick what you're confident with; ticks are saved in this browser only. Modules 1 to 4 are the whole of the AS (H032) and are examined again at A level alongside Modules 5 and 6. Paper 1 covers Modules 1, 2, 3 and 5; Paper 2 covers Modules 1, 2, 4 and 6; Paper 3 can draw on all six.</p>
+  <Hint id="ticks" text="Ticks are saved in this browser only. The revision planner uses them to pick your weak topics." />
+  <p class="muted"><span id="done">0</span> of {total} ticked · <button class="chip" type="button" id="clear">Clear my ticks</button></p>
+  {papers.map(([n, h]) => (
+    <>
+      <h2 class="strand-head">{h}</h2>
+      {sections.filter((s) => s.module === n).map((s) => (
+        <section>
+          <h3>{s.code} {s.title} <span class="muted small-text">{s.area}</span> {s.topic && <a class="small-text" href={`/questions/${s.topic}/`}>questions</a>}</h3>
+          <ul class="spec-list">
+            {s.statements.map((st) => (
+              <li><label><input type="checkbox" data-spec={st.id} /><span><strong>{st.id}</strong> {st.text}{st.guidance && <><br /><span class="muted small-text">{st.guidance}</span></>}</span></label></li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </>
+  ))}
+  <script>
+    const KEY = 'malt-spec';
+    const boxes = document.querySelectorAll('input[data-spec]');
+    const done = document.getElementById('done');
+    let state = {};
+    try { state = JSON.parse(localStorage.getItem(KEY) || '{}'); } catch {}
+    const paint = () => { let n = 0; boxes.forEach((b) => { b.checked = !!state[b.dataset.spec]; if (b.checked) n++; }); done.textContent = String(n); };
+    boxes.forEach((b) => b.addEventListener('change', () => { state[b.dataset.spec] = b.checked; try { localStorage.setItem(KEY, JSON.stringify(state)); } catch {} paint(); }));
+    document.getElementById('clear').addEventListener('click', () => { state = {}; try { localStorage.removeItem(KEY); } catch {} paint(); });
+    paint();
+  </script>
+</Base>

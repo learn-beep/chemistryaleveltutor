@@ -1,0 +1,26 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuestionCard from '../../components/QuestionCard.astro';
+import { allQuestions, allTopics } from '../../lib/data';
+const qs = allQuestions.filter((q) => q.format === 'Mechanism' && !q.notCurrentSpec).sort((a, b) => b.year - a.year);
+const byTopic = allTopics.map((t) => [t, qs.filter((q) => q.topics.includes(t.slug))]).filter(([, x]) => x.length).sort((a, b) => b[1].length - a[1].length);
+// The mechanisms the specification requires, and what the mark schemes credit. Written by the site; to be checked by a tutor.
+const families = [
+  ['Radical substitution', 'alkanes', 'AS', 'Alkane with chlorine or bromine in UV light. Initiation (homolytic fission of the halogen), two propagation steps, termination. Radicals shown with a dot; no curly arrows needed. Further substitution gives a mixture of products.'],
+  ['Electrophilic addition', 'alkenes', 'AS', 'Alkene with HBr, Br₂ or H₂O/H⁺. Curly arrow from the C=C bond to the electrophile, dipole on H–Br, arrow from the H–Br bond to Br, the carbocation, then an arrow from the lone pair on Br⁻ to C⁺. The major product comes from the more stable carbocation.'],
+  ['Nucleophilic substitution', 'haloalkanes', 'AS', 'Primary haloalkane with OH⁻ (hydrolysis). Arrow from the lone pair on the nucleophile to the δ+ carbon, dipole on C–X, arrow from the C–X bond to the halogen. Rate depends on carbon–halogen bond enthalpy: C–I fastest.'],
+  ['Electrophilic substitution', 'aromatic-compounds', 'A level', 'Benzene: nitration (NO₂⁺ from concentrated HNO₃ and H₂SO₄), halogenation with a halogen carrier, and Friedel–Crafts alkylation and acylation. Arrow from the ring to the electrophile, the intermediate with the broken ring (horseshoe over the right carbons, + charge), then loss of H⁺. Include the equations that make the electrophile and regenerate the catalyst.'],
+  ['Nucleophilic addition', 'carbonyl-compounds', 'A level', 'Aldehyde or ketone with NaBH₄ (H⁻ as the nucleophile) or with HCN (CN⁻ from NaCN/H⁺). Arrow from the lone pair on the nucleophile to the δ+ carbon, dipole on C=O, arrow from the C=O bond to O, then the O⁻ intermediate is protonated by water or H⁺.'],
+];
+const others = 'Mechanisms are not required for elimination of water from alcohols, substitution of alcohols with halide ions, or the reactions of acyl chlorides, but the papers do ask you to complete or deduce unfamiliar mechanisms by analogy: the same rules for arrows, dipoles and lone pairs apply.';
+---
+<Base title="OCR A-level Chemistry mechanisms: every mechanism question with the mark scheme" description="Every OCR Chemistry A past-paper mechanism question (radical substitution, electrophilic addition, nucleophilic substitution, electrophilic substitution, nucleophilic addition) with the mark scheme's mechanism behind the button, plus a checklist of what each curly arrow must show." context="mechanisms" leadLine="Curly arrows starting in the wrong place? It is one of the quickest things a tutor can put right.">
+  <h1>Mechanisms</h1>
+  <p>{qs.length} past-paper questions that ask you to draw, complete or outline a mechanism, by topic, each with the mark scheme's own mechanism behind the button. A curly arrow shows the movement of a pair of electrons: it must start at a bond or a lone pair and finish at the atom or bond where the electrons go. Most of the marks lost here are for arrows that start or end in the wrong place, and for missing dipoles, lone pairs and charges.</p>
+  <h2>The mechanisms you must be able to draw</h2>
+  <div class="table-wrap"><table><thead><tr><th>Mechanism</th><th>Level</th><th>What the mark scheme looks for</th><th>Questions</th></tr></thead>
+  <tbody>{families.map(([name, slug, level, note]) => <tr><td><a href={`/questions/${slug}/`}>{name}</a></td><td>{level}</td><td>{note}</td><td>{qs.filter((q) => q.topics.includes(slug)).length ? <a href={`#${slug}`}>{qs.filter((q) => q.topics.includes(slug)).length} here</a> : <a href={`/questions/${slug}/`}>topic page</a>}</td></tr>)}</tbody></table></div>
+  <p class="muted">{others} Written by the site from the specification and the mark schemes; being checked by our tutor.</p>
+  <h2>Every mechanism question, by topic</h2>
+  {byTopic.map(([t, x]) => <section id={t.slug}><h3><a href={`/questions/${t.slug}/`}>{t.name}</a> <span class="muted">({x.length})</span></h3>{x.map((q) => <QuestionCard q={q} />)}</section>)}
+</Base>

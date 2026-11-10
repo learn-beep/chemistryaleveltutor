@@ -1,0 +1,58 @@
+{
+ "topic": "amount-of-substance",
+ "name": "Amount of substance (moles)",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Amount of substance",
+   "definition": "The quantity whose unit is the mole, used to count particles.",
+   "examiner": "Write \"amount of NaCl\", not \"amount of salt\": OCR uses the formula of the substance."
+  },
+  {
+   "term": "Mole",
+   "definition": "The amount of substance that contains as many particles as there are atoms in exactly 12 g of carbon-12: 6.02 × 10²³ particles.",
+   "examiner": "Say what the particles are: atoms, molecules, ions or electrons."
+  },
+  {
+   "term": "Avogadro constant",
+   "definition": "The number of particles per mole, 6.02 × 10²³ mol⁻¹.",
+   "examiner": "It is on the Data Sheet. Multiply moles by it to get particles; remember to multiply again if the question asks for atoms or ions in each formula unit."
+  },
+  {
+   "term": "Molar mass",
+   "definition": "The mass per mole of a substance, in g mol⁻¹.",
+   "examiner": "n = m ÷ M. Use the relative atomic masses from the Periodic Table as printed."
+  },
+  {
+   "term": "Molar gas volume",
+   "definition": "The volume per mole of a gas, in dm³ mol⁻¹: 24.0 dm³ mol⁻¹ at room temperature and pressure.",
+   "examiner": "Only use 24.0 at RTP. At other conditions use pV = nRT with Pa, m³ and K."
+  },
+  {
+   "term": "Empirical formula",
+   "definition": "The simplest whole-number ratio of atoms of each element present in a compound.",
+   "examiner": "Divide each mass or percentage by the relative atomic mass, then by the smallest answer. Do not round 1.5 or 1.33 to a whole number: multiply up."
+  },
+  {
+   "term": "Molecular formula",
+   "definition": "The number and type of atoms of each element in a molecule.",
+   "examiner": "Molecular formula = empirical formula × (Mr ÷ empirical formula mass)."
+  },
+  {
+   "term": "Water of crystallisation",
+   "definition": "Water molecules that are part of the crystalline structure of a hydrated salt.",
+   "examiner": "Anhydrous means with no water of crystallisation. Heat to constant mass to be sure all the water has gone."
+  },
+  {
+   "term": "Percentage yield",
+   "definition": "Actual amount of product ÷ theoretical amount of product × 100.",
+   "examiner": "Work in moles, and find the limiting reagent first."
+  },
+  {
+   "term": "Atom economy",
+   "definition": "Sum of the molar masses of the desired products ÷ sum of the molar masses of all products × 100.",
+   "examiner": "Use the balanced equation, including the balancing numbers. Addition reactions have 100% atom economy."
+  }
+ ]
+}

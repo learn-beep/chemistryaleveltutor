@@ -1,0 +1,37 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allQuestions, topicByslug } from '../../lib/data';
+const prac = allQuestions.filter((q) => (q.features || []).includes('practical') && !q.notCurrentSpec);
+const codes = {};
+for (const q of prac) for (const s of q.skills || []) { if (!s.code.startsWith('PAG')) continue; if (!codes[s.code]) codes[s.code] = { text: s.text, qs: [] }; codes[s.code].qs.push(q); }
+const order = Object.keys(codes).sort((a, b) => Number(a.split(' ')[1]) - Number(b.split(' ')[1]));
+const skillsOnly = prac.filter((q) => !(q.skills || []).some((s) => s.code.startsWith('PAG')));
+// What each PAG involves and what the written papers ask about it, in the site's words. To be checked by a tutor.
+const how = {
+  'PAG 1': 'Measuring mass and gas volume to find a formula or a molar mass, for example water of crystallisation or the gas from a carbonate. Papers ask about gas syringes, loss of gas before the bung goes in, and heating to constant mass.',
+  'PAG 2': 'Making a standard solution in a volumetric flask and titrating with a burette and pipette. Papers ask for concordant titres, the mean, percentage uncertainty, rinsing errors and the choice of indicator.',
+  'PAG 3': 'Measuring a temperature change to find an enthalpy change with q = mcΔT. Papers ask about heat loss, incomplete combustion, extrapolating a cooling curve and why the value differs from the data-book value.',
+  'PAG 4': 'Test-tube tests for ions: carbonate (acid), sulfate (barium ions), halides (silver nitrate then ammonia), ammonium (warm NaOH), and at A level the transition metal ions with NaOH and NH₃. Papers ask for the order of tests and the observations.',
+  'PAG 5': 'Preparing an organic liquid: heating under reflux, distillation, separating funnel, drying with an anhydrous salt, redistillation. Papers ask for labelled apparatus and the reason for each step.',
+  'PAG 6': 'Preparing an organic solid: filtration under reduced pressure, recrystallisation from the minimum volume of hot solvent, melting point and thin-layer chromatography to check purity.',
+  'PAG 7': 'Test-tube tests for functional groups: bromine water (alkene), acidified dichromate (alcohols and aldehydes), 2,4-DNP and Tollens’ reagent (carbonyls), carbonates (carboxylic acids), silver nitrate in ethanol (haloalkanes), phenol tests.',
+  'PAG 8': 'Setting up electrochemical cells and measuring cell potentials: half-cells, salt bridge, high-resistance voltmeter, platinum electrodes and standard conditions.',
+  'PAG 9': 'Following a reaction continuously: gas volume, mass loss or colorimetry against time, then half-lives or gradients from the graph.',
+  'PAG 10': 'Initial rates and clock reactions: how the initial rate changes with concentration, giving the orders and the rate constant.',
+  'PAG 11': 'Measuring pH with a meter or probe: calibration, titration curves, identifying solutions from their pH.',
+  'PAG 12': 'Research skills: finding, using and citing sources. It is assessed through the Practical Endorsement rather than the written papers.',
+};
+const ref = (q) => `${q.series.replace('June ', 'Jun ').replace('November ', 'Nov ')} ${q.level === 'AS' ? 'AS ' : ''}${q.paper.replace('Paper ', 'P')} Q${q.question}`;
+---
+<Base title="OCR A-level Chemistry practical questions by PAG, with mark schemes" description="Every OCR Chemistry A past-paper question on practical work, sorted by Practical Activity Group (PAG 1 to 12): titrations, enthalpy, rates, qualitative analysis, organic synthesis and electrochemical cells, plus the planning, uncertainty and evaluation questions." context="practicals" leadLine="Practical questions are 15% of the marks and the easiest to lose. A tutor can take you through each PAG.">
+  <h1>Practical questions by PAG</h1>
+  <p>At least 15% of the marks on the written papers are for practical skills: Module 1 of the specification. OCR groups the practical work into twelve Practical Activity Groups (PAGs). Below is what each involves, what the papers ask about it, and every past-paper question tagged to it. There are {prac.length} practical question parts in total; <a href="/questions/type/practical-questions/">see them all with their mark schemes</a>.</p>
+  <h2>The Practical Activity Groups</h2>
+  <div class="table-wrap"><table><thead><tr><th>PAG</th><th>Activity</th><th>What the papers ask</th><th>Questions</th></tr></thead>
+  <tbody>{Object.keys(how).map((c) => <tr><td>{codes[c] ? <a href={`#${c.replace(' ', '')}`}>{c}</a> : c}</td><td>{codes[c]?.text || (c === 'PAG 12' ? 'Research skills' : '')}</td><td>{how[c]}</td><td>{codes[c]?.qs.length || 0}</td></tr>)}</tbody></table></div>
+  <p class="muted">Descriptions written by the site from the specification (section 5g) and the mark schemes; being checked by our tutor. The Practical Endorsement itself is assessed by your teacher and reported separately as a pass.</p>
+  {order.map((c) => <section id={c.replace(' ', '')}><h2>{c}: {codes[c].text}</h2><p class="muted">{how[c]}</p>
+    <ul class="qlinks">{codes[c].qs.sort((a, b) => b.year - a.year).map((q) => <li><a href={`/questions/${q.topics[0]}/#${q.id}`}>{ref(q)}</a> <span class="muted">{q.marks} mark{q.marks === 1 ? '' : 's'} · {topicByslug.get(q.topics[0])?.name}</span></li>)}</ul></section>)}
+  <section id="skills"><h2>Planning, analysis and evaluation</h2><p class="muted">Questions on experimental design, variables, anomalies, uncertainties and improvements that are not tied to one PAG.</p>
+    <details class="spec-fold"><summary>{skillsOnly.length} questions</summary><ul class="qlinks">{skillsOnly.sort((a, b) => b.year - a.year).map((q) => <li><a href={`/questions/${q.topics[0]}/#${q.id}`}>{ref(q)}</a> <span class="muted">{q.marks} mark{q.marks === 1 ? '' : 's'} · {topicByslug.get(q.topics[0])?.name}</span></li>)}</ul></details></section>
+</Base>

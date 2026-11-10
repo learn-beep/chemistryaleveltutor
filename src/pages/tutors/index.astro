@@ -1,0 +1,44 @@
+---
+import Base from '../../layouts/Base.astro';
+import tutors from '../../data/tutors.json';
+const tutor = tutors[0];
+const title = tutor ? `OCR A-level chemistry tutor: ${tutor.name}, online one-to-one` : 'OCR A-level chemistry tutor: online one-to-one lessons';
+const desc = tutor ? tutor.bio[0] : 'Online one-to-one A-level Chemistry tutoring for the OCR specification, from an experienced specialist tutor. Paid trial lesson, no packages, lesson by lesson.';
+---
+<Base title={title} description={desc} context="tutors" leadLine="Tell us the year group, target grade and availability, and we will arrange a trial session.">
+  {tutor ? <>
+    <div class="tutor-head">
+      {tutor.photo && <img class="tutor-photo" src={tutor.photo} alt={tutor.name} width="160" height="160" />}
+      <div><h1>Your tutor: {tutor.name}</h1><p class="muted">{tutor.title}</p></div>
+    </div>
+    {tutor.bio.map((p) => <p>{p}</p>)}
+    <h2>What {tutor.name} offers</h2>
+    <ul>{tutor.offers.map((o) => <li>{o}</li>)}</ul>
+  </> : <>
+    <h1>Your OCR Chemistry tutor</h1>
+    <p>Online one-to-one lessons for AS and A-level Chemistry on the OCR specification, from an experienced specialist who teaches it every week. Lessons are built around what earns marks: setting out multi-step calculations so the method marks are safe, drawing mechanisms the way the mark scheme wants them, structuring the six-mark level of response answers, and the practical-skills questions that run through every paper.</p>
+    <h2>What the lessons cover</h2>
+    <ul>
+      <li>One-to-one online sessions for Year 12 and Year 13, at a regular weekly slot</li>
+      <li>Past-paper questions marked against the OCR mark schemes, with written feedback</li>
+      <li>Mock-paper walk-throughs before the May and June exams</li>
+    </ul>
+  </>}
+  <h2>Fees and how it works</h2>
+  <ul>
+    <li><strong>{tutor?.fee || 'Fee on enquiry'}</strong>, online, one-to-one. The first lesson is a paid trial{tutor?.fee ? ' at the same rate' : ''}; if it isn't right for you there is no obligation to continue.</li>
+    <li>No packages and nothing to buy in advance: you pay lesson by lesson.</li>
+    <li>Most students have one or two lessons a week at a regular slot, which is what moves a grade.</li>
+  </ul>
+  <ol>
+    <li>Message us on WhatsApp or send the enquiry form with the year, target grade and the times that work for you.</li>
+    <li>{tutor ? tutor.name : 'The tutor'} gets in touch to arrange the trial lesson.</li>
+    <li>Lessons are booked directly with {tutor ? 'her' : 'the tutor'} from then on.</li>
+  </ol>
+  <p class="muted">DBS-checked; references available.</p>
+  {tutor?.reviews?.length > 0 && <>
+    <h2>What students say</h2>
+    {tutor.reviews.map((r) => <blockquote class="review"><p>{r.text}</p><footer>{'★'.repeat(r.stars)} {r.who}, {r.when}</footer></blockquote>)}
+    <p class="muted">{tutor.reviewSource}.</p>
+  </>}
+</Base>

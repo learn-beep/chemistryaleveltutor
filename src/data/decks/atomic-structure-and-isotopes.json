@@ -1,0 +1,38 @@
+{
+ "topic": "atomic-structure-and-isotopes",
+ "name": "Atomic structure and isotopes",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Isotopes",
+   "definition": "Atoms of the same element with different numbers of neutrons and different masses.",
+   "examiner": "Same number of protons and electrons, different number of neutrons. \"Different mass numbers\" alone is not enough when the question asks about atomic structure."
+  },
+  {
+   "term": "Relative isotopic mass",
+   "definition": "The mass of an isotope compared with 1/12th of the mass of an atom of carbon-12.",
+   "examiner": "The comparison with 1/12th of carbon-12 is the mark; \"compared with carbon-12\" without the twelfth loses it."
+  },
+  {
+   "term": "Relative atomic mass",
+   "definition": "The weighted mean mass of an atom of an element compared with 1/12th of the mass of an atom of carbon-12.",
+   "examiner": "Three ideas are credited: weighted mean, of an atom, compared with 1/12th of carbon-12. \"Average\" without \"weighted\" is commonly penalised."
+  },
+  {
+   "term": "Relative molecular mass",
+   "definition": "The weighted mean mass of a molecule compared with 1/12th of the mass of an atom of carbon-12. Relative formula mass is used for giant structures.",
+   "examiner": "Use \"relative formula mass\" for ionic compounds, which have no molecules."
+  },
+  {
+   "term": "Mass number",
+   "definition": "The number of protons plus neutrons in the nucleus of an atom.",
+   "examiner": "Atomic number is the number of protons only; it identifies the element."
+  },
+  {
+   "term": "Ion",
+   "definition": "An atom or group of atoms with a charge, formed by the loss or gain of electrons.",
+   "examiner": "For a positive ion, electrons = protons − charge; for a negative ion, electrons = protons + charge."
+  }
+ ]
+}

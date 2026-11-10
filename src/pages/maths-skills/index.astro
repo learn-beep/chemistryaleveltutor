@@ -1,0 +1,45 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allQuestions, topicByslug } from '../../lib/data';
+const tagged = allQuestions.filter((q) => (q.skills || []).some((s) => s.code.startsWith('M ')) && !q.notCurrentSpec);
+const codes = {};
+for (const q of tagged) for (const s of q.skills) { if (!s.code.startsWith('M ')) continue; if (!codes[s.code]) codes[s.code] = { text: s.text, qs: [] }; codes[s.code].qs.push(q); }
+const order = Object.keys(codes).sort((a, b) => Number(a.split(' ')[1]) - Number(b.split(' ')[1]));
+const calcs = allQuestions.filter((q) => q.format === 'Calculation' && !q.notCurrentSpec);
+// How each skill is examined, in the site's words. To be checked by a tutor.
+const how = {
+  'M 0.0': 'Unit conversions inside a calculation: cm³ to dm³ (divide by 1000), g to mg or tonnes, J to kJ, °C to K. Units for Kc, Kp and rate constants are worked out from the expression.',
+  'M 0.1': 'Standard form and decimal places: the Avogadro constant, Kw, Ka values. Keep the significant figures when converting between forms.',
+  'M 0.2': 'Mole ratios from balanced equations, percentage yield, atom economy, percentage by mass and percentage uncertainty.',
+  'M 0.3': 'Estimating or predicting how a value changes, for example how K changes with temperature.',
+  'M 0.4': 'Calculator work with powers and logs: pH = –log[H⁺], [H⁺] = 10^–pH, pKa, and the Arrhenius equation (A level).',
+  'M 1.1': 'Giving the answer to the number of significant figures the question asks for, or that the data justify. Round only at the end.',
+  'M 1.2': 'Mean titres from concordant results only; relative atomic mass as a weighted mean of isotopic masses.',
+  'M 1.3': 'Percentage uncertainty = (uncertainty × number of readings ÷ quantity measured) × 100. A burette titre uses two readings.',
+  'M 2.1': 'Using the symbols correctly, including ⇌ for equilibria.',
+  'M 2.2': 'Rearranging n = m/M, n = cV, pV = nRT, q = mcΔT, ΔG = ΔH – TΔS, Kc and Ka expressions, and rate equations for k.',
+  'M 2.3': 'Substituting values with the right units: volumes in m³ and pressure in Pa for pV = nRT; ΔS in kJ when used with ΔH.',
+  'M 2.4': 'Multi-step problems: Hess cycles, Born–Haber cycles, equilibrium tables, buffer calculations.',
+  'M 2.5': 'Logarithms for quantities that span many orders of magnitude: pH, pKa, ln k against 1/T (A level).',
+  'M 3.1': 'Reading graphs, energy profiles, Boltzmann distributions, titration curves and spectra, and moving between a graph and an equation.',
+  'M 3.2': 'Plotting points and drawing a line or curve of best fit with sensible scales.',
+  'M 3.3': 'Gradient and intercept of a straight-line graph: Ea from the gradient of ln k against 1/T, ln A from the intercept.',
+  'M 3.4': 'Rate from the gradient of a straight section of a concentration–time graph.',
+  'M 3.5': 'Drawing a tangent to a curve and finding its gradient for the rate at that time (A level).',
+  'M 4.1': 'Bond angles and shapes: 109.5°, 107°, 104.5°, 120°, 180°, 90°.',
+  'M 4.2': 'Drawing 3-D structures with wedge and dashed bonds: shapes of molecules, optical isomers, complex ions.',
+  'M 4.3': 'Symmetry in molecules: chiral centres, E/Z and cis–trans isomers, the number of NMR environments.',
+};
+const ref = (q) => `${q.series.replace('June ', 'Jun ').replace('November ', 'Nov ')} ${q.level === 'AS' ? 'AS ' : ''}${q.paper.replace('Paper ', 'P')} Q${q.question}`;
+---
+<Base title="OCR A-level Chemistry calculations and maths skills: every question by skill" description="Every OCR Chemistry A past-paper question that uses one of the mathematical skills in the specification (M0.0 to M4.3): units, moles and ratios, significant figures, rearranging equations, logs and pH, graphs and gradients, with how each skill is examined." context="maths-skills" leadLine="Losing marks on the long calculations? A tutor can show you how to set them out so the method marks are safe.">
+  <h1>Calculations and maths skills</h1>
+  <p>At least 20% of the marks in A-level Chemistry are for mathematical skills. The specification lists them as M0.0 to M4.3; below is how each one is examined, and every past-paper question we have tagged to it ({tagged.length} question parts, {calcs.length} of them straight calculations). Set out the working: OCR's mark schemes give the marks for each step and allow an error carried forward, and a bare wrong answer earns nothing.</p>
+  <p><a class="btn" href="/questions/type/calculations/">All calculation questions with mark schemes</a> <a class="btn" href="/data-sheet/">What the Data Sheet gives you</a></p>
+  <h2>The skills</h2>
+  <div class="table-wrap"><table><thead><tr><th>Skill</th><th>In the specification</th><th>How it is examined</th><th>Questions</th></tr></thead>
+  <tbody>{order.map((c) => <tr><td><a href={`#${c.replace(' ', '')}`}>{c.replace(' ', '')}</a></td><td>{codes[c].text}</td><td>{how[c] || ''}</td><td>{codes[c].qs.length}</td></tr>)}</tbody></table></div>
+  <p class="muted">Explanations written by the site from the specification (section 5e) and the mark schemes; being checked by our tutor. M0.4, M2.5 and M3.5 are examined at A level only.</p>
+  {order.map((c) => <section id={c.replace(' ', '')}><h2>{c.replace(' ', '')}: {codes[c].text}</h2><p class="muted">{how[c]}</p>
+    <details class="spec-fold"><summary>{codes[c].qs.length} questions</summary><ul class="qlinks">{codes[c].qs.sort((a, b) => b.year - a.year).map((q) => <li><a href={`/questions/${q.topics[0]}/#${q.id}`}>{ref(q)}</a> <span class="muted">{q.marks} mark{q.marks === 1 ? '' : 's'} · {topicByslug.get(q.topics[0])?.name}</span></li>)}</ul></details></section>)}
+</Base>

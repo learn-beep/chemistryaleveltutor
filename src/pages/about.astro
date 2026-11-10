@@ -1,0 +1,20 @@
+---
+import Base from '../layouts/Base.astro';
+import site from '../data/site.json';
+import { allQuestions, allPapers } from '../lib/data';
+---
+<Base title="About this site" context="about" description="Who runs chemistryaleveltutor.com and where the questions, mark schemes and ratings come from.">
+  <h1>About this site</h1>
+  <p>chemistryaleveltutor.com is run by {site.company}, an A-level tutoring business with a small team of specialist tutors. The site exists to give OCR chemistry students the past-paper material they actually use, sorted the way they revise, free and without sign-up; and to introduce students who want more help to a tutor who teaches the OCR specification every week.</p>
+  <h2>Where the material comes from</h2>
+  <ul>
+    <li><strong>Questions, mark schemes and examiner comments</strong> are from OCR's own published papers for every Chemistry A series since June 2016 (H032 AS from 2016, H432 A level from 2017): {allPapers.length} papers and {allQuestions.length.toLocaleString()} question parts. Each part has been tagged to the learning outcomes it assesses, its maths skills and Practical Activity Group, and its question type. Where a part needs a table, graph or structure printed in an earlier part of the question, that earlier part folds out above it.</li>
+    <li><strong>Difficulty ratings</strong> (Easy, Medium, Hard) come from the wording of OCR's examiners' reports on each part. OCR's reports do not give facility figures, and parts the report does not discuss are left unrated.</li>
+    <li><strong>Key-term cards and topic notes</strong> are written by our tutors and are original; nothing derived from OCR's material is generated automatically.</li>
+    <li><strong>Grade boundaries and exam dates</strong> are OCR's published figures.</li>
+  </ul>
+  <h2>Who writes it</h2>
+  <p>The tutoring is by a specialist OCR chemistry tutor; see the <a href="/tutors/">tutor page</a>. The site is built and maintained by the same small team that runs <a href="https://www.alevelbiologytutor.com" rel="noopener">alevelbiologytutor.com</a>, <a href="https://www.mathsaleveltutor.com" rel="noopener">mathsaleveltutor.com</a> and <a href="https://www.alevelpsychologytutor.com" rel="noopener">alevelpsychologytutor.com</a>.</p>
+  <h2>Mistakes</h2>
+  <p>If you find one, tell us on the <a href="/report/">report a mistake</a> page; corrections usually go live the same week.</p>
+</Base>

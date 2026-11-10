@@ -1,0 +1,16 @@
+---
+import Base from '../../layouts/Base.astro';
+import Heatmap from '../../components/Heatmap.astro';
+import weighting from '../../data/weighting.json';
+import { allPapers } from '../../lib/data';
+const areas = Object.entries(weighting.areas);
+const series = [...new Set(allPapers.filter((p) => p.spec === 'H432' && p.kind === 'exam').map((p) => p.series))].reverse();
+const marks = (s, area) => allPapers.filter((p) => p.spec === 'H432' && p.series === s).reduce((n, p) => n + (weighting.byPaper[p.id]?.[area] || 0), 0);
+---
+<Base title="What comes up in OCR A-level Chemistry: marks by topic, 2017–2025" context="analysis">
+  <h1>What comes up, paper by paper</h1>
+  <p>Marks assessed under each topic of the specification across the three A-level papers in each series, from our tagging of every question part. Darker cells carry more marks; the right-hand column is the total since June 2017. A part that assesses two topics counts its marks under both, so a column can add up to more than the 270 marks on the papers.</p>
+  <Heatmap areas={areas} series={series} value={marks} title="Marks by topic by series" short={(s) => s.replace('June ', 'Jun ').replace('November ', 'Nov ').replace(' 20', ' ')} />
+  <p class="muted">June 2025 is the most recent series OCR has published. OCR keeps each summer's papers for teachers only for about a year, so the data here runs to the latest public series. November 2020 and November 2021 were the autumn series sat in place of the cancelled summer exams.</p>
+  <p><a href="/what-came-up/">What came up in the latest papers</a> · <a href="/timeline/">Every paper as a timeline</a></p>
+</Base>

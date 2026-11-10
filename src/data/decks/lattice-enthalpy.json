@@ -1,0 +1,38 @@
+{
+ "topic": "lattice-enthalpy",
+ "name": "Lattice enthalpy",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Lattice enthalpy",
+   "definition": "The enthalpy change that accompanies the formation of one mole of an ionic lattice from its gaseous ions under standard conditions.",
+   "examiner": "Formation of the lattice from gaseous ions, so it is exothermic. \"One mole of gaseous ions\" is the common wrong answer."
+  },
+  {
+   "term": "Enthalpy change of atomisation",
+   "definition": "The enthalpy change when one mole of gaseous atoms is formed from the element in its standard state.",
+   "examiner": "For chlorine it is ½Cl₂(g) → Cl(g): one mole of atoms, half a mole of molecules."
+  },
+  {
+   "term": "First ionisation energy",
+   "definition": "The energy required to remove one electron from each atom in one mole of gaseous atoms to form one mole of gaseous 1+ ions.",
+   "examiner": "Gaseous atoms and gaseous ions: include the state symbols in the equation."
+  },
+  {
+   "term": "First electron affinity",
+   "definition": "The enthalpy change when one electron is added to each atom in one mole of gaseous atoms to form one mole of gaseous 1– ions.",
+   "examiner": "The first is exothermic; the second is endothermic because the electron is repelled by the negative ion."
+  },
+  {
+   "term": "Enthalpy change of solution",
+   "definition": "The enthalpy change when one mole of a solute dissolves completely in a solvent.",
+   "examiner": "ΔH(solution) = –lattice enthalpy + sum of the hydration enthalpies of the ions."
+  },
+  {
+   "term": "Enthalpy change of hydration",
+   "definition": "The enthalpy change when one mole of gaseous ions dissolves in water to form one mole of aqueous ions.",
+   "examiner": "More exothermic for smaller ions and for ions of higher charge, which attract water molecules more strongly."
+  }
+ ]
+}

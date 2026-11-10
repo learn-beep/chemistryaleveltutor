@@ -1,0 +1,48 @@
+{
+ "topic": "bonding-and-structure",
+ "name": "Bonding and structure",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Ionic bonding",
+   "definition": "The electrostatic attraction between positive and negative ions.",
+   "examiner": "\"Electrostatic attraction\" and \"oppositely charged ions\" are the marks. Do not mention sharing or molecules."
+  },
+  {
+   "term": "Covalent bond",
+   "definition": "The strong electrostatic attraction between a shared pair of electrons and the nuclei of the bonded atoms.",
+   "examiner": "Both parts are needed: shared pair, and attraction to both nuclei."
+  },
+  {
+   "term": "Dative covalent bond",
+   "definition": "A covalent bond in which both electrons of the shared pair come from one of the bonded atoms.",
+   "examiner": "Also called a coordinate bond. Show it as an arrow from the atom that donates the pair."
+  },
+  {
+   "term": "Electronegativity",
+   "definition": "The ability of an atom to attract the bonding electrons in a covalent bond.",
+   "examiner": "It increases across a period and up a group; fluorine is the most electronegative element."
+  },
+  {
+   "term": "Polar bond",
+   "definition": "A covalent bond between atoms of different electronegativity, giving a permanent dipole with δ+ and δ− ends.",
+   "examiner": "A molecule with polar bonds is non-polar overall if it is symmetrical and the dipoles cancel."
+  },
+  {
+   "term": "Hydrogen bond",
+   "definition": "A strong permanent dipole–dipole attraction between an electron-deficient hydrogen atom bonded to N, O or F and a lone pair on a N, O or F atom of another molecule.",
+   "examiner": "In a diagram show the lone pair, the dipoles, and the hydrogen bond as a dashed line to the lone pair."
+  },
+  {
+   "term": "London forces",
+   "definition": "Induced dipole–dipole interactions, present between all molecules, which increase with the number of electrons.",
+   "examiner": "Explain in three steps: electrons move, giving an instantaneous dipole; this induces a dipole in a neighbouring molecule; the dipoles attract."
+  },
+  {
+   "term": "Electron-pair repulsion",
+   "definition": "Electron pairs around a central atom repel one another and get as far apart as possible; lone pairs repel more than bonded pairs.",
+   "examiner": "State the number of bonded pairs and lone pairs, then the shape and angle. Each lone pair reduces the bond angle by about 2.5°."
+  }
+ ]
+}

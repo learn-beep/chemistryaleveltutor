@@ -1,0 +1,48 @@
+{
+ "topic": "acids-bases-and-buffers",
+ "name": "Acids, bases and buffers",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Brønsted–Lowry acid",
+   "definition": "A species that donates a proton, H⁺.",
+   "examiner": "A Brønsted–Lowry base accepts a proton."
+  },
+  {
+   "term": "Conjugate acid–base pair",
+   "definition": "Two species that can be interconverted by the transfer of a proton.",
+   "examiner": "Label the pairs as acid 1/base 1 and acid 2/base 2: each pair differs by one H⁺."
+  },
+  {
+   "term": "Strong acid",
+   "definition": "An acid that dissociates completely in aqueous solution.",
+   "examiner": "A weak acid dissociates only partially. Strength is not the same as concentration."
+  },
+  {
+   "term": "pH",
+   "definition": "pH = –log[H⁺(aq)]; [H⁺(aq)] = 10^–pH.",
+   "examiner": "Give pH to two decimal places unless told otherwise."
+  },
+  {
+   "term": "Acid dissociation constant, Ka",
+   "definition": "Ka = [H⁺][A⁻] ÷ [HA] for a weak acid HA. pKa = –log Ka.",
+   "examiner": "The larger the Ka (the smaller the pKa), the stronger the acid. The approximations are that [H⁺] = [A⁻] and that [HA] at equilibrium equals its original concentration."
+  },
+  {
+   "term": "Ionic product of water, Kw",
+   "definition": "Kw = [H⁺][OH⁻] = 1.00 × 10⁻¹⁴ mol² dm⁻⁶ at 298 K.",
+   "examiner": "Use it to find the pH of a strong base: [H⁺] = Kw ÷ [OH⁻]."
+  },
+  {
+   "term": "Buffer solution",
+   "definition": "A system that minimises pH changes on the addition of small amounts of an acid or a base.",
+   "examiner": "\"Minimises\", not \"prevents\". Made from a weak acid and its salt, or from excess weak acid and a strong alkali."
+  },
+  {
+   "term": "Equivalence point",
+   "definition": "The point in a titration at which the acid and base have reacted exactly in the mole ratio of the equation.",
+   "examiner": "It is the centre of the vertical section of the pH curve. An indicator is suitable if its pH range lies within that vertical section."
+  }
+ ]
+}
