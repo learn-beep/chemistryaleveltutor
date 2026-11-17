@@ -1,1 +1,20 @@
-[]
+[
+ {
+  "name": "Lariab",
+  "slug": "lariab",
+  "title": "A-level Chemistry tutor · OCR A specialist · online one-to-one",
+  "photo": null,
+  "fee": "£100 per hour",
+  "bio": [
+   "Lariab is a practising medical doctor with more than a thousand hours of online tutoring behind her. She began tutoring at university and has kept it up alongside her medical work because she enjoys helping young people get to grips with difficult ideas. She has over 60 five-star reviews and is very popular with her students.",
+   "She teaches the OCR A specification, so her lessons are built around what earns marks on the OCR papers: setting out multi-step calculations so the method marks are safe, drawing mechanisms the way the mark scheme wants them, structuring the six-mark level of response answers, and the practical-skills questions that run through every paper."
+  ],
+  "offers": [
+   "One-to-one online lessons for Year 12 (AS) and Year 13 (A level), at a regular weekly slot",
+   "Topic-by-topic teaching of anything that hasn't clicked in class, from moles and bonding to organic mechanisms and transition elements",
+   "Past-paper questions marked against the OCR mark schemes, with feedback on where the marks went",
+   "Mock-paper walk-throughs before the May and June exams"
+  ],
+  "reviews": []
+ }
+]
