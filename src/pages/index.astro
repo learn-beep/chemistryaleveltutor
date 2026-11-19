@@ -13,6 +13,8 @@ const latest = allPapers.filter((p) => p.kind === 'exam').map((p) => p.series).s
   <p>{current.toLocaleString()} question parts from {allPapers.length} OCR Chemistry A papers from June 2016 to {latest}, sorted by topic, with the mark scheme and the examiner's comment one tap away. Free, no sign-up.</p>
   <p class="muted">OCR A-level H432 and AS H032 (Chemistry A). Modules 1 to 4 are the AS content; Modules 5 and 6 are A-level only. The June 2026 papers will be added when OCR makes them public.</p>
 
+  <p class="board-note">Studying <strong>AQA A-level Chemistry</strong> (7405 / 7404)? <a href="/aqa/">Go to the AQA section</a>: every AQA paper since 2016 by topic, with mark schemes and examiners' comments.</p>
+
   <div class="progress-box" id="progress" hidden>
     <strong>Your progress</strong>
     <dl><div><dt>Checklist ticks</dt><dd id="pr-ticks">0</dd></div><div><dt>Questions marked</dt><dd id="pr-q">0</dd></div><div><dt>Weakest topic</dt><dd id="pr-weak">—</dd></div></dl>

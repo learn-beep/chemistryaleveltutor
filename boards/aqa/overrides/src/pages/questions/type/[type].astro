@@ -1,0 +1,47 @@
+---
+import Base from '../../../layouts/Base.astro';
+import QuestionCard from '../../../components/QuestionCard.astro';
+import { allQuestions } from '../../../lib/data';
+export function getStaticPaths() {
+  // [slug, matcher, title, intro]. A matcher is a format name, or "feature:<name>" for a feature flag from the bank.
+  const T = [
+    ['multiple-choice', 'Multiple choice', 'Multiple-choice questions', 'Every multiple-choice question: Section B of A-level Paper 3 (thirty) and Section B of each AS paper (fifteen), with the answer behind the button. Allow about a minute and a quarter each.'],
+    ['calculations', 'Calculation', 'Calculation questions', 'Moles, titrations, enthalpy, equilibrium constants, pH, rates and electrode potentials. Set out every step: AQA awards marks for the method, and an error carried forward still scores.'],
+    ['equations', 'Equation writing', 'Equation questions', 'Write, construct or balance an equation: full, ionic and half-equations, with state symbols where the question asks for them.'],
+    ['mechanisms', 'Mechanism', 'Mechanism questions', 'Name and outline a mechanism. The marks are for where each curly arrow starts and finishes, the lone pairs and charges, and the structure of the intermediate.'],
+    ['structures-and-diagrams', 'Diagram or structure', 'Structure and diagram questions', 'Draw or deduce a structure, or draw or complete a diagram: displayed and skeletal formulae, isomers, repeating units, shapes of molecules, apparatus and energy profiles.'],
+    ['explanations', 'Explanation', 'Explanation questions', 'Explain questions worth two to four marks. Each mark is a separate point of chemistry, so plan one point per mark.'],
+    ['six-mark-questions', 'Level of response', 'Six-mark level of response questions', 'The six-mark questions marked using levels of response. The level depends on how many stages of the question you cover and how fully, then on how clearly the answer is set out.'],
+    ['practical-questions', 'feature:practical', 'Practical questions', 'Questions on the twelve required practicals and on apparatus, measurements, uncertainties and evaluation. Paper 3 carries most of them.'],
+    ['short-answer', 'Short answer', 'Short-answer questions', 'The state, give, name, identify and suggest questions that make up much of every paper.'],
+  ];
+
+  return T.map(([slug, matcher, title, intro]) => ({ params: { type: slug }, props: { slug, matcher, title, intro, others: T.filter((t) => t[0] !== slug) } }));
+}
+const { slug, matcher, title, intro, others } = Astro.props;
+const match = (q) => matcher.startsWith('feature:') ? (q.features || []).includes(matcher.slice(8)) && q.format !== 'Multiple choice' : q.format === matcher;
+const qs = allQuestions.filter((q) => match(q) && !q.notCurrentSpec).sort((a, b) => b.year - a.year);
+const papers = [...new Set(qs.map((q) => q.paper))].sort();
+---
+<Base title={`${title}: AQA A-level Chemistry past-paper questions`} description={`${qs.length} ${title.toLowerCase()} from AQA Chemistry papers since 2016, with mark schemes and examiners' comments.`} context={`type:${slug}`}>
+  <h1>{title}</h1>
+  <p>{intro} {qs.length} questions.</p>
+  <p class="muted">Other types: {others.map((t, i) => <>{i ? ' · ' : ''}<a href={`/questions/type/${t[0]}/`}>{t[2]}</a></>)}</p>
+  <div class="filterbar"><div class="chips" role="group" aria-label="Filter">
+    <button class="chip" type="button" aria-pressed="true" data-filter="">All</button>
+    {papers.map((p) => <button class="chip" type="button" aria-pressed="false" data-filter={`paper:${p}`}>{p}</button>)}
+    <button class="chip" type="button" aria-pressed="false" data-filter="level:AS">AS</button>
+    <button class="chip" type="button" aria-pressed="false" data-filter="level:A level">A level</button>
+  </div><div class="count" id="count"></div></div>
+  {qs.map((q) => <div data-paper={q.paper}><QuestionCard q={q} showTopics={true} /></div>)}
+  <script>
+    const chips = document.querySelectorAll('.chip[data-filter]');
+    const wraps = document.querySelectorAll('[data-paper]');
+    chips.forEach((c) => c.addEventListener('click', () => {
+      chips.forEach((x) => x.setAttribute('aria-pressed', 'false')); c.setAttribute('aria-pressed', 'true');
+      const [key, val] = (c.getAttribute('data-filter') || '').split(':');
+      wraps.forEach((w) => { const card = w.querySelector('.qcard'); const v = key === 'paper' ? w.dataset.paper : card.getAttribute('data-' + key); w.hidden = !!key && v !== val; });
+      document.getElementById('count').textContent = `Showing ${[...wraps].filter((w) => !w.hidden).length} of ${wraps.length}`;
+    }));
+  </script>
+</Base>

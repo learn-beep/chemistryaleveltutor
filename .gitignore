@@ -1,5 +1,9 @@
 node_modules/
 dist/
 .astro/
+.netlify/
+.env
 /past-papers/
 *.zip
+*.bundle
+/.build/

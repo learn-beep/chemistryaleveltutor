@@ -1,0 +1,38 @@
+{
+ "topic": "energetics",
+ "name": "Energetics",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Enthalpy change",
+   "definition": "The heat energy change measured at constant pressure.",
+   "examiner": "Standard conditions are 100 kPa and a stated temperature, usually 298 K."
+  },
+  {
+   "term": "Standard enthalpy of formation",
+   "definition": "The enthalpy change when one mole of a compound is formed from its elements, with all reactants and products in their standard states under standard conditions.",
+   "examiner": "One mole of the compound; from its elements; standard states. The value for an element in its standard state is zero."
+  },
+  {
+   "term": "Standard enthalpy of combustion",
+   "definition": "The enthalpy change when one mole of a substance is burned completely in oxygen, with all reactants and products in their standard states under standard conditions.",
+   "examiner": "\"Completely\" or \"in excess oxygen\" is needed."
+  },
+  {
+   "term": "Hess’s law",
+   "definition": "The enthalpy change for a reaction is independent of the route taken.",
+   "examiner": "With formation data: products − reactants. With combustion data: reactants − products."
+  },
+  {
+   "term": "Mean bond enthalpy",
+   "definition": "The enthalpy change needed to break one mole of a covalent bond, averaged over a range of different compounds.",
+   "examiner": "Values from mean bond enthalpies differ from experimental ones because the real bond enthalpy depends on the molecule, and the data refer to gases."
+  },
+  {
+   "term": "Specific heat capacity",
+   "definition": "The energy needed to raise the temperature of 1 g of a substance by 1 K.",
+   "examiner": "In q = mcΔT, m is the mass of the liquid that is heated, not the mass of the solid added or the fuel burned."
+  }
+ ]
+}

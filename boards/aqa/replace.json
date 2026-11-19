@@ -1,0 +1,316 @@
+{
+ "all": [
+  [
+   "import { deckFor } from '../../lib/decks';",
+   "import { deckFor } from '../../lib/decks';\nimport { badgeClass, badgeText, motifFor, whereExamined } from '../../lib/groups';"
+  ],
+  [
+   "const mod = Number(topic.paper.replace('Module ', ''));",
+   ""
+  ],
+  [
+   "const motifKind = mod === 1 ? 'flask' : mod === 2 ? (topic.slug.includes('electron') || topic.slug.includes('atomic') || topic.slug.includes('bonding') ? 'orbital' : 'flask') : mod === 3 ? (topic.slug.includes('enthalpy') || topic.slug.includes('rates') || topic.slug.includes('equilibrium') ? 'energy' : 'orbital') : mod === 4 ? (topic.slug.includes('infrared') ? 'spectrum' : 'chain') : mod === 5 ? (topic.slug.includes('transition') ? 'orbital' : 'energy') : (topic.slug.includes('nmr') || topic.slug.includes('chromatography') ? 'spectrum' : topic.slug.includes('aromatic') ? 'benzene' : 'chain');",
+   "const motifKind = motifFor(topic);"
+  ],
+  [
+   "const whichPaper = { 1: 'all three papers', 2: 'all three papers', 3: 'Paper 1 and Paper 3', 4: 'Paper 2 and Paper 3', 5: 'Paper 1 and Paper 3', 6: 'Paper 2 and Paper 3' }[mod];",
+   "const where = whereExamined(topic);"
+  ],
+  [
+   "const asPaper = mod <= 4 ? 'AS Papers 1 and 2' : null;",
+   ""
+  ],
+  [
+   "<span class={`badge badge-${mod}`}>{topic.paper}</span>",
+   "<span class={badgeClass(topic.group)}>{badgeText(topic.group)}</span>"
+  ],
+  [
+   "<dd>A-level {whichPaper}{asPaper ? `; ${asPaper}` : ''}</dd>",
+   "<dd>{where}</dd>"
+  ],
+  [
+   "{topic.statements.length} learning outcome{topic.statements.length === 1 ? '' : 's'}",
+   "{topic.statements.length} statement{topic.statements.length === 1 ? '' : 's'}"
+  ],
+  [
+   "<h2>Learning outcomes</h2>",
+   "<h2>Specification statements</h2>"
+  ],
+  [
+   "Show the {topic.statements.length} learning outcomes from the specification",
+   "Show the {topic.statements.length} statements from the specification"
+  ],
+  [
+   "<button class=\"chip\" type=\"button\" aria-pressed=\"false\" data-filter=\"format:Structure / isomer\">Structures</button>",
+   "<button class=\"chip\" type=\"button\" aria-pressed=\"false\" data-filter=\"format:Diagram or structure\">Structures and diagrams</button>\n    <button class=\"chip\" type=\"button\" aria-pressed=\"false\" data-filter=\"format:Practical and data analysis\">Practical</button>"
+  ],
+  [
+   "Where a part needs a table, graph or structure from an earlier part, that part folds out above it; the mark scheme and examiner's comment open underneath. Have the OCR Data Sheet beside you.",
+   "Where a part needs a figure, table or structure from earlier in the question, that part folds out above it; the mark scheme and examiner's comment open underneath. Have AQA's Data Booklet (the Periodic Table and the spectroscopy tables) beside you."
+  ],
+  [
+   ".replace(/\\(.*$/, '')",
+   ".replace(/[.(].*$/, '')"
+  ],
+  [
+   "', with the levels and indicative points'",
+   "', with the levels and indicative content'"
+  ],
+  [
+   "const groups = [1, 2, 3, 4, 5, 6].map((n) => [`Module ${n}`, `Module ${n}`]);",
+   "import { GROUPS } from '../../lib/groups';\nconst groups = GROUPS.map((g) => [g.key.replace(' chemistry: ', ', '), g.key]);"
+  ],
+  [
+   "{[1, 2, 3, 4, 5, 6].map((n) => <button class=\"chip\" type=\"button\" data-all={`Module ${n}`}>All Module {n}</button>)}",
+   "{GROUPS.map((g) => <button class=\"chip\" type=\"button\" data-all={g.key}>All {g.key.replace(' chemistry: ', ', ')}</button>)}"
+  ],
+  [
+   "<button class=\"chip\" type=\"button\" data-v=\"Structure / isomer\">Structures and isomers</button>",
+   "<button class=\"chip\" type=\"button\" data-v=\"Diagram or structure\">Structures and diagrams</button><button class=\"chip\" type=\"button\" data-v=\"Explanation\">Explanations</button>"
+  ],
+  [
+   "const papers = [[1, 'Module 1: Development of practical skills in chemistry (AS and A level, all papers)'], [2, 'Module 2: Foundations in chemistry (AS and A level, all papers)'], [3, 'Module 3: Periodic table and energy (AS and A level; A-level Papers 1 and 3)'], [4, 'Module 4: Core organic chemistry (AS and A level; A-level Papers 2 and 3)'], [5, 'Module 5: Physical chemistry and transition elements (A level only; Papers 1 and 3)'], [6, 'Module 6: Organic chemistry and analysis (A level only; Papers 2 and 3)']];",
+   "const papers = [[1, '3.1 Physical chemistry (Papers 1, 2 and 3)'], [2, '3.2 Inorganic chemistry (Papers 1 and 3)'], [3, '3.3 Organic chemistry (Papers 2 and 3)']];"
+  ],
+  [
+   "specification checklist (H432): all ${total} learning outcomes, tickable",
+   "specification checklist (7405): all ${total} statements, tickable"
+  ],
+  [
+   "All ${total} learning outcomes of the OCR A-level Chemistry A specification (H432) as a tickable checklist, with the AS content (Modules 1 to 4) marked and links",
+   "All ${total} content statements of the AQA A-level Chemistry specification (7405) as a tickable checklist, with the A-level-only sections marked and links"
+  ],
+  [
+   "Every learning outcome in the OCR Chemistry A specification (H432, Version 3.1), numbered as OCR numbers them. Tick what you're confident with; ticks are saved in this browser only. Modules 1 to 4 are the whole of the AS (H032) and are examined again at A level alongside Modules 5 and 6. Paper 1 covers Modules 1, 2, 3 and 5; Paper 2 covers Modules 1, 2, 4 and 6; Paper 3 can draw on all six.",
+   "Every content statement in the AQA Chemistry specification (7405, version 1.2), under AQA's section numbers; we number the statements within each subsection (3.1.8.1-03 is the third statement of 3.1.8.1). Tick what you're confident with; ticks are saved in this browser only. Sections 3.1.1 to 3.1.7, 3.2.1 to 3.2.3 and 3.3.1 to 3.3.6 are the whole of the AS (7404) and the first year of the A level; the rest is A level only. Paper 1 covers inorganic chemistry and physical sections 3.1.1 to 3.1.4, 3.1.6 to 3.1.8 and 3.1.10 to 3.1.12; Paper 2 covers organic chemistry and physical sections 3.1.2 to 3.1.6 and 3.1.9; Paper 3 can draw on any content and any practical skills."
+  ],
+  [
+   "<span class=\"muted small-text\">{s.area}</span>",
+   "<span class=\"muted small-text\">{s.aLevelOnly ? 'A level only' : 'AS and A level'}</span>"
+  ],
+  [
+   "Papers 1 and 2 at A level are 100 marks each (15 multiple-choice marks then structured questions); Paper 3 is 70 marks of structured questions on any part of the course.",
+   "Papers 1 and 2 at A level are 105 marks each, all short and long answer questions. Paper 3 is 90 marks: 40 on practical techniques and data analysis, 20 testing across the specification and 30 multiple-choice questions. Each AS paper is 80 marks: 65 of short and long answer questions and 15 multiple-choice questions."
+  ],
+  [
+   "Papers 1 and 2 are marked out of 100 and Paper 3 out of 70. OCR simply adds the three raw marks, so the overall boundaries are out of 270 (Papers 1 and 2 are 37% of the A level each and Paper 3 is 26%).",
+   "Papers 1 and 2 are marked out of 105 and Paper 3 out of 90. AQA adds the three raw marks, so the overall boundaries are out of 300 (Papers 1 and 2 are 35% of the A level each and Paper 3 is 30%)."
+  ],
+  [
+   "<label>Paper 1 mark <input type=\"number\" min=\"0\" max=\"100\" id=\"p1\"",
+   "<label>Paper 1 mark (out of 105) <input type=\"number\" min=\"0\" max=\"105\" id=\"p1\""
+  ],
+  [
+   "<label>Paper 2 mark <input type=\"number\" min=\"0\" max=\"100\" id=\"p2\"",
+   "<label>Paper 2 mark (out of 105) <input type=\"number\" min=\"0\" max=\"105\" id=\"p2\""
+  ],
+  [
+   "<label>Paper 3 mark (out of 70) <input type=\"number\" min=\"0\" max=\"70\" id=\"p3\"",
+   "<label>Paper 3 mark (out of 90) <input type=\"number\" min=\"0\" max=\"90\" id=\"p3\""
+  ],
+  [
+   "a total out of 270,",
+   "a total out of 300,"
+  ],
+  [
+   ", out of 270</h2>",
+   ", out of 300</h2>"
+  ],
+  [
+   ", out of 140</h2>",
+   ", out of 160</h2>"
+  ],
+  [
+   "${total}/270:",
+   "${total}/300:"
+  ],
+  [
+   "more than the 270 marks on the papers",
+   "more than the 300 marks on the papers"
+  ],
+  [
+   "const cell = (series, spec, n) =>",
+   "const order = (s) => (s === 'Specimen' ? 1 : 0);\nseriesList.sort((a, b) => order(a) - order(b));\nconst cell = (series, spec, n) =>"
+  ],
+  [
+   "<tbody>{seriesList.map((s) => <tr><td>{s}</td>{[1, 2].map(",
+   "<tbody>{seriesList.filter((s) => s !== 'Specimen').map((s) => <tr><td>{s}</td>{[1, 2].map("
+  ],
+  [
+   "the November 2020 and November 2021 papers are the autumn series OCR ran instead (the covers are dated October). The A-level papers start in June 2017 and the AS papers in June 2016.",
+   "the November 2020 and November 2021 papers are the autumn series AQA ran instead, using the papers written for June 2020 and June 2021. The A-level papers start in June 2017 and the AS papers in June 2016; AQA's specimen papers are the last row of the A-level table."
+  ],
+  [
+   "${paper.paper} (${paper.spec}/${paper.paperNo})`",
+   "${paper.paper} (${paper.spec}/${String(paper.paperNo).replace(/^0/, '')})`"
+  ],
+  [
+   "{paper.series.startsWith('November') ? ' · An autumn series, sat in place of the cancelled summer exams' : ''} · Have OCR's Data Sheet beside you",
+   "{paper.series.startsWith('November') ? ' · An autumn series using the paper written for the cancelled summer exams' : ''}{paper.kind === 'specimen' ? ' · AQA\\'s specimen paper for the current specification' : ''} · Have the <a href=\"/data-sheet/\">Data Booklet</a> beside you"
+  ],
+  [
+   "<tbody>{seriesList.map((s) => <tr><td>{s}</td>{[1, 2, 3].map(",
+   "<tbody>{seriesList.filter((s) => allPapers.some((p) => p.series === s && p.spec === '7405')).map((s) => <tr><td>{s}</td>{[1, 2, 3].map("
+  ],
+  [
+   "The thin blocks at the start of Papers 1 and 2 are the fifteen multiple-choice questions of Section A; Paper 3 has none.",
+   "The thin blocks at the end of Paper 3 are its thirty multiple-choice questions, and each AS paper ends with fifteen; A-level Papers 1 and 2 have none."
+  ],
+  [
+   "and which were examined only through multiple choice; the",
+   "and which came up in the practical questions of Paper 3; the"
+  ],
+  [
+   "OCR's examiner reports occasionally give the proportion of marks scored nationally on a question. These are the {hard.length} parts on current content where it was under 35%",
+   "AQA's examiners' reports often give the percentage of students who scored the marks on a question. These are the {hard.length} parts on current content where it was under 35%"
+  ],
+  [
+   "June 2025 is the most recent series OCR has published. OCR keeps each summer's papers for teachers only for about a year, so the data here runs to the latest public series. November 2020 and November 2021 were the autumn series sat in place of the cancelled summer exams.",
+   "June 2025 is the most recent series AQA has published. AQA keeps each summer's papers for teachers only for about a year, so the data here runs to the latest public series. November 2020 and November 2021 were the autumn series, using the papers written for the cancelled summer exams."
+  ],
+  [
+   "All the six-mark level of response questions (the ones marked with an asterisk) set on OCR Chemistry A since 2016",
+   "All the six-mark level of response questions set on AQA Chemistry since 2016"
+  ],
+  [
+   "{lor.length} level of response questions, the ones marked with an asterisk (*), grouped by topic. Each A-level paper has two of them; each AS paper has one or two.",
+   "{lor.length} questions marked using levels of response, grouped by topic. Each A-level paper and each AS paper usually has one, worth six marks."
+  ],
+  [
+   "three levels and indicative points",
+   "three levels and indicative content"
+  ],
+  [
+   "Level 3</td><td>5–6</td><td>All the strands of the question are answered with correct chemistry, in a clear and logical line of reasoning, with the evidence or working to support it.",
+   "Level 3</td><td>5–6</td><td>All the stages of the question are covered and each is explained in full, in a clear, coherent and logical answer."
+  ],
+  [
+   "Level 2</td><td>3–4</td><td>Most of the chemistry is right but one strand is missing or wrong, or the reasoning has some structure but gaps.",
+   "Level 2</td><td>3–4</td><td>All stages are covered but the explanation of each may be incomplete, or two stages are covered and explained in full. The answer is mainly coherent."
+  ],
+  [
+   "Level 1</td><td>1–2</td><td>Some correct points, but one strand only or an answer without a clear structure.",
+   "Level 1</td><td>1–2</td><td>Two stages are covered but incompletely, or only one stage is covered. The answer has some structure but is not always clear."
+  ],
+  [
+   "The examiner first decides the level from the chemistry, then picks the higher or lower mark in that level from how well the answer is communicated. Most questions have two or three strands (for example: do the calculation, identify the compound, explain the evidence): attempt every strand. Summary written by the site from OCR's marking instructions; being checked by our tutor.",
+   "The examiner first decides the level from how many of the question's stages are covered and how fully, then picks the higher or lower mark in that level from how well the answer is communicated. Most questions have three stages (for example: describe the method, give the observations, explain the chemistry): attempt every stage. Summary written by the site from AQA's mark schemes; being checked by our tutor."
+  ],
+  [
+   "Pick the level from the descriptors first, then the mark within it from how clear and well structured your answer is.",
+   "Pick the level from how many stages you covered, then the mark within it from how clear and well structured your answer is."
+  ],
+  [
+   "Build a timed mini-mock from real OCR Chemistry A past-paper questions in the shape of Paper 1, 2 or 3 (or the AS papers): the multiple-choice section, whole structured questions, or a full paper.",
+   "Build a timed mini-mock from real AQA Chemistry past-paper questions in the shape of Paper 1, 2 or 3 (or the AS papers): the multiple-choice section, whole structured questions, or a full paper."
+  ],
+  [
+   "A-level Papers 1 and 2 are fifteen multiple-choice questions (Section A) and 85 marks of structured questions (Section B), in 2 hours 15 minutes. Paper 3 is 70 marks of structured questions on any part of the course, in 1 hour 30 minutes. AS Paper 1 is twenty multiple-choice questions and 50 marks of structured questions; AS Paper 2 is 70 marks of structured questions. Structured questions are kept whole, so every part has the information it needs. Have the Data Sheet beside you.",
+   "A-level Papers 1 and 2 are 105 marks of short and long answer questions, in 2 hours. Paper 3 is 60 marks of structured questions (40 on practical techniques and data analysis, 20 testing across the specification) and 30 multiple-choice questions, in 2 hours. Each AS paper is 65 marks of structured questions and 15 multiple-choice questions, in 1 hour 30 minutes. Structured questions are kept whole, so every part has the information it needs. Have the Data Booklet beside you."
+  ],
+  [
+   ">Paper 1 (periodic table, elements and physical)</button>",
+   ">Paper 1 (inorganic and physical)</button>"
+  ],
+  [
+   ">Paper 2 (synthesis and analytical techniques)</button>",
+   ">Paper 2 (organic and physical)</button>"
+  ],
+  [
+   ">Paper 3 (unified chemistry)</button>",
+   ">Paper 3 (any content and practical skills)</button>"
+  ],
+  [
+   "const SHAPE = { 'A level': { 'Paper 1': [15, 85, 81], 'Paper 2': [15, 85, 81], 'Paper 3': [0, 70, 77] }, AS: { 'Paper 1': [20, 50, 77], 'Paper 2': [0, 70, 77] } };",
+   "const SHAPE = { 'A level': { 'Paper 1': [0, 105, 69], 'Paper 2': [0, 105, 69], 'Paper 3': [30, 60, 80] }, AS: { 'Paper 1': [15, 65, 68], 'Paper 2': [15, 65, 68] } };"
+  ],
+  [
+   "'There is no AS Paper 3; the AS papers are Paper 1 (Breadth in chemistry) and Paper 2 (Depth in chemistry).'",
+   "'There is no AS Paper 3; the AS papers are Paper 1 (inorganic and physical) and Paper 2 (organic and physical).'"
+  ],
+  [
+   "full: `${mc ? `${mc} multiple-choice questions and ` : ''}${st} marks of structured questions (${mc + st} marks, ${mc + st === 100 ? '2 hours 15 minutes' : '1 hour 30 minutes'}).` };",
+   "full: `${st} marks of structured questions${mc ? ` and ${mc} multiple-choice questions` : ''} (${mc + st} marks, ${sel.level === 'AS' ? '1 hour 30 minutes' : '2 hours'}).` };"
+  ],
+  [
+   "else { picked = mcqs.slice(0, mc); fill(groups, st).forEach(add); }",
+   "else { fill(groups, st).forEach(add); picked = picked.concat(mcqs.slice(0, mc)); }"
+  ],
+  [
+   "Dropping marks on calculations, mechanisms or the six-markers? Book a trial session with a specialist OCR chemistry tutor.",
+   "Dropping marks on calculations, mechanisms or the required practicals? Book a trial session with a specialist A-level chemistry tutor."
+  ],
+  [
+   "<h2>Work with an OCR chemistry tutor</h2>",
+   "<h2>Work with an A-level chemistry tutor</h2>"
+  ],
+  [
+   "and OCR's mark schemes want the exact wording",
+   "and AQA's mark schemes want the key phrases"
+  ],
+  [
+   "with OCR specialist tutors.",
+   "with a specialist chemistry tutor."
+  ],
+  [
+   "{\"t\": \"Practical questions by PAG\", \"u\": \"/practicals/\", \"kind\": \"Tool\"}",
+   "{\"t\": \"Required practicals 1 to 12\", \"u\": \"/required-practicals/\", \"kind\": \"Tool\"}"
+  ],
+  [
+   "{\"t\": \"Data Sheet: what is given\", \"u\": \"/data-sheet/\", \"kind\": \"Tool\"}",
+   "{\"t\": \"Data Booklet: what is given\", \"u\": \"/data-sheet/\", \"kind\": \"Tool\"}"
+  ],
+  [
+   "/practicals/",
+   "/required-practicals/"
+  ],
+  [
+   "malt-",
+   "malt-aqa-"
+  ],
+  [
+   "https://www.ocr.org.uk/qualifications/as-and-a-level/chemistry-a-h032-h432-from-2015/assessment/",
+   "https://www.aqa.org.uk/subjects/chemistry/a-level/chemistry-7405/assessment-resources"
+  ],
+  [
+   "OCR AS and A-level Chemistry past-paper questions since 2016",
+   "AQA AS and A-level Chemistry past-paper questions since 2016"
+  ],
+  [
+   "OCR A-level Chemistry A (H432)",
+   "AQA A-level Chemistry (7405)"
+  ],
+  [
+   "OCR Chemistry A ",
+   "AQA Chemistry "
+  ],
+  [
+   "(H432)",
+   "(7405)"
+  ],
+  [
+   "H432",
+   "7405"
+  ],
+  [
+   "(H032)",
+   "(7404)"
+  ],
+  [
+   "H032",
+   "7404"
+  ],
+  [
+   "OCR's",
+   "AQA's"
+  ],
+  [
+   "OCR",
+   "AQA"
+  ]
+ ],
+ "delete": [
+  "src/pages/practicals",
+  "src/data/decks"
+ ]
+}

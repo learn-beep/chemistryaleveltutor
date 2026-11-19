@@ -1,11 +1,14 @@
 # chemistryaleveltutor.com
 
+**Two boards (19 November 2026):** OCR Chemistry A is the site at the root; AQA Chemistry (7405 / 7404) is the section under `/aqa/`. See "AQA section" below.
+
 Static Astro site for OCR A-level Chemistry A (H432) and AS (H032), deployed on Netlify. Fourth site in the family after mathsaleveltutor.com, alevelpsychologytutor.com and economicsaleveltutor.com; built from the Economics template with the `subject-revision-site` skill on 10 November 2026.
 
 ## Run locally
     npm install
     npm run dev        # http://localhost:4321
-    npm run build      # writes dist/
+    npm run build      # node scripts/build.mjs: OCR at the root, AQA under /aqa/, one sitemap; writes dist/
+    npm run build:ocr  # the OCR site only (plain astro build)
 
 ## Deploy
 Push to `main` of the linked GitHub repository; Netlify builds with `npm run build` (Node 22) and publishes `dist/`.
@@ -33,3 +36,13 @@ Set `CROPS=off` in Netlify's environment to replace every OCR crop with a link t
 
 ## Upkeep
 New papers (OCR makes each summer's papers public about a year later): run the bank pipeline, then `export.py --images`, commit `src/data` and `public/img`. Grade boundaries (`src/data/boundaries.json`) in August; exam dates (`src/data/exams.json`) when OCR publishes the final timetable in the autumn.
+
+## AQA section (/aqa/)
+- `scripts/build.mjs` builds the OCR site as it stands, then a copy of `src/` with the AQA data (`boards/aqa/data`, `exams.json`, `boundaries.json`, `site.config.json`), the string replacements in `boards/aqa/replace.json` and the whole-file overrides in `boards/aqa/overrides/`, and moves that build under `dist/aqa/` with its internal links prefixed. Tutors, about, legal and form pages come from the OCR build only. The same method as physicsaleveltutor.com (`/eduqas/`).
+- To change wording that both boards share, edit the page in `src/`. If the OCR sentence you change is a key in `boards/aqa/replace.json`, update the key too (the build does not warn when a key no longer matches). Pages that exist only for AQA, or differ too much, are in `boards/aqa/overrides/src/`: home page, topic index, question types, required practicals, Data Booklet, maths skills, mechanisms, `lib/groups.ts` and the six key-term decks.
+- Data: `python scripts/export_aqa.py --bank "<Dropbox>\Teaching\Chemistry\AQA\Question Bank" --topics boards/aqa/topics.json --config boards/aqa/site.config.json --out boards/aqa/data`, then `python scripts/webp_all.py "<that bank folder>"` for the crops (`public/img/<bundle>/`, bundles named like `JUN24_74051`, so they sit beside the OCR ones).
+- 34 topics, one per specification section (3.1.1 to 3.3.16), in six groups (physical, inorganic, organic; year 1 and year 2). 50 papers, 2,306 parts. Question types are the bank's, with "Extended response" shown as "Level of response" and "Equation" as "Equation writing" (`formatMap` in the config). Question numbers keep AQA's form (02.3).
+- Browser storage keys are `malt-aqa-…` in the AQA section, so ticks and scores do not mix with the OCR ones.
+- Mock shapes: A-level Papers 1 and 2, 105 structured marks; Paper 3, 60 structured + 30 multiple choice; AS papers, 65 structured + 15 multiple choice.
+- Board facts used: specification version 1.2 (no content change); June 2027 dates 7405/1 28 May am, 7405/2 10 June am, 7405/3 17 June am, 7404/1 11 May am, 7404/2 18 May am (AQA timetable v1.2); boundaries out of 300 and AS out of 160, 2022 to 2026.
+- Needs a tutor's check: the six AQA decks, the required-practical notes, the Data Booklet lists, the mechanisms checklist, the maths-skills notes and the level-of-response summary.

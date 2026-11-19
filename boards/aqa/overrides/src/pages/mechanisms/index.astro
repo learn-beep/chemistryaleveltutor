@@ -1,0 +1,30 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuestionCard from '../../components/QuestionCard.astro';
+import { allQuestions, allTopics } from '../../lib/data';
+const qs = allQuestions.filter((q) => q.format === 'Mechanism' && !q.notCurrentSpec).sort((a, b) => b.year - a.year);
+const byTopic = allTopics.map((t) => [t, qs.filter((q) => q.topics.includes(t.slug))]).filter(([, x]) => x.length).sort((a, b) => b[1].length - a[1].length);
+// The mechanisms the specification requires, and what the mark schemes credit. Written by the site; to be checked by a tutor.
+const families = [
+  ['Free-radical substitution', 'alkanes', 'AS', 'Methane or another alkane with chlorine in UV light. Initiation (the chlorine molecule splits into two radicals), two propagation steps, and termination. Radicals are shown with a dot; curly arrows are not required. Write a balanced equation for each step.'],
+  ['Nucleophilic substitution', 'halogenoalkanes', 'AS', 'Halogenoalkane with OH⁻, CN⁻ or NH₃. Arrow from the lone pair on the nucleophile to the δ+ carbon, and an arrow from the C–X bond to the halogen. With ammonia a second molecule removes H⁺ from the intermediate. The rate depends on carbon–halogen bond enthalpy: C–I is fastest.'],
+  ['Elimination', 'halogenoalkanes', 'AS', 'Halogenoalkane with hot ethanolic KOH. The hydroxide ion acts as a base: arrow from its lone pair to an H on the carbon next to the C–X carbon, arrow from that C–H bond to form the C=C, and arrow from the C–X bond to the halogen.'],
+  ['Electrophilic addition', 'alkenes', 'AS', 'Alkene with HBr, H₂SO₄ or Br₂. Arrow from the C=C bond to the electrophile, arrow from the H–Br (or Br–Br) bond to the atom that leaves, the carbocation, then an arrow from the lone pair on the anion to C⁺. The major product comes from the more stable carbocation (tertiary > secondary > primary).'],
+  ['Elimination of water from alcohols', 'alcohols', 'AS', 'Acid-catalysed dehydration with concentrated H₂SO₄ or H₃PO₄. The lone pair on the oxygen takes H⁺, water leaves to give a carbocation, and loss of H⁺ from the next carbon forms the C=C.'],
+  ['Nucleophilic addition', 'aldehydes-and-ketones', 'A level', 'Aldehyde or ketone with NaBH₄ (the nucleophile shown as H⁻) or with KCN followed by dilute acid. Arrow from the lone pair on the nucleophile to the δ+ carbon, arrow from the C=O bond to O, then the O⁻ takes H⁺. Attack from either side of the planar C=O gives a racemic mixture.'],
+  ['Nucleophilic addition–elimination', 'carboxylic-acids-and-derivatives', 'A level', 'Acyl chloride with water, an alcohol, ammonia or a primary amine. Addition: arrow from the lone pair on the nucleophile to the carbonyl carbon and from C=O to O. Elimination: the C=O reforms, Cl⁻ leaves and H⁺ is lost.'],
+  ['Electrophilic substitution', 'aromatic-chemistry', 'A level', 'Benzene: nitration (NO₂⁺ generated from concentrated HNO₃ and H₂SO₄) and Friedel–Crafts acylation with AlCl₃ as catalyst. Arrow from the ring to the electrophile, the intermediate with a broken ring (horseshoe over the other five carbons, + charge), then an arrow from the C–H bond back into the ring as H⁺ is lost. Include the equations that make the electrophile.'],
+  ['Nucleophilic substitution by amines', 'amines', 'A level', 'Ammonia or an amine with a halogenoalkane, and the further substitution that gives secondary and tertiary amines and quaternary ammonium salts. The same arrows as nucleophilic substitution, with the lone pair on nitrogen as the nucleophile.'],
+];
+const others = 'Mechanisms are not required for cracking, the oxidation of alcohols or the formation of esters and polymers, but the papers do ask you to complete or deduce unfamiliar mechanisms by analogy: the same rules for arrows, lone pairs and charges apply.';
+---
+<Base title="AQA A-level Chemistry mechanisms: every mechanism question with the mark scheme" description="Every AQA Chemistry past-paper mechanism question (free-radical substitution, nucleophilic substitution, elimination, electrophilic addition, nucleophilic addition, addition–elimination, electrophilic substitution) with the mark scheme's mechanism behind the button, plus a checklist of what each curly arrow must show." context="mechanisms" leadLine="Curly arrows starting in the wrong place? It is one of the quickest things a tutor can put right.">
+  <h1>Mechanisms</h1>
+  <p>{qs.length} past-paper questions that ask you to name, outline or complete a mechanism, by topic, each with the mark scheme's own mechanism behind the button. A curly arrow shows the movement of a pair of electrons: it must start at a bond or a lone pair and finish at the atom or bond where the electrons go. Most of the marks lost here are for arrows that start or end in the wrong place, and for missing lone pairs and charges.</p>
+  <h2>The mechanisms you must be able to outline</h2>
+  <div class="table-wrap"><table><thead><tr><th>Mechanism</th><th>Level</th><th>What the mark scheme looks for</th><th>Questions</th></tr></thead>
+  <tbody>{families.map(([name, slug, level, note]) => <tr><td><a href={`/questions/${slug}/`}>{name}</a></td><td>{level}</td><td>{note}</td><td>{qs.filter((q) => q.topics.includes(slug)).length ? <a href={`#${slug}`}>{qs.filter((q) => q.topics.includes(slug)).length} here</a> : <a href={`/questions/${slug}/`}>topic page</a>}</td></tr>)}</tbody></table></div>
+  <p class="muted">{others} Written by the site from the specification and the mark schemes; being checked by our tutor.</p>
+  <h2>Every mechanism question, by topic</h2>
+  {byTopic.map(([t, x]) => <section id={t.slug}><h3><a href={`/questions/${t.slug}/`}>{t.name}</a> <span class="muted">({x.length})</span></h3>{x.map((q) => <QuestionCard q={q} />)}</section>)}
+</Base>

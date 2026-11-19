@@ -1,0 +1,48 @@
+{
+ "topic": "amount-of-substance",
+ "name": "Amount of substance",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Avogadro constant",
+   "definition": "The number of particles in one mole of a substance.",
+   "examiner": "Its value is given in the question when it is needed."
+  },
+  {
+   "term": "Mole",
+   "definition": "The amount of substance that contains as many particles as there are atoms in 12 g of carbon-12.",
+   "examiner": "Say what the particles are: atoms, molecules, ions or electrons."
+  },
+  {
+   "term": "Empirical formula",
+   "definition": "The simplest whole-number ratio of atoms of each element in a compound.",
+   "examiner": "\"Simplest\" and \"ratio\" are both needed."
+  },
+  {
+   "term": "Molecular formula",
+   "definition": "The actual number of atoms of each element in a molecule of a compound.",
+   "examiner": "It is a whole-number multiple of the empirical formula; use Mr to find the multiple."
+  },
+  {
+   "term": "Ideal gas equation",
+   "definition": "pV = nRT, with pressure in Pa, volume in m³ and temperature in K.",
+   "examiner": "Most marks are lost on units: cm³ to m³ is × 10⁻⁶, dm³ to m³ is × 10⁻³, kPa to Pa is × 1000."
+  },
+  {
+   "term": "Percentage atom economy",
+   "definition": "(Molecular mass of the desired product ÷ sum of the molecular masses of all reactants) × 100.",
+   "examiner": "Use the balanced equation, so include the numbers in front of each formula."
+  },
+  {
+   "term": "Percentage yield",
+   "definition": "(Actual amount of product ÷ theoretical maximum amount of product) × 100.",
+   "examiner": "Work in moles or in mass, but the same for both."
+  },
+  {
+   "term": "Concordant titres",
+   "definition": "Titres within 0.10 cm³ of each other.",
+   "examiner": "Only concordant titres go into the mean. Record burette readings to 0.05 cm³."
+  }
+ ]
+}

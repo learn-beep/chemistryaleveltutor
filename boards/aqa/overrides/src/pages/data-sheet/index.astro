@@ -1,0 +1,53 @@
+---
+import Base from '../../layouts/Base.astro';
+import { AQA_MATERIALS } from '../../lib/data';
+const given = [
+  ['The Periodic Table', 'With relative atomic masses to one decimal place and atomic (proton) numbers. Use these values as printed'],
+  ['Table A: infrared absorption data', 'Wavenumber ranges for N–H (amines), O–H (alcohols), C–H, O–H (acids), C≡N, C=O, C=C, C–O and C–C bonds'],
+  ['Table B: ¹H NMR chemical shift data', 'Chemical shift ranges for protons in different environments'],
+  ['Table C: ¹³C NMR chemical shift data', 'Chemical shift ranges for carbon atoms in different environments'],
+  ['Phosphate and sugars', 'The structures of phosphate, glucose and 2-deoxyribose'],
+  ['Bases', 'The structures of adenine, guanine, cytosine and thymine'],
+  ['Amino acids', 'The structures of alanine, aspartic acid, cysteine, lysine, phenylalanine and serine'],
+  ['Haem B', 'The structure of haem B'],
+];
+const inQuestion = [
+  ['Gas constant, R', '8.31 J K⁻¹ mol⁻¹, printed in the question'],
+  ['Avogadro constant, L', '6.022 × 10²³ mol⁻¹, printed in the question'],
+  ['Specific heat capacity', 'For water, 4.18 J K⁻¹ g⁻¹, printed in the question'],
+  ['Arrhenius equation', 'k = Ae^(–Ea/RT), or ln k = –Ea/RT + ln A. The specification says these equations and R are given when required'],
+  ['Planck constant and speed of light', 'Given with ΔE = hν = hc/λ when a question on coloured ions needs them'],
+];
+const learn = [
+  ['Moles', 'n = mass ÷ Mr; n = concentration × volume (volume in dm³)'],
+  ['Ideal gas equation', 'pV = nRT, with p in Pa, V in m³ and T in K'],
+  ['Yield and atom economy', '% yield = actual ÷ theoretical × 100; % atom economy = Mr of desired product ÷ sum of Mr of all reactants × 100'],
+  ['Enthalpy', 'q = mcΔT; ΔH = –q ÷ n, in kJ mol⁻¹ with the sign; Hess’s law cycles from formation or combustion data; mean bond enthalpies'],
+  ['Free energy', 'ΔG = ΔH – TΔS, with ΔS converted to kJ K⁻¹ mol⁻¹; feasible when ΔG ≤ 0'],
+  ['pH', 'pH = –log₁₀[H⁺]; [H⁺] = 10^–pH; Kw = [H⁺][OH⁻]; Ka = [H⁺][A⁻]/[HA]; pKa = –log₁₀Ka'],
+  ['Rates', 'rate = k[A]^m[B]^n, and how to work out the units of k'],
+  ['Equilibrium', 'Kc and Kp expressions from the equation; partial pressure = mole fraction × total pressure'],
+  ['Cells', 'EMF = E (right-hand electrode) – E (left-hand electrode) in the conventional cell representation'],
+  ['Uncertainty', '% uncertainty = uncertainty ÷ quantity measured × 100 (the uncertainty is doubled for a difference of two readings, such as a titre)'],
+];
+---
+<Base title="AQA A-level Chemistry Data Booklet (data sheet): what is given and what you must learn" description="What is in the AQA A-level Chemistry Data Booklet (the Periodic Table, infrared and NMR tables, and the structures of bases, sugars and amino acids), which constants are printed in the question, and the equations you have to learn, such as pV = nRT, q = mcΔT and ΔG = ΔH – TΔS." context="data-sheet" leadLine="Not sure which equations you are expected to know? A tutor can go through them with you.">
+  <h1>The Data Booklet: what is given, and what you must learn</h1>
+  <p>Every AQA Chemistry paper comes with an insert: the Periodic Table and data sheet, now called the Data Booklet. It has the Periodic Table, three spectroscopy tables and a page of biochemical structures. It has no equations and no constants. The past-paper questions on this site do not include it, so have a copy beside you.</p>
+  <p><a class="btn" href={AQA_MATERIALS} rel="noopener">Get the Data Booklet from AQA</a></p>
+  <h2>In the Data Booklet</h2>
+  <div class="table-wrap"><table><thead><tr><th>Item</th><th>What it gives</th></tr></thead><tbody>{given.map(([a, b]) => <tr><td>{a}</td><td>{b}</td></tr>)}</tbody></table></div>
+  <h2>Given in the question when it is needed</h2>
+  <div class="table-wrap"><table><thead><tr><th>Item</th><th>What you are given</th></tr></thead><tbody>{inQuestion.map(([a, b]) => <tr><td>{a}</td><td>{b}</td></tr>)}</tbody></table></div>
+  <h2>Not given: learn these</h2>
+  <div class="table-wrap"><table><thead><tr><th>Area</th><th>What to know</th></tr></thead><tbody>{learn.map(([a, b]) => <tr><td>{a}</td><td>{b}</td></tr>)}</tbody></table></div>
+  <p class="muted">The first list is from AQA's June 2025 Data Booklet; the others were written by the site from the specification and the past papers. All three are being checked by our tutor. If something here differs from the booklet or the question in front of you, they are right: please <a href="/report/">tell us</a>.</p>
+  <h2>Using it in the exam</h2>
+  <ul>
+    <li>Use the relative atomic masses as printed, to one decimal place. Mark schemes are written from those values.</li>
+    <li>In infrared questions quote the wavenumber range and the bond from Table A, for example "absorption at 1680–1750 cm⁻¹, C=O".</li>
+    <li>In NMR questions use Tables B and C for the chemical shift, then the integration and the splitting (n + 1 rule) for ¹H spectra.</li>
+    <li>Check units before substituting: R is in J, so energies must be in J; pV = nRT needs Pa and m³.</li>
+  </ul>
+  <p><a href="/maths-skills/">Calculations and maths skills</a> · <a href="/questions/type/calculations/">Every calculation question</a> · <a href="/questions/nmr-spectroscopy/">NMR questions</a></p>
+</Base>

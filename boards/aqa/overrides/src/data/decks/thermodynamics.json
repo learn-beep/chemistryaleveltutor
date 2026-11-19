@@ -1,0 +1,48 @@
+{
+ "topic": "thermodynamics",
+ "name": "Thermodynamics",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Enthalpy of lattice formation",
+   "definition": "The enthalpy change when one mole of a solid ionic compound is formed from its gaseous ions.",
+   "examiner": "Exothermic. Lattice dissociation is the reverse: one mole of the solid is separated into gaseous ions, and has the same value with the opposite sign."
+  },
+  {
+   "term": "Enthalpy of atomisation",
+   "definition": "The enthalpy change when one mole of gaseous atoms is formed from an element in its standard state.",
+   "examiner": "For chlorine it is ½Cl₂(g) → Cl(g), which is half the bond dissociation enthalpy."
+  },
+  {
+   "term": "First electron affinity",
+   "definition": "The enthalpy change when one mole of gaseous atoms gains one mole of electrons to form one mole of gaseous 1− ions.",
+   "examiner": "The first is usually exothermic; the second is endothermic because an electron is added to an ion that is already negative."
+  },
+  {
+   "term": "Enthalpy of hydration",
+   "definition": "The enthalpy change when one mole of gaseous ions is converted into aqueous ions.",
+   "examiner": "Always exothermic; more exothermic for small, highly charged ions."
+  },
+  {
+   "term": "Enthalpy of solution",
+   "definition": "The enthalpy change when one mole of an ionic solid dissolves in enough water that the ions are well separated and do not interact.",
+   "examiner": "Enthalpy of solution = lattice dissociation enthalpy + the sum of the hydration enthalpies."
+  },
+  {
+   "term": "Entropy",
+   "definition": "A measure of the disorder of a system.",
+   "examiner": "Gases have much higher entropy than liquids or solids; more moles of gas in the products means ΔS is positive."
+  },
+  {
+   "term": "Gibbs free-energy change",
+   "definition": "ΔG = ΔH − TΔS. A reaction is feasible when ΔG is zero or negative.",
+   "examiner": "Convert ΔS from J K⁻¹ mol⁻¹ to kJ K⁻¹ mol⁻¹ before using it with ΔH."
+  },
+  {
+   "term": "Perfect ionic model",
+   "definition": "Ions are treated as point charges, or perfect spheres, with only electrostatic attraction between them.",
+   "examiner": "A Born–Haber lattice enthalpy larger than the theoretical value shows some covalent character."
+  }
+ ]
+}

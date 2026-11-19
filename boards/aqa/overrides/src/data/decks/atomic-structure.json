@@ -1,0 +1,43 @@
+{
+ "topic": "atomic-structure",
+ "name": "Atomic structure",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Mass number",
+   "definition": "The total number of protons and neutrons in the nucleus of an atom.",
+   "examiner": "The atomic (proton) number is the number of protons in the nucleus."
+  },
+  {
+   "term": "Isotopes",
+   "definition": "Atoms with the same number of protons but different numbers of neutrons.",
+   "examiner": "Isotopes of an element have the same electron configuration, so the same chemical properties."
+  },
+  {
+   "term": "Relative atomic mass",
+   "definition": "The average mass of an atom of an element, relative to one-twelfth of the mass of an atom of carbon-12.",
+   "examiner": "\"Average mass of an atom\" and the carbon-12 comparison are both needed. From a mass spectrum it is the weighted mean of the isotopic masses."
+  },
+  {
+   "term": "Relative molecular mass",
+   "definition": "The average mass of a molecule, relative to one-twelfth of the mass of an atom of carbon-12.",
+   "examiner": "Use relative formula mass for ionic compounds."
+  },
+  {
+   "term": "First ionisation energy",
+   "definition": "The energy required to remove one mole of electrons from one mole of gaseous atoms to form one mole of gaseous 1+ ions.",
+   "examiner": "\"Gaseous\" is needed, and the equation must have state symbols: X(g) → X⁺(g) + e⁻."
+  },
+  {
+   "term": "Electron impact ionisation",
+   "definition": "A high-energy electron from an electron gun knocks an electron out of each particle to form a 1+ ion.",
+   "examiner": "Used for elements and substances of low formula mass. X(g) → X⁺(g) + e⁻."
+  },
+  {
+   "term": "Electrospray ionisation",
+   "definition": "The sample is dissolved in a volatile solvent and injected through a needle at high voltage, so each particle gains a proton to form a 1+ ion.",
+   "examiner": "Used for substances of higher molecular mass. The peak is at Mr + 1 because of the added H⁺."
+  }
+ ]
+}

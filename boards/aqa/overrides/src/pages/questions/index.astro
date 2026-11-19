@@ -1,0 +1,19 @@
+---
+import Base from '../../layouts/Base.astro';
+import { allTopics } from '../../lib/data';
+import { GROUPS, badgeClass, badgeText } from '../../lib/groups';
+---
+<Base title="AQA A-level Chemistry questions by topic (every paper since 2016)" description={`Every AQA Chemistry past-paper question since 2016 sorted into ${allTopics.length} topics, one for each section of the specification, each with mark schemes and examiners' comments.`} context="questions-index">
+  <h1>Questions by topic</h1>
+  <p>Every AQA AS and A-level Chemistry past-paper question since June 2016, and the specimen papers, sorted into {allTopics.length} topics: one for each section of the specification, in AQA's order. Each topic page shows every question with its mark scheme and the examiner's comment, with filters by paper, year and question type. Paper 3 questions appear under whichever topic they assess.</p>
+  {GROUPS.map((g) => (
+    <>
+      <h2 class="strand-head">{g.heading}</h2>
+      <ul class="topic-list">
+        {allTopics.filter((t) => t.group === g.key).map((t) => <li><a href={`/questions/${t.slug}/`}><span>{t.code} {t.name}</span><span class="strand"><span class={badgeClass(t.group)}>{badgeText(t.group)}</span> {t.parts} parts</span></a></li>)}
+      </ul>
+    </>
+  ))}
+  <h2>By question type</h2>
+  <p>Or work on a kind of question across every topic: <a href="/questions/type/multiple-choice/">multiple choice</a>, <a href="/questions/type/calculations/">calculations</a>, <a href="/questions/type/equations/">equations</a>, <a href="/questions/type/mechanisms/">mechanisms</a>, <a href="/questions/type/structures-and-diagrams/">structures and diagrams</a>, <a href="/questions/type/explanations/">explanations</a>, <a href="/questions/type/six-mark-questions/">six-mark level of response</a>, <a href="/questions/type/practical-questions/">practical questions</a>, <a href="/questions/type/short-answer/">short answers</a>.</p>
+</Base>

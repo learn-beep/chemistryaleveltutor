@@ -1,0 +1,7221 @@
+[
+{
+"code": "3.1",
+"title": "Physical chemistry",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.1.1",
+"title": "Atomic structure",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.1.1.1",
+"title": "Fundamental particles",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "atomic-structure",
+"statements": [
+{
+"id": "3.1.1.1-01",
+"short": "",
+"text": "Appreciate that knowledge and understanding of atomic structure has evolved over time.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure"
+]
+},
+{
+"id": "3.1.1.1-02",
+"short": "",
+"text": "Protons, neutrons and electrons: relative charge and relative mass.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure"
+]
+},
+{
+"id": "3.1.1.1-03",
+"short": "",
+"text": "An atom consists of a nucleus containing protons and neutrons surrounded by electrons.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure"
+]
+}
+]
+},
+{
+"code": "3.1.1.2",
+"title": "Mass number and isotopes",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "atomic-structure",
+"statements": [
+{
+"id": "3.1.1.2-01",
+"short": "",
+"text": "Mass number (A) and atomic (proton) number (Z).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure"
+]
+},
+{
+"id": "3.1.1.2-02",
+"short": "",
+"text": "Students should be able to: • determine the number of fundamental particles in atoms and ions using mass number, atomic number and charge • explain the existence of isotopes.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure"
+]
+},
+{
+"id": "3.1.1.2-03",
+"short": "",
+"text": "The principles of a simple time of flight (TOF) mass spectrometer, limited to ionisation, acceleration to give all ions constant kinetic energy, ion drift, ion detection, data analysis.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure"
+]
+},
+{
+"id": "3.1.1.2-04",
+"short": "",
+"text": "The mass spectrometer gives accurate information about relative isotopic mass and also about the relative abundance of isotopes.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure"
+]
+},
+{
+"id": "3.1.1.2-05",
+"short": "",
+"text": "Mass spectrometry can be used to identify elements.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure"
+]
+},
+{
+"id": "3.1.1.2-06",
+"short": "",
+"text": "Mass spectrometry can be used to determine relative molecular mass.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure"
+]
+},
+{
+"id": "3.1.1.2-07",
+"short": "",
+"text": "Students should be able to: • interpret simple mass spectra of elements • calculate relative atomic mass from isotopic abundance, limited to mononuclear ions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure"
+]
+}
+]
+},
+{
+"code": "3.1.1.3",
+"title": "Electron configuration",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "atomic-structure",
+"statements": [
+{
+"id": "3.1.1.3-01",
+"short": "",
+"text": "Electron configurations of atoms and ions up to Z = 36 in terms of shells and sub-shells (orbitals) s, p and d.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure"
+]
+},
+{
+"id": "3.1.1.3-02",
+"short": "",
+"text": "Ionisation energies.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure"
+]
+},
+{
+"id": "3.1.1.3-03",
+"short": "",
+"text": "Students should be able to: • define first ionisation energy • write equations for first and successive ionisation energies • explain how first and successive ionisation energies in Period 3 (Na–Ar) and in Group 2 (Be–Ba) give evidence for electron configuration in sub-shells and in shells.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure"
+]
+}
+]
+},
+{
+"code": "3.1.2",
+"title": "Amount of substance",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.1.2.1",
+"title": "Relative atomic mass and relative molecular mass",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "amount-of-substance",
+"statements": [
+{
+"id": "3.1.2.1-01",
+"short": "",
+"text": "Relative atomic mass and relative molecular mass in terms of 12C.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.1-02",
+"short": "",
+"text": "The term relative formula mass will be used for ionic compounds.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.1-03",
+"short": "",
+"text": "Students should be able to: • define relative atomic mass (Ar) • define relative molecular mass (Mr).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+}
+]
+},
+{
+"code": "3.1.2.2",
+"title": "The mole and the Avogadro constant",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "amount-of-substance",
+"statements": [
+{
+"id": "3.1.2.2-01",
+"short": "",
+"text": "The Avogadro constant as the number of particles in a mole.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.2-02",
+"short": "",
+"text": "The mole as applied to electrons, atoms, molecules, ions, formulas and equations.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.2-03",
+"short": "",
+"text": "The concentration of a substance in solution, measured in mol dm–3.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.2-04",
+"short": "",
+"text": "Students should be able to carry out calculations: • using the Avogadro constant • using mass of substance, Mr, and amount in moles • using concentration, volume and amount of substance in a solution.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.2-05",
+"short": "",
+"text": "Students will not be expected to recall the value of the Avogadro constant.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+}
+]
+},
+{
+"code": "3.1.2.3",
+"title": "The ideal gas equation",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "amount-of-substance",
+"statements": [
+{
+"id": "3.1.2.3-01",
+"short": "",
+"text": "The ideal gas equation pV = nRT with the variables in SI units.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.3-02",
+"short": "",
+"text": "Students should be able to: • use the equation in calculations.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.3-03",
+"short": "",
+"text": "Students will not be expected to recall the value of the gas constant, R.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+}
+]
+},
+{
+"code": "3.1.2.4",
+"title": "Empirical and molecular formula",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "amount-of-substance",
+"statements": [
+{
+"id": "3.1.2.4-01",
+"short": "",
+"text": "Empirical formula is the simplest whole number ratio of atoms of each element in a compound.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.4-02",
+"short": "",
+"text": "Molecular formula is the actual number of atoms of each element in a compound.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.4-03",
+"short": "",
+"text": "The relationship between empirical formula and molecular formula.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.4-04",
+"short": "",
+"text": "Students should be able to: • calculate empirical formula from data giving composition by mass or percentage by mass • calculate molecular formula from the empirical formula and relative molecular mass.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+}
+]
+},
+{
+"code": "3.1.2.5",
+"title": "Balanced equations and associated calculations",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "amount-of-substance",
+"statements": [
+{
+"id": "3.1.2.5-01",
+"short": "",
+"text": "Equations (full and ionic).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.5-02",
+"short": "",
+"text": "Percentage atom economy is: (molecular mass of desired product ÷ sum of molecular masses of all reactants) × 100",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.5-03",
+"short": "",
+"text": "Economic, ethical and environmental advantages for society and for industry of developing chemical processes with a high atom economy.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.5-04",
+"short": "",
+"text": "Students should be able to: • write balanced equations for reactions studied • balance equations for unfamiliar reactions when reactants and products are specified.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.5-05",
+"short": "",
+"text": "Students should be able to use balanced equations to calculate: • masses • volumes of gases • percentage yields • percentage atom economies • concentrations and volumes for reactions in solutions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+},
+{
+"id": "3.1.2.5-06",
+"short": "",
+"text": "Required practical 1 Make up a volumetric solution and carry out a simple acid–base titration.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"amount-of-substance"
+]
+}
+]
+},
+{
+"code": "3.1.3",
+"title": "Bonding",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.1.3.1",
+"title": "Ionic bonding",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "bonding",
+"statements": [
+{
+"id": "3.1.3.1-01",
+"short": "",
+"text": "Ionic bonding involves electrostatic attraction between oppositely charged ions in a lattice.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.1-02",
+"short": "",
+"text": "The formulas of compound ions, eg sulfate, hydroxide, nitrate, carbonate and ammonium.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.1-03",
+"short": "",
+"text": "Students should be able to: • predict the charge on a simple ion using the position of the element in the Periodic Table • construct formulas for ionic compounds.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+}
+]
+},
+{
+"code": "3.1.3.2",
+"title": "Nature of covalent and dative covalent bonds",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "bonding",
+"statements": [
+{
+"id": "3.1.3.2-01",
+"short": "",
+"text": "A single covalent bond contains a shared pair of electrons.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.2-02",
+"short": "",
+"text": "Multiple bonds contain multiple pairs of electrons.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.2-03",
+"short": "",
+"text": "A co-ordinate (dative covalent) bond contains a shared pair of electrons with both electrons supplied by one atom.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.2-04",
+"short": "",
+"text": "Students should be able to represent: • a covalent bond using a line • a co-ordinate bond using an arrow.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+}
+]
+},
+{
+"code": "3.1.3.3",
+"title": "Metallic bonding",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "bonding",
+"statements": [
+{
+"id": "3.1.3.3-01",
+"short": "",
+"text": "Metallic bonding involves attraction between delocalised electrons and positive ions arranged in a lattice.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+}
+]
+},
+{
+"code": "3.1.3.4",
+"title": "Bonding and physical properties",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "bonding",
+"statements": [
+{
+"id": "3.1.3.4-01",
+"short": "",
+"text": "The four types of crystal structure: • ionic • metallic • macromolecular (giant covalent) • molecular.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.4-02",
+"short": "",
+"text": "The structures of the following crystals as examples of these four types of crystal structure: • diamond • graphite • ice • iodine • magnesium • sodium chloride.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.4-03",
+"short": "",
+"text": "Students should be able to: • relate the melting point and conductivity of materials to the type of structure and the bonding present • explain the energy changes associated with changes of state • draw diagrams to represent these structures involving specified numbers of particles.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+}
+]
+},
+{
+"code": "3.1.3.5",
+"title": "Shapes of simple molecules and ions",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "bonding",
+"statements": [
+{
+"id": "3.1.3.5-01",
+"short": "",
+"text": "Bonding pairs and lone (non-bonding) pairs of electrons as charge clouds that repel each other.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.5-02",
+"short": "",
+"text": "Pairs of electrons in the outer shell of atoms arrange themselves as far apart as possible to minimise repulsion.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.5-03",
+"short": "",
+"text": "Lone pair–lone pair repulsion is greater than lone pair– bond pair repulsion, which is greater than bond pair–bond pair repulsion.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.5-04",
+"short": "",
+"text": "The effect of electron pair repulsion on bond angles.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.5-05",
+"short": "",
+"text": "Students should be able to: • explain the shapes of, and bond angles in, simple molecules and ions with up to six electron pairs (including lone pairs of electrons) surrounding the central atom.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+}
+]
+},
+{
+"code": "3.1.3.6",
+"title": "Bond polarity",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "bonding",
+"statements": [
+{
+"id": "3.1.3.6-01",
+"short": "",
+"text": "Electronegativity as the power of an atom to attract the pair of electrons in a covalent bond.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.6-02",
+"short": "",
+"text": "The electron distribution in a covalent bond between elements with different electronegativities will be unsymmetrical. This produces a polar covalent bond, and may cause a molecule to have a permanent dipole.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.6-03",
+"short": "",
+"text": "Students should be able to: • use partial charges to show that a bond is polar • explain why some molecules with polar bonds do not have a permanent dipole.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+}
+]
+},
+{
+"code": "3.1.3.7",
+"title": "Forces between molecules",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "bonding",
+"statements": [
+{
+"id": "3.1.3.7-01",
+"short": "",
+"text": "Forces between molecules: • permanent dipole–dipole forces • induced dipole–dipole (van der Waals, dispersion, London) forces • hydrogen bonding.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.7-02",
+"short": "",
+"text": "The melting and boiling points of molecular substances are influenced by the strength of these intermolecular forces.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.7-03",
+"short": "",
+"text": "The importance of hydrogen bonding in the low density of ice and the anomalous boiling points of compounds.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "3.1.3.7-04",
+"short": "",
+"text": "Students should be able to: • explain the existence of these forces between familiar and unfamiliar molecules • explain how melting and boiling points are influenced by these intermolecular forces.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+}
+]
+},
+{
+"code": "3.1.4",
+"title": "Energetics",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.1.4.1",
+"title": "Enthalpy change",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "energetics",
+"statements": [
+{
+"id": "3.1.4.1-01",
+"short": "",
+"text": "Reactions can be endothermic or exothermic.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics"
+]
+},
+{
+"id": "3.1.4.1-02",
+"short": "",
+"text": "Enthalpy change (∆H) is the heat energy change measured under conditions of constant pressure.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics"
+]
+},
+{
+"id": "3.1.4.1-03",
+"short": "",
+"text": "Standard enthalpy changes refer to standard conditions, ie 100 kPa and a stated temperature (eg ∆H298Ɵ).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics"
+]
+},
+{
+"id": "3.1.4.1-04",
+"short": "",
+"text": "Students should be able to: • define standard enthalpy of combustion (∆cHƟ) • define standard enthalpy of formation (∆fHƟ).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics"
+]
+}
+]
+},
+{
+"code": "3.1.4.2",
+"title": "Calorimetry",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "energetics",
+"statements": [
+{
+"id": "3.1.4.2-01",
+"short": "",
+"text": "The heat change, q, in a reaction is given by the equation q = mc∆T where m is the mass of the substance that has a temperature change ∆T and a specific heat capacity c.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics"
+]
+},
+{
+"id": "3.1.4.2-02",
+"short": "",
+"text": "Students should be able to: • use this equation to calculate the molar enthalpy change for a reaction • use this equation in related calculations.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics"
+]
+},
+{
+"id": "3.1.4.2-03",
+"short": "",
+"text": "Students will not be expected to recall the value of the specific heat capacity, c, of a substance.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics"
+]
+},
+{
+"id": "3.1.4.2-04",
+"short": "",
+"text": "Required practical 2 Measurement of an enthalpy change.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics"
+]
+}
+]
+},
+{
+"code": "3.1.4.3",
+"title": "Applications of Hess’s law",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "energetics",
+"statements": [
+{
+"id": "3.1.4.3-01",
+"short": "",
+"text": "Hess’s law.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics"
+]
+},
+{
+"id": "3.1.4.3-02",
+"short": "",
+"text": "Students should be able to: • use Hess’s law to perform calculations, including calculation of enthalpy changes for reactions from enthalpies of combustion or from enthalpies of formation.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics"
+]
+}
+]
+},
+{
+"code": "3.1.4.4",
+"title": "Bond enthalpies",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "energetics",
+"statements": [
+{
+"id": "3.1.4.4-01",
+"short": "",
+"text": "Mean bond enthalpy.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics"
+]
+},
+{
+"id": "3.1.4.4-02",
+"short": "",
+"text": "Students should be able to: • define the term mean bond enthalpy • use mean bond enthalpies to calculate an approximate value of ∆H for reactions in the gaseous phase • explain why values from mean bond enthalpy calculations differ from those determined using Hess’s law.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics"
+]
+}
+]
+},
+{
+"code": "3.1.5",
+"title": "Kinetics",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.1.5.1",
+"title": "Collision theory",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "kinetics",
+"statements": [
+{
+"id": "3.1.5.1-01",
+"short": "",
+"text": "Reactions can only occur when collisions take place between particles having sufficient energy.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+},
+{
+"id": "3.1.5.1-02",
+"short": "",
+"text": "This energy is called the activation energy.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+},
+{
+"id": "3.1.5.1-03",
+"short": "",
+"text": "Students should be able to: • define the term activation energy • explain why most collisions do not lead to a reaction.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+}
+]
+},
+{
+"code": "3.1.5.2",
+"title": "Maxwell–Boltzmann distribution",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "kinetics",
+"statements": [
+{
+"id": "3.1.5.2-01",
+"short": "",
+"text": "Maxwell–Boltzmann distribution of molecular energies in gases.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+},
+{
+"id": "3.1.5.2-02",
+"short": "",
+"text": "Students should be able to: • draw and interpret distribution curves for different temperatures.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+}
+]
+},
+{
+"code": "3.1.5.3",
+"title": "Effect of temperature on reaction rate",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "kinetics",
+"statements": [
+{
+"id": "3.1.5.3-01",
+"short": "",
+"text": "Meaning of the term rate of reaction.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+},
+{
+"id": "3.1.5.3-02",
+"short": "",
+"text": "The qualitative effect of temperature changes on the rate of reaction.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+},
+{
+"id": "3.1.5.3-03",
+"short": "",
+"text": "Students should be able to: • use the Maxwell–Boltzmann distribution to explain why a small temperature increase can lead to a large increase in rate.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+},
+{
+"id": "3.1.5.3-04",
+"short": "",
+"text": "Required practical 3 Investigation of how the rate of a reaction changes with temperature.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+}
+]
+},
+{
+"code": "3.1.5.4",
+"title": "Effect of concentration and pressure",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "kinetics",
+"statements": [
+{
+"id": "3.1.5.4-01",
+"short": "",
+"text": "The qualitative effect of changes in concentration on collision frequency.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+},
+{
+"id": "3.1.5.4-02",
+"short": "",
+"text": "The qualitative effect of a change in the pressure of a gas on collision frequency.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+},
+{
+"id": "3.1.5.4-03",
+"short": "",
+"text": "Students should be able to: • explain how a change in concentration or a change in pressure influences the rate of a reaction.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+}
+]
+},
+{
+"code": "3.1.5.5",
+"title": "Catalysts",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "kinetics",
+"statements": [
+{
+"id": "3.1.5.5-01",
+"short": "",
+"text": "A catalyst is a substance that increases the rate of a chemical reaction without being changed in chemical composition or amount.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+},
+{
+"id": "3.1.5.5-02",
+"short": "",
+"text": "Catalysts work by providing an alternative reaction route of lower activation energy.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+},
+{
+"id": "3.1.5.5-03",
+"short": "",
+"text": "Students should be able to: • use a Maxwell–Boltzmann distribution to help explain how a catalyst increases the rate of a reaction involving a gas.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics"
+]
+}
+]
+},
+{
+"code": "3.1.6",
+"title": "Chemical equilibria, Le Chatelier’s principle and Kc",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.1.6.1",
+"title": "Chemical equilibria and Le Chatelier's principle",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "chemical-equilibria-and-kc",
+"statements": [
+{
+"id": "3.1.6.1-01",
+"short": "",
+"text": "Many chemical reactions are reversible.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"chemical-equilibria-and-kc"
+]
+},
+{
+"id": "3.1.6.1-02",
+"short": "",
+"text": "In a reversible reaction at equilibrium: • forward and reverse reactions proceed at equal rates • the concentrations of reactants and products remain constant",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"chemical-equilibria-and-kc"
+]
+},
+{
+"id": "3.1.6.1-03",
+"short": "",
+"text": "Le Chatelier’s principle.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"chemical-equilibria-and-kc"
+]
+},
+{
+"id": "3.1.6.1-04",
+"short": "",
+"text": "Le Chatelier's principle can be used to predict the effects of changes in temperature, pressure and concentration on the position of equilibrium in homogeneous reactions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"chemical-equilibria-and-kc"
+]
+},
+{
+"id": "3.1.6.1-05",
+"short": "",
+"text": "A catalyst does not affect the position of equilibrium.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"chemical-equilibria-and-kc"
+]
+},
+{
+"id": "3.1.6.1-06",
+"short": "",
+"text": "Students should be able to: • use Le Chatelier’s principle to predict qualitatively the effect of changes in temperature, pressure and concentration on the position of equilibrium • explain why, for a reversible reaction used in an industrial process, a compromise temperature and pressure may be used.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"chemical-equilibria-and-kc"
+]
+}
+]
+},
+{
+"code": "3.1.6.2",
+"title": "Equilibrium constant Kc for homogeneous systems",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "chemical-equilibria-and-kc",
+"statements": [
+{
+"id": "3.1.6.2-01",
+"short": "",
+"text": "The equilibrium constant Kc is deduced from the equation for a reversible reaction.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"chemical-equilibria-and-kc"
+]
+},
+{
+"id": "3.1.6.2-02",
+"short": "",
+"text": "The concentration, in mol dm–3, of a species X involved in the expression for Kc is represented by [X]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"chemical-equilibria-and-kc"
+]
+},
+{
+"id": "3.1.6.2-03",
+"short": "",
+"text": "The value of the equilibrium constant is not affected either by changes in concentration or addition of a catalyst.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"chemical-equilibria-and-kc"
+]
+},
+{
+"id": "3.1.6.2-04",
+"short": "",
+"text": "Students should be able to: • construct an expression for Kc for a homogeneous system in equilibrium • calculate a value for Kc from the equilibrium concentrations for a homogeneous system at constant temperature • perform calculations involving Kc • predict the qualitative effects of changes of temperature on the value of Kc",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"chemical-equilibria-and-kc"
+]
+}
+]
+},
+{
+"code": "3.1.7",
+"title": "Oxidation, reduction and redox equations",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "redox",
+"statements": [
+{
+"id": "3.1.7-01",
+"short": "",
+"text": "Oxidation is the process of electron loss and oxidising agents are electron acceptors.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox"
+]
+},
+{
+"id": "3.1.7-02",
+"short": "",
+"text": "Reduction is the process of electron gain and reducing agents are electron donors.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox"
+]
+},
+{
+"id": "3.1.7-03",
+"short": "",
+"text": "The rules for assigning oxidation states.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox"
+]
+},
+{
+"id": "3.1.7-04",
+"short": "",
+"text": "Students should be able to: • work out the oxidation state of an element in a compound or ion from the formula • write half-equations identifying the oxidation and reduction processes in redox reactions • combine half-equations to give an overall redox equation.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox"
+]
+}
+]
+},
+{
+"code": "3.1.8",
+"title": "Thermodynamics",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.1.8.1",
+"title": "Born–Haber cycles",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": "thermodynamics",
+"statements": [
+{
+"id": "3.1.8.1-01",
+"short": "",
+"text": "Lattice enthalpy can be defined as either enthalpy of lattice dissociation or enthalpy of lattice formation.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"thermodynamics"
+]
+},
+{
+"id": "3.1.8.1-02",
+"short": "",
+"text": "Born–Haber cycles are used to calculate lattice enthalpies using the following data: • enthalpy of formation • ionisation energy • enthalpy of atomisation • bond enthalpy • electron affinity.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"thermodynamics"
+]
+},
+{
+"id": "3.1.8.1-03",
+"short": "",
+"text": "Students should be able to: • define each of the above terms and lattice enthalpy • construct Born–Haber cycles to calculate lattice enthalpies using these enthalpy changes • construct Born–Haber cycles to calculate one of the other enthalpy changes • compare lattice enthalpies from Born–Haber cycles with those from calculations based on a perfect ionic model to provide evidence for covalent character in ionic compounds.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"thermodynamics"
+]
+},
+{
+"id": "3.1.8.1-04",
+"short": "",
+"text": "Cycles are used to calculate enthalpies of solution for ionic compounds from lattice enthalpies and enthalpies of hydration.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"thermodynamics"
+]
+},
+{
+"id": "3.1.8.1-05",
+"short": "",
+"text": "Students should be able to: • define the term enthalpy of hydration • perform calculations of an enthalpy change using these cycles.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"thermodynamics"
+]
+}
+]
+},
+{
+"code": "3.1.8.2",
+"title": "Gibbs free-energy change, ∆G, and entropy change, ∆S",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": "thermodynamics",
+"statements": [
+{
+"id": "3.1.8.2-01",
+"short": "",
+"text": "∆H, whilst important, is not sufficient to explain feasible change.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"thermodynamics"
+]
+},
+{
+"id": "3.1.8.2-02",
+"short": "",
+"text": "The concept of increasing disorder (entropy change, ∆S).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"thermodynamics"
+]
+},
+{
+"id": "3.1.8.2-03",
+"short": "",
+"text": "∆S accounts for the above deficiency, illustrated by physical changes and chemical changes.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"thermodynamics"
+]
+},
+{
+"id": "3.1.8.2-04",
+"short": "",
+"text": "The balance between entropy and enthalpy determines the feasibility of a reaction given by the relationship: ∆G = ∆H – T∆S (derivation not required).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"thermodynamics"
+]
+},
+{
+"id": "3.1.8.2-05",
+"short": "",
+"text": "For a reaction to be feasible, the value of ∆G must be zero or negative.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"thermodynamics"
+]
+},
+{
+"id": "3.1.8.2-06",
+"short": "",
+"text": "Students should be able to: • calculate entropy changes from absolute entropy values • use the relationship ∆G = ∆H – T∆S to determine how ∆G varies with temperature • use the relationship ∆G = ∆H – T∆S to determine the temperature at which a reaction becomes feasible.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"thermodynamics"
+]
+}
+]
+},
+{
+"code": "3.1.9",
+"title": "Rate equations",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.1.9.1",
+"title": "Rate equations",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": "rate-equations",
+"statements": [
+{
+"id": "3.1.9.1-01",
+"short": "",
+"text": "The rate of a chemical reaction is related to the concentration of reactants by a rate equation of the form: Rate = k[A]m [B]n where m and n are the orders of reaction with respect to reactants A and B and k is the rate constant.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"rate-equations"
+]
+},
+{
+"id": "3.1.9.1-02",
+"short": "",
+"text": "The orders m and n are restricted to the values 0, 1, and 2.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"rate-equations"
+]
+},
+{
+"id": "3.1.9.1-03",
+"short": "",
+"text": "The rate constant k varies with temperature as shown by the equation: k = Ae–Ea/RT where A is a constant, known as the Arrhenius constant, Ea is the activation energy and T is the temperature in K.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"rate-equations"
+]
+},
+{
+"id": "3.1.9.1-04",
+"short": "",
+"text": "Students should be able to: • define the terms order of reaction and rate constant • perform calculations using the rate equation • explain the qualitative effect of changes in temperature on the rate constant k • perform calculations using the equation k = Ae–Ea/RT • understand that the equation k = Ae–Ea/RT can be rearranged into the form ln k = –Ea /RT + ln A and know how to use this rearranged equation with experimental data to plot a straight line graph with slope –Ea/R",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"rate-equations"
+]
+},
+{
+"id": "3.1.9.1-05",
+"short": "",
+"text": "These equations and the gas constant, R, will be given when required.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"rate-equations"
+]
+}
+]
+},
+{
+"code": "3.1.9.2",
+"title": "Determination of rate equation",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": "rate-equations",
+"statements": [
+{
+"id": "3.1.9.2-01",
+"short": "",
+"text": "The rate equation is an experimentally determined relationship.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"rate-equations"
+]
+},
+{
+"id": "3.1.9.2-02",
+"short": "",
+"text": "The orders with respect to reactants can provide information about the mechanism of a reaction.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"rate-equations"
+]
+},
+{
+"id": "3.1.9.2-03",
+"short": "",
+"text": "Students should be able to: • use concentration–time graphs to deduce the rate of a reaction • use initial concentration–time data to deduce the initial rate of a reaction • use rate–concentration data or graphs to deduce the order (0, 1 or 2) with respect to a reactant • derive the rate equation for a reaction from the orders with respect to each of the reactants • use the orders with respect to reactants to provide information about the rate determining/limiting step of a reaction.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"rate-equations"
+]
+},
+{
+"id": "3.1.9.2-04",
+"short": "",
+"text": "Required practical 7 Measuring the rate of reaction: • by an initial rate method • by a continuous monitoring method.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"rate-equations"
+]
+}
+]
+},
+{
+"code": "3.1.10",
+"title": "Equilibrium constant Kp for homogeneous systems",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": "equilibrium-constant-kp",
+"statements": [
+{
+"id": "3.1.10-01",
+"short": "",
+"text": "The equilibrium constant Kp is deduced from the equation for a reversible reaction occurring in the gas phase.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"equilibrium-constant-kp"
+]
+},
+{
+"id": "3.1.10-02",
+"short": "",
+"text": "Kp is the equilibrium constant calculated from partial pressures for a system at constant temperature.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"equilibrium-constant-kp"
+]
+},
+{
+"id": "3.1.10-03",
+"short": "",
+"text": "Students should be able to: • derive partial pressure from mole fraction and total pressure • construct an expression for Kp for a homogeneous system in equilibrium • perform calculations involving Kp • predict the qualitative effects of changes in temperature and pressure on the position of equilibrium • predict the qualitative effects of changes in temperature on the value of Kp • understand that, whilst a catalyst can affect the rate of attainment of an equilibrium, it does not affect the value of the equilibrium constant.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"equilibrium-constant-kp"
+]
+}
+]
+},
+{
+"code": "3.1.11",
+"title": "Electrode potentials and electrochemical cells",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.1.11.1",
+"title": "Electrode potentials and cells",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": "electrode-potentials-and-cells",
+"statements": [
+{
+"id": "3.1.11.1-01",
+"short": "",
+"text": "IUPAC convention for writing half-equations for electrode reactions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+},
+{
+"id": "3.1.11.1-02",
+"short": "",
+"text": "The conventional representation of cells.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+},
+{
+"id": "3.1.11.1-03",
+"short": "",
+"text": "Cells are used to measure electrode potentials by reference to the standard hydrogen electrode.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+},
+{
+"id": "3.1.11.1-04",
+"short": "",
+"text": "The importance of the conditions when measuring the electrode potential, E (Nernst equation not required).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+},
+{
+"id": "3.1.11.1-05",
+"short": "",
+"text": "Standard electrode potential, EƟ, refers to conditions of 298 K, 100 kPa and 1.00 mol dm−3 solution of ions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+},
+{
+"id": "3.1.11.1-06",
+"short": "",
+"text": "Standard electrode potentials can be listed as an electrochemical series.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+},
+{
+"id": "3.1.11.1-07",
+"short": "",
+"text": "Students should be able to: • use EƟ values to predict the direction of simple redox reactions • calculate the EMF of a cell • write and apply the conventional representation of a cell.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+},
+{
+"id": "3.1.11.1-08",
+"short": "",
+"text": "Required practical 8 Measuring the EMF of an electrochemical cell.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+}
+]
+},
+{
+"code": "3.1.11.2",
+"title": "Commercial applications of electrochemical cells",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": "electrode-potentials-and-cells",
+"statements": [
+{
+"id": "3.1.11.2-01",
+"short": "",
+"text": "Electrochemical cells can be used as a commercial source of electrical energy.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+},
+{
+"id": "3.1.11.2-02",
+"short": "",
+"text": "The simplified electrode reactions in a lithium cell: Positive electrode: Li+ + CoO2 + e– → Li+[CoO2]– Negative electrode: Li → Li+ + e–",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+},
+{
+"id": "3.1.11.2-03",
+"short": "",
+"text": "Cells can be non-rechargeable (irreversible), rechargeable or fuel cells.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+},
+{
+"id": "3.1.11.2-04",
+"short": "",
+"text": "Fuel cells are used to generate an electric current and do not need to be electrically recharged.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+},
+{
+"id": "3.1.11.2-05",
+"short": "",
+"text": "The electrode reactions in an alkaline hydrogen–oxygen fuel cell.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+},
+{
+"id": "3.1.11.2-06",
+"short": "",
+"text": "The benefits and risks to society associated with using these cells.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+},
+{
+"id": "3.1.11.2-07",
+"short": "",
+"text": "Students should be able to: • use given electrode data to deduce the reactions occurring in non-rechargeable and rechargeable cells • deduce the EMF of a cell • explain how the electrode reactions can be used to generate an electric current.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"electrode-potentials-and-cells"
+]
+}
+]
+},
+{
+"code": "3.1.12",
+"title": "Acids and bases",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.1.12.1",
+"title": "Brønsted–Lowry acid–base equilibria in aqueous solution",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": "acids-and-bases",
+"statements": [
+{
+"id": "3.1.12.1-01",
+"short": "",
+"text": "An acid is a proton donor.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.1-02",
+"short": "",
+"text": "A base is a proton acceptor.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.1-03",
+"short": "",
+"text": "Acid–base equilibria involve the transfer of protons.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+}
+]
+},
+{
+"code": "3.1.12.2",
+"title": "Definition and determination of pH",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": "acids-and-bases",
+"statements": [
+{
+"id": "3.1.12.2-01",
+"short": "",
+"text": "The concentration of hydrogen ions in aqueous solution covers a very wide range. Therefore, a logarithmic scale, the pH scale, is used as a measure of hydrogen ion concentration. pH = –log10[H+]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.2-02",
+"short": "",
+"text": "Students should be able to: • convert concentration of hydrogen ions into pH and vice versa • calculate the pH of a solution of a strong acid from its concentration.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+}
+]
+},
+{
+"code": "3.1.12.3",
+"title": "The ionic product of water, Kw",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": "acids-and-bases",
+"statements": [
+{
+"id": "3.1.12.3-01",
+"short": "",
+"text": "Water is slightly dissociated. Kw is derived from the equilibrium constant for this dissociation. Kw = [H+][OH–]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.3-02",
+"short": "",
+"text": "The value of Kw varies with temperature.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.3-03",
+"short": "",
+"text": "Students should be able to: • use Kw to calculate the pH of a strong base from its concentration.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+}
+]
+},
+{
+"code": "3.1.12.4",
+"title": "Weak acids and bases Ka for weak acids",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": "acids-and-bases",
+"statements": [
+{
+"id": "3.1.12.4-01",
+"short": "",
+"text": "Weak acids and weak bases dissociate only slightly in aqueous solution. Ka is the dissociation constant for a weak acid. pKa = –log10 Ka",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.4-02",
+"short": "",
+"text": "Students should be able to: • construct an expression for Ka • perform calculations relating the pH of a weak acid to the concentration of the acid and the dissociation constant, Ka • convert Ka into pKa and vice versa.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+}
+]
+},
+{
+"code": "3.1.12.5",
+"title": "pH curves, titrations and indicators",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": "acids-and-bases",
+"statements": [
+{
+"id": "3.1.12.5-01",
+"short": "",
+"text": "Titrations of acids with bases.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.5-02",
+"short": "",
+"text": "Students should be able to: • perform calculations for these titrations based on experimental results.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.5-03",
+"short": "",
+"text": "Typical pH curves for acid–base titrations in all combinations of weak and strong monoprotic acids and bases.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.5-04",
+"short": "",
+"text": "Students should be able to: • sketch and explain the shapes of typical pH curves • use pH curves to select an appropriate indicator.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.5-05",
+"short": "",
+"text": "Required practical 9 Investigate how pH changes when a weak acid reacts with a strong base and when a strong acid reacts with a weak base.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+}
+]
+},
+{
+"code": "3.1.12.6",
+"title": "Buffer action",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": true,
+"topic": "acids-and-bases",
+"statements": [
+{
+"id": "3.1.12.6-01",
+"short": "",
+"text": "A buffer solution maintains an approximately constant pH, despite dilution or addition of small amounts of acid or base.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.6-02",
+"short": "",
+"text": "Acidic buffer solutions contain a weak acid and the salt of that weak acid.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.6-03",
+"short": "",
+"text": "Basic buffer solutions contain a weak base and the salt of that weak base.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.6-04",
+"short": "",
+"text": "Applications of buffer solutions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+},
+{
+"id": "3.1.12.6-05",
+"short": "",
+"text": "Students should be able to: • explain qualitatively the action of acidic and basic buffers • calculate the pH of acidic buffer solutions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acids-and-bases"
+]
+}
+]
+},
+{
+"code": "3.2",
+"title": "Inorganic chemistry",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.2.1",
+"title": "Periodicity",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.2.1.1",
+"title": "Classification",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": false,
+"topic": "periodicity",
+"statements": [
+{
+"id": "3.2.1.1-01",
+"short": "",
+"text": "An element is classified as s, p, d or f block according to its position in the Periodic Table, which is determined by its proton number.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"periodicity"
+]
+}
+]
+},
+{
+"code": "3.2.1.2",
+"title": "Physical properties of Period 3 elements",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": false,
+"topic": "periodicity",
+"statements": [
+{
+"id": "3.2.1.2-01",
+"short": "",
+"text": "The trends in atomic radius, first ionisation energy and melting point of the elements Na–Ar",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"periodicity"
+]
+},
+{
+"id": "3.2.1.2-02",
+"short": "",
+"text": "The reasons for these trends in terms of the structure of and bonding in the elements.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"periodicity"
+]
+},
+{
+"id": "3.2.1.2-03",
+"short": "",
+"text": "Students should be able to: • explain the trends in atomic radius and first ionisation energy • explain the melting point of the elements in terms of their structure and bonding.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"periodicity"
+]
+}
+]
+},
+{
+"code": "3.2.2",
+"title": "Group 2, the alkaline earth metals",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": false,
+"topic": "group-2",
+"statements": [
+{
+"id": "3.2.2-01",
+"short": "",
+"text": "The trends in atomic radius, first ionisation energy and melting point of the elements Mg–Ba",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-2"
+]
+},
+{
+"id": "3.2.2-02",
+"short": "",
+"text": "Students should be able to: • explain the trends in atomic radius and first ionisation energy • explain the melting point of the elements in terms of their structure and bonding.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-2"
+]
+},
+{
+"id": "3.2.2-03",
+"short": "",
+"text": "The reactions of the elements Mg–Ba with water.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-2"
+]
+},
+{
+"id": "3.2.2-04",
+"short": "",
+"text": "The use of magnesium in the extraction of titanium from TiCl4",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-2"
+]
+},
+{
+"id": "3.2.2-05",
+"short": "",
+"text": "The relative solubilities of the hydroxides of the elements Mg–Ba in water.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-2"
+]
+},
+{
+"id": "3.2.2-06",
+"short": "",
+"text": "Mg(OH)2 is sparingly soluble.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-2"
+]
+},
+{
+"id": "3.2.2-07",
+"short": "",
+"text": "The use of Mg(OH)2 in medicine and of Ca(OH)2 in agriculture.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-2"
+]
+},
+{
+"id": "3.2.2-08",
+"short": "",
+"text": "The use of CaO or CaCO3 to remove SO2 from flue gases.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-2"
+]
+},
+{
+"id": "3.2.2-09",
+"short": "",
+"text": "The relative solubilities of the sulfates of the elements Mg–Ba in water.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-2"
+]
+},
+{
+"id": "3.2.2-10",
+"short": "",
+"text": "BaSO4 is insoluble.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-2"
+]
+},
+{
+"id": "3.2.2-11",
+"short": "",
+"text": "The use of acidified BaCl2 solution to test for sulfate ions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-2"
+]
+},
+{
+"id": "3.2.2-12",
+"short": "",
+"text": "The use of BaSO4 in medicine.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-2"
+]
+},
+{
+"id": "3.2.2-13",
+"short": "",
+"text": "Students should be able to: • explain why BaCl2 solution is used to test for sulfate ions and why it is acidified.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-2"
+]
+}
+]
+},
+{
+"code": "3.2.3",
+"title": "Group 7(17), the halogens",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.2.3.1",
+"title": "Trends in properties",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": false,
+"topic": "group-7-the-halogens",
+"statements": [
+{
+"id": "3.2.3.1-01",
+"short": "",
+"text": "The trends in electronegativity and boiling point of the halogens.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "3.2.3.1-02",
+"short": "",
+"text": "Students should be able to: • explain the trend in electronegativity • explain the trend in the boiling point of the elements in terms of their structure and bonding.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "3.2.3.1-03",
+"short": "",
+"text": "The trend in oxidising ability of the halogens down the group, including displacement reactions of halide ions in aqueous solution.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "3.2.3.1-04",
+"short": "",
+"text": "The trend in reducing ability of the halide ions, including the reactions of solid sodium halides with concentrated sulfuric acid.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "3.2.3.1-05",
+"short": "",
+"text": "The use of acidified silver nitrate solution to identify and distinguish between halide ions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "3.2.3.1-06",
+"short": "",
+"text": "The trend in solubility of the silver halides in ammonia.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "3.2.3.1-07",
+"short": "",
+"text": "Students should be able to explain why: • silver nitrate solution is used to identify halide ions • the silver nitrate solution is acidified • ammonia solution is added.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+}
+]
+},
+{
+"code": "3.2.3.2",
+"title": "Uses of chlorine and chlorate(I)",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": false,
+"topic": "group-7-the-halogens",
+"statements": [
+{
+"id": "3.2.3.2-01",
+"short": "",
+"text": "The reaction of chlorine with water to form chloride ions and chlorate(I) ions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "3.2.3.2-02",
+"short": "",
+"text": "The reaction of chlorine with water to form chloride ions and oxygen.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "3.2.3.2-03",
+"short": "",
+"text": "Appreciate that society assesses the advantages and disadvantages when deciding if chemicals should be added to water supplies.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "3.2.3.2-04",
+"short": "",
+"text": "The use of chlorine in water treatment.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "3.2.3.2-05",
+"short": "",
+"text": "Appreciate that the benefits to health of water treatment by chlorine outweigh its toxic effects.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "3.2.3.2-06",
+"short": "",
+"text": "The reaction of chlorine with cold, dilute, aqueous NaOH and uses of the solution formed.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "3.2.3.2-07",
+"short": "",
+"text": "Required practical 4 Carry out simple test-tube reactions to identify: • cations – Group 2, NH4+ • anions – Group 7 (halide ions), OH–, CO32–, SO42–",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+}
+]
+},
+{
+"code": "3.2.4",
+"title": "Properties of Period 3 elements and their oxides",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "period-3-elements-and-oxides",
+"statements": [
+{
+"id": "3.2.4-01",
+"short": "",
+"text": "The reactions of Na and Mg with water.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"period-3-elements-and-oxides"
+]
+},
+{
+"id": "3.2.4-02",
+"short": "",
+"text": "The trends in the reactions of the elements Na, Mg, Al, Si, P and S with oxygen, limited to the formation of Na2O, MgO, Al2O3, SiO2, P4O10, SO2 and SO3",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"period-3-elements-and-oxides"
+]
+},
+{
+"id": "3.2.4-03",
+"short": "",
+"text": "The trend in the melting point of the highest oxides of the elements Na–S",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"period-3-elements-and-oxides"
+]
+},
+{
+"id": "3.2.4-04",
+"short": "",
+"text": "The reactions of the oxides of the elements Na–S with water, limited to Na2O, MgO, Al2O3, SiO2, P4O10, SO2 and SO3, and the pH of the solutions formed.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"period-3-elements-and-oxides"
+]
+},
+{
+"id": "3.2.4-05",
+"short": "",
+"text": "The structures of the acids and the anions formed when P4O10, SO2 and SO3 react with water.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"period-3-elements-and-oxides"
+]
+},
+{
+"id": "3.2.4-06",
+"short": "",
+"text": "Students should be able to: • explain the trend in the melting point of the oxides of the elements Na–S in terms of their structure and bonding • explain the trends in the reactions of the oxides with water in terms of the type of bonding present in each oxide • write equations for the reactions that occur between the oxides of the elements Na–S and given acids and bases.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"period-3-elements-and-oxides"
+]
+}
+]
+},
+{
+"code": "3.2.5",
+"title": "Transition metals",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.2.5.1",
+"title": "General properties of transition metals",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "transition-metals",
+"statements": [
+{
+"id": "3.2.5.1-01",
+"short": "",
+"text": "Transition metal characteristics of elements Ti–Cu arise from an incomplete d sub-level in atoms or ions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.1-02",
+"short": "",
+"text": "The characteristic properties include: • complex formation • formation of coloured ions • variable oxidation state • catalytic activity.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.1-03",
+"short": "",
+"text": "A ligand is a molecule or ion that forms a co-ordinate bond with a transition metal by donating a pair of electrons.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.1-04",
+"short": "",
+"text": "A complex is a central metal atom or ion surrounded by ligands.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.1-05",
+"short": "",
+"text": "Co-ordination number is number of co-ordinate bonds to the central metal atom or ion.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+}
+]
+},
+{
+"code": "3.2.5.2",
+"title": "Substitution reactions",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "transition-metals",
+"statements": [
+{
+"id": "3.2.5.2-01",
+"short": "",
+"text": "H2O, NH3 and Cl− can act as monodentate ligands.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.2-02",
+"short": "",
+"text": "The ligands NH3 and H2O are similar in size and are uncharged.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.2-03",
+"short": "",
+"text": "Exchange of the ligands NH3 and H2O occurs without change of co-ordination number (eg Co2+ and Cu2+).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.2-04",
+"short": "",
+"text": "Substitution may be incomplete (eg the formation of [Cu(NH3)4(H2O)2]2+).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.2-05",
+"short": "",
+"text": "The Cl− ligand is larger than the uncharged ligands NH3 and H2O",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.2-06",
+"short": "",
+"text": "Exchange of the ligand H2O by Cl– can involve a change of co-ordination number (eg Co2+, Cu2+ and Fe3+).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.2-07",
+"short": "",
+"text": "Ligands can be bidentate (eg H2NCH2CH2NH2 and C2O42–).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.2-08",
+"short": "",
+"text": "Ligands can be multidentate (eg EDTA4–).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.2-09",
+"short": "",
+"text": "Haem is an iron(II) complex with a multidentate ligand.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.2-10",
+"short": "",
+"text": "Oxygen forms a co-ordinate bond to Fe(II) in haemoglobin, enabling oxygen to be transported in the blood.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.2-11",
+"short": "",
+"text": "Carbon monoxide is toxic because it replaces oxygen co- ordinately bonded to Fe(II) in haemoglobin.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.2-12",
+"short": "",
+"text": "Bidentate and multidentate ligands replace monodentate ligands from complexes. This is called the chelate effect.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.2-13",
+"short": "",
+"text": "Students should be able to: • explain the chelate effect, in terms of the balance between the entropy and enthalpy change in these reactions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+}
+]
+},
+{
+"code": "3.2.5.3",
+"title": "Shapes of complex ions",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "transition-metals",
+"statements": [
+{
+"id": "3.2.5.3-01",
+"short": "",
+"text": "Transition metal ions commonly form octahedral complexes with small ligands (eg H2O and NH3).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.3-02",
+"short": "",
+"text": "Octahedral complexes can display cis–trans isomerism (a special case of E–Z isomerism) with monodentate ligands and optical isomerism with bidentate ligands.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.3-03",
+"short": "",
+"text": "Transition metal ions commonly form tetrahedral complexes with larger ligands (eg Cl–).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.3-04",
+"short": "",
+"text": "Square planar complexes are also formed and can display cis–trans isomerism.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.3-05",
+"short": "",
+"text": "Cisplatin is the cis isomer.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.3-06",
+"short": "",
+"text": "Ag+ forms the linear complex [Ag(NH3)2]+ as used in Tollens’ reagent.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+}
+]
+},
+{
+"code": "3.2.5.4",
+"title": "Formation of coloured ions",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "transition-metals",
+"statements": [
+{
+"id": "3.2.5.4-01",
+"short": "",
+"text": "Transition metal ions can be identified by their colour.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.4-02",
+"short": "",
+"text": "Colour arises when some of the wavelengths of visible light are absorbed and the remaining wavelengths of light are transmitted or reflected. d electrons move from the ground state to an excited state when light is absorbed.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.4-03",
+"short": "",
+"text": "The energy difference between the ground state and the excited state of the d electrons is given by: ∆E = hν = hc/λ",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.4-04",
+"short": "",
+"text": "Changes in oxidation state, co-ordination number and ligand alter ∆E and this leads to a change in colour.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.4-05",
+"short": "",
+"text": "The absorption of visible light is used in spectroscopy.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.4-06",
+"short": "",
+"text": "A simple colorimeter can be used to determine the concentration of coloured ions in solution.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+}
+]
+},
+{
+"code": "3.2.5.5",
+"title": "Variable oxidation states",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "transition-metals",
+"statements": [
+{
+"id": "3.2.5.5-01",
+"short": "",
+"text": "Transition elements show variable oxidation states.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.5-02",
+"short": "",
+"text": "Vanadium species in oxidation states IV, III and II are formed by the reduction of vanadate(V) ions by zinc in acidic solution.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.5-03",
+"short": "",
+"text": "The redox potential for a transition metal ion changing from a higher to a lower oxidation state is influenced by pH and by the ligand.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.5-04",
+"short": "",
+"text": "The reduction of [Ag(NH3)2]+ (Tollens’ reagent) to metallic silver is used to distinguish between aldehydes and ketones.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.5-05",
+"short": "",
+"text": "The redox titrations of Fe2+ and C2O42– with MnO4–",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.5-06",
+"short": "",
+"text": "Students should be able to: • perform calculations for these titrations and similar redox reactions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+}
+]
+},
+{
+"code": "3.2.5.6",
+"title": "Catalysts",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "transition-metals",
+"statements": [
+{
+"id": "3.2.5.6-01",
+"short": "",
+"text": "Transition metals and their compounds can act as heterogeneous and homogeneous catalysts.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.6-02",
+"short": "",
+"text": "A heterogeneous catalyst is in a different phase from the reactants and the reaction occurs at active sites on the surface.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.6-03",
+"short": "",
+"text": "The use of a support medium to maximise the surface area of a heterogeneous catalyst and minimise the cost.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.6-04",
+"short": "",
+"text": "V2O5 acts as a heterogeneous catalyst in the Contact process.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.6-05",
+"short": "",
+"text": "Fe is used as a heterogeneous catalyst in the Haber process.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.6-06",
+"short": "",
+"text": "Heterogeneous catalysts can become poisoned by impurities that block the active sites and consequently have reduced efficiency; this has a cost implication.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.6-07",
+"short": "",
+"text": "A homogeneous catalyst is in the same phase as the reactants.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.6-08",
+"short": "",
+"text": "When catalysts and reactants are in the same phase, the reaction proceeds through an intermediate species.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+},
+{
+"id": "3.2.5.6-09",
+"short": "",
+"text": "Students should be able to: • explain the importance of variable oxidation states in catalysis • explain, with the aid of equations, how V2O5 acts as a catalyst in the Contact process • explain, with the aid of equations, how Fe2+ ions catalyse the reaction between I− and S2O82– • explain, with the aid of equations, how Mn2+ ions autocatalyse the reaction between C2O42– and MnO4–",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals"
+]
+}
+]
+},
+{
+"code": "3.2.6",
+"title": "Reactions of ions in aqueous solution",
+"paper": 1,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "reactions-of-ions-in-aqueous-solution",
+"statements": [
+{
+"id": "3.2.6-01",
+"short": "",
+"text": "In aqueous solution, the following metal-aqua ions are formed: [M(H2O)6]2+, limited to M = Fe and Cu [M(H2O)6]3+, limited to M = Al and Fe",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"reactions-of-ions-in-aqueous-solution"
+]
+},
+{
+"id": "3.2.6-02",
+"short": "",
+"text": "The acidity of [M(H2O)6]3+ is greater than that of [M(H2O)6]2+",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"reactions-of-ions-in-aqueous-solution"
+]
+},
+{
+"id": "3.2.6-03",
+"short": "",
+"text": "Some metal hydroxides show amphoteric character by dissolving in both acids and bases (eg hydroxides of Al3+).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"reactions-of-ions-in-aqueous-solution"
+]
+},
+{
+"id": "3.2.6-04",
+"short": "",
+"text": "Students should be able to: • explain, in terms of the charge/size ratio of the metal ion, why the acidity of [M(H2O)6]3+ is greater than that of [M(H2O)6]2+ • describe and explain the simple test-tube reactions of: M2+(aq) ions, limited to M = Fe and Cu, and of M3+(aq) ions, limited to M = Al and Fe, with the bases OH–, NH3 and CO32–",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"reactions-of-ions-in-aqueous-solution"
+]
+},
+{
+"id": "3.2.6-05",
+"short": "",
+"text": "Required practical 11 Carry out simple test-tube reactions to identify transition metal ions in aqueous solution.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"reactions-of-ions-in-aqueous-solution"
+]
+}
+]
+},
+{
+"code": "3.3",
+"title": "Organic chemistry",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.3.1",
+"title": "Introduction to organic chemistry",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.3.1.1",
+"title": "Nomenclature",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "introduction-to-organic-chemistry",
+"statements": [
+{
+"id": "3.3.1.1-01",
+"short": "",
+"text": "Organic compounds can be represented by: • empirical formula • molecular formula • general formula • structural formula • displayed formula • skeletal formula.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "3.3.1.1-02",
+"short": "",
+"text": "The characteristics of a homologous series, a series of compounds containing the same functional group.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "3.3.1.1-03",
+"short": "",
+"text": "IUPAC rules for nomenclature.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "3.3.1.1-04",
+"short": "",
+"text": "Students should be able to: • draw structural, displayed and skeletal formulas for given organic compounds • apply IUPAC rules for nomenclature to name organic compounds limited to chains and rings with up to six carbon atoms each • apply IUPAC rules for nomenclature to draw the structure of an organic compound from the IUPAC name limited to chains and rings with up to six carbon atoms each.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+}
+]
+},
+{
+"code": "3.3.1.2",
+"title": "Reaction mechanisms",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "introduction-to-organic-chemistry",
+"statements": [
+{
+"id": "3.3.1.2-01",
+"short": "",
+"text": "Reactions of organic compounds can be explained using mechanisms.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "3.3.1.2-02",
+"short": "",
+"text": "Free-radical mechanisms: • the unpaired electron in a radical is represented by a dot • the use of curly arrows is not required for radical mechanisms.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "3.3.1.2-03",
+"short": "",
+"text": "Students should be able to: • write balanced equations for the steps in a free- radical mechanism.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "3.3.1.2-04",
+"short": "",
+"text": "Other mechanisms: • the formation of a covalent bond is shown by a curly arrow that starts from a lone electron pair or from another covalent bond • the breaking of a covalent bond is shown by a curly arrow starting from the bond.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "3.3.1.2-05",
+"short": "",
+"text": "Students should be able to: • outline mechanisms by drawing the structures of the species involved and curly arrows to represent the movement of electron pairs.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+}
+]
+},
+{
+"code": "3.3.1.3",
+"title": "Isomerism",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "introduction-to-organic-chemistry",
+"statements": [
+{
+"id": "3.3.1.3-01",
+"short": "",
+"text": "Structural isomerism.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "3.3.1.3-02",
+"short": "",
+"text": "Stereoisomerism.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "3.3.1.3-03",
+"short": "",
+"text": "E–Z isomerism is a form of stereoisomerism and occurs as a result of restricted rotation about the planar carbon– carbon double bond.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "3.3.1.3-04",
+"short": "",
+"text": "Cahn–Ingold–Prelog (CIP) priority rules.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "3.3.1.3-05",
+"short": "",
+"text": "Students should be able to: • define the term structural isomer • draw the structures of chain, position and functional group isomers • define the term stereoisomer • draw the structural formulas of E and Z isomers • apply the CIP priority rules to E and Z isomers.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+}
+]
+},
+{
+"code": "3.3.2",
+"title": "Alkanes",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.3.2.1",
+"title": "Fractional distillation of crude oil",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "alkanes",
+"statements": [
+{
+"id": "3.3.2.1-01",
+"short": "",
+"text": "Alkanes are saturated hydrocarbons.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "3.3.2.1-02",
+"short": "",
+"text": "Petroleum is a mixture consisting mainly of alkane hydrocarbons that can be separated by fractional distillation.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+}
+]
+},
+{
+"code": "3.3.2.2",
+"title": "Modification of alkanes by cracking",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "alkanes",
+"statements": [
+{
+"id": "3.3.2.2-01",
+"short": "",
+"text": "Cracking involves breaking C–C bonds in alkanes.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "3.3.2.2-02",
+"short": "",
+"text": "Thermal cracking takes place at high pressure and high temperature and produces a high percentage of alkenes (mechanism not required).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "3.3.2.2-03",
+"short": "",
+"text": "Catalytic cracking takes place at a slight pressure, high temperature and in the presence of a zeolite catalyst and is used mainly to produce motor fuels and aromatic hydrocarbons (mechanism not required).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "3.3.2.2-04",
+"short": "",
+"text": "Students should be able to: • explain the economic reasons for cracking alkanes.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+}
+]
+},
+{
+"code": "3.3.2.3",
+"title": "Combustion of alkanes",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "alkanes",
+"statements": [
+{
+"id": "3.3.2.3-01",
+"short": "",
+"text": "Alkanes are used as fuels.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "3.3.2.3-02",
+"short": "",
+"text": "Combustion of alkanes and other organic compounds can be complete or incomplete.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "3.3.2.3-03",
+"short": "",
+"text": "The internal combustion engine produces a number of pollutants including NOx, CO, carbon and unburned hydrocarbons.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "3.3.2.3-04",
+"short": "",
+"text": "These gaseous pollutants from internal combustion engines can be removed using catalytic converters.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "3.3.2.3-05",
+"short": "",
+"text": "Combustion of hydrocarbons containing sulfur leads to sulfur dioxide that causes air pollution.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "3.3.2.3-06",
+"short": "",
+"text": "Students should be able to: • explain why sulfur dioxide can be removed from flue gases using calcium oxide or calcium carbonate.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+}
+]
+},
+{
+"code": "3.3.2.4",
+"title": "Chlorination of alkanes",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "alkanes",
+"statements": [
+{
+"id": "3.3.2.4-01",
+"short": "",
+"text": "The reaction of methane with chlorine.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "3.3.2.4-02",
+"short": "",
+"text": "Students should be able to: • explain this reaction as a free-radical substitution mechanism involving initiation, propagation and termination steps.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+}
+]
+},
+{
+"code": "3.3.3",
+"title": "Halogenoalkanes",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.3.3.1",
+"title": "Nucleophilic substitution",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "halogenoalkanes",
+"statements": [
+{
+"id": "3.3.3.1-01",
+"short": "",
+"text": "Halogenoalkanes contain polar bonds.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+},
+{
+"id": "3.3.3.1-02",
+"short": "",
+"text": "Halogenoalkanes undergo substitution reactions with the nucleophiles OH–, CN– and NH3",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+},
+{
+"id": "3.3.3.1-03",
+"short": "",
+"text": "Students should be able to: • outline the nucleophilic substitution mechanisms of these reactions • explain why the carbon–halogen bond enthalpy influences the rate of reaction.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+}
+]
+},
+{
+"code": "3.3.3.2",
+"title": "Elimination",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "halogenoalkanes",
+"statements": [
+{
+"id": "3.3.3.2-01",
+"short": "",
+"text": "The concurrent substitution and elimination reactions of a halogenoalkane (eg 2-bromopropane with potassium hydroxide).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+},
+{
+"id": "3.3.3.2-02",
+"short": "",
+"text": "Students should be able to: • explain the role of the reagent as both nucleophile and base • outline the mechanisms of these reactions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+}
+]
+},
+{
+"code": "3.3.3.3",
+"title": "Ozone depletion",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "halogenoalkanes",
+"statements": [
+{
+"id": "3.3.3.3-01",
+"short": "",
+"text": "Ozone, formed naturally in the upper atmosphere, is beneficial because it absorbs ultraviolet radiation.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+},
+{
+"id": "3.3.3.3-02",
+"short": "",
+"text": "Chlorine atoms are formed in the upper atmosphere when ultraviolet radiation causes C–Cl bonds in chlorofluorocarbons (CFCs) to break.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+},
+{
+"id": "3.3.3.3-03",
+"short": "",
+"text": "Chlorine atoms catalyse the decomposition of ozone and contribute to the hole in the ozone layer.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+},
+{
+"id": "3.3.3.3-04",
+"short": "",
+"text": "Appreciate that results of research by different groups in the scientific community provided evidence for legislation to ban the use of CFCs as solvents and refrigerants. Chemists have now developed alternative chlorine-free compounds.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+},
+{
+"id": "3.3.3.3-05",
+"short": "",
+"text": "Students should be able to: • use equations, such as the following, to explain how chlorine atoms catalyse decomposition of ozone: Cl• + O3 → ClO• + O2 and ClO• + O3 → 2O2 + Cl•",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+}
+]
+},
+{
+"code": "3.3.4",
+"title": "Alkenes",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.3.4.1",
+"title": "Structure, bonding and reactivity",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "alkenes",
+"statements": [
+{
+"id": "3.3.4.1-01",
+"short": "",
+"text": "Alkenes are unsaturated hydrocarbons.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "3.3.4.1-02",
+"short": "",
+"text": "Bonding in alkenes involves a double covalent bond, a centre of high electron density.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+}
+]
+},
+{
+"code": "3.3.4.2",
+"title": "Addition reactions of alkenes",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "alkenes",
+"statements": [
+{
+"id": "3.3.4.2-01",
+"short": "",
+"text": "Electrophilic addition reactions of alkenes with HBr, H2SO4 and Br2",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "3.3.4.2-02",
+"short": "",
+"text": "The use of bromine to test for unsaturation.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "3.3.4.2-03",
+"short": "",
+"text": "The formation of major and minor products in addition reactions of unsymmetrical alkenes.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "3.3.4.2-04",
+"short": "",
+"text": "Students should be able to: • outline the mechanisms for these reactions • explain the formation of major and minor products by reference to the relative stabilities of primary, secondary and tertiary carbocation intermediates.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+}
+]
+},
+{
+"code": "3.3.4.3",
+"title": "Addition polymers",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "alkenes",
+"statements": [
+{
+"id": "3.3.4.3-01",
+"short": "",
+"text": "Addition polymers are formed from alkenes and substituted alkenes.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "3.3.4.3-02",
+"short": "",
+"text": "The repeating unit of addition polymers.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "3.3.4.3-03",
+"short": "",
+"text": "IUPAC rules for naming addition polymers.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "3.3.4.3-04",
+"short": "",
+"text": "Addition polymers are unreactive.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "3.3.4.3-05",
+"short": "",
+"text": "Appreciate that knowledge and understanding of the production and properties of polymers has developed over time.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "3.3.4.3-06",
+"short": "",
+"text": "Typical uses of poly(chloroethene), commonly known as PVC, and how its properties can be modified using a plasticiser.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "3.3.4.3-07",
+"short": "",
+"text": "Students should be able to: • draw the repeating unit from a monomer structure • draw the repeating unit from a section of the polymer chain • draw the structure of the monomer from a section of the polymer • explain why addition polymers are unreactive • explain the nature of intermolecular forces between molecules of polyalkenes.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+}
+]
+},
+{
+"code": "3.3.5",
+"title": "Alcohols",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.3.5.1",
+"title": "Alcohol production",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "alcohols",
+"statements": [
+{
+"id": "3.3.5.1-01",
+"short": "",
+"text": "Alcohols are produced industrially by hydration of alkenes in the presence of an acid catalyst.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+},
+{
+"id": "3.3.5.1-02",
+"short": "",
+"text": "Ethanol is produced industrially by fermentation of glucose. The conditions for this process.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+},
+{
+"id": "3.3.5.1-03",
+"short": "",
+"text": "Ethanol produced industrially by fermentation is separated by fractional distillation and can then be used as a biofuel.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+},
+{
+"id": "3.3.5.1-04",
+"short": "",
+"text": "Students should be able to: • explain the meaning of the term biofuel • justify the conditions used in the production of ethanol by fermentation of glucose • write equations to support the statement that ethanol produced by fermentation is a carbon neutral fuel and give reasons why this statement is not valid • outline the mechanism for the formation of an alcohol by the reaction of an alkene with steam in the presence of an acid catalyst • discuss the environmental (including ethical) issues linked to decision making about biofuel use.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+}
+]
+},
+{
+"code": "3.3.5.2",
+"title": "Oxidation of alcohols",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "alcohols",
+"statements": [
+{
+"id": "3.3.5.2-01",
+"short": "",
+"text": "Alcohols are classified as primary, secondary and tertiary.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+},
+{
+"id": "3.3.5.2-02",
+"short": "",
+"text": "Primary alcohols can be oxidised to aldehydes which can be further oxidised to carboxylic acids.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+},
+{
+"id": "3.3.5.2-03",
+"short": "",
+"text": "Secondary alcohols can be oxidised to ketones.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+},
+{
+"id": "3.3.5.2-04",
+"short": "",
+"text": "Tertiary alcohols are not easily oxidised.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+},
+{
+"id": "3.3.5.2-05",
+"short": "",
+"text": "Acidified potassium dichromate(VI) is a suitable oxidising agent.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+},
+{
+"id": "3.3.5.2-06",
+"short": "",
+"text": "Students should be able to: • write equations for these oxidation reactions (equations showing [O] as oxidant are acceptable) • explain how the method used to oxidise a primary alcohol determines whether an aldehyde or carboxylic acid is obtained • use chemical tests to distinguish between aldehydes and ketones including Fehling’s solution and Tollens’ reagent.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+}
+]
+},
+{
+"code": "3.3.5.3",
+"title": "Elimination",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "alcohols",
+"statements": [
+{
+"id": "3.3.5.3-01",
+"short": "",
+"text": "Alkenes can be formed from alcohols by acid-catalysed elimination reactions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+},
+{
+"id": "3.3.5.3-02",
+"short": "",
+"text": "Alkenes produced by this method can be used to produce addition polymers without using monomers derived from crude oil.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+},
+{
+"id": "3.3.5.3-03",
+"short": "",
+"text": "Students should be able to: • outline the mechanism for the elimination of water from alcohols.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+},
+{
+"id": "3.3.5.3-04",
+"short": "",
+"text": "Required practical 5 Distillation of a product from a reaction.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+}
+]
+},
+{
+"code": "3.3.6",
+"title": "Organic analysis",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.3.6.1",
+"title": "Identification of functional groups by test-tube reactions",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "organic-analysis",
+"statements": [
+{
+"id": "3.3.6.1-01",
+"short": "",
+"text": "The reactions of functional groups listed in the specification.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"organic-analysis"
+]
+},
+{
+"id": "3.3.6.1-02",
+"short": "",
+"text": "Students should be able to: • identify the functional groups using reactions in the specification.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"organic-analysis"
+]
+},
+{
+"id": "3.3.6.1-03",
+"short": "",
+"text": "Required practical 6 Tests for alcohol, aldehyde, alkene and carboxylic acid.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"organic-analysis"
+]
+}
+]
+},
+{
+"code": "3.3.6.2",
+"title": "Mass spectrometry",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "organic-analysis",
+"statements": [
+{
+"id": "3.3.6.2-01",
+"short": "",
+"text": "Mass spectrometry can be used to determine the molecular formula of a compound.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"organic-analysis"
+]
+},
+{
+"id": "3.3.6.2-02",
+"short": "",
+"text": "Students should be able to: • use precise atomic masses and the precise molecular mass to determine the molecular formula of a compound.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"organic-analysis"
+]
+}
+]
+},
+{
+"code": "3.3.6.3",
+"title": "Infrared spectroscopy",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": false,
+"topic": "organic-analysis",
+"statements": [
+{
+"id": "3.3.6.3-01",
+"short": "",
+"text": "Bonds in a molecule absorb infrared radiation at characteristic wavenumbers.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"organic-analysis"
+]
+},
+{
+"id": "3.3.6.3-02",
+"short": "",
+"text": "‘Fingerprinting’ allows identification of a molecule by comparison of spectra.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"organic-analysis"
+]
+},
+{
+"id": "3.3.6.3-03",
+"short": "",
+"text": "Students should be able to: • use infrared spectra and the Chemistry Data Sheet or Booklet to identify particular bonds, and therefore functional groups, and also to identify impurities.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"organic-analysis"
+]
+},
+{
+"id": "3.3.6.3-04",
+"short": "",
+"text": "The link between absorption of infrared radiation by bonds in CO2, methane and water vapour and global warming.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"organic-analysis"
+]
+}
+]
+},
+{
+"code": "3.3.7",
+"title": "Optical isomerism",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "optical-isomerism",
+"statements": [
+{
+"id": "3.3.7-01",
+"short": "",
+"text": "Optical isomerism is a form of stereoisomerism and occurs as a result of chirality in molecules, limited to molecules with a single chiral centre.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"optical-isomerism"
+]
+},
+{
+"id": "3.3.7-02",
+"short": "",
+"text": "An asymmetric carbon atom is chiral and gives rise to optical isomers (enantiomers), which exist as non super- imposable mirror images and differ in their effect on plane polarised light.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"optical-isomerism"
+]
+},
+{
+"id": "3.3.7-03",
+"short": "",
+"text": "A mixture of equal amounts of enantiomers is called a racemic mixture (racemate).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"optical-isomerism"
+]
+},
+{
+"id": "3.3.7-04",
+"short": "",
+"text": "Students should be able to: • draw the structural formulas and displayed formulas of enantiomers • understand how racemic mixtures (racemates) are formed and why they are optically inactive.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"optical-isomerism"
+]
+}
+]
+},
+{
+"code": "3.3.8",
+"title": "Aldehydes and ketones",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "aldehydes-and-ketones",
+"statements": [
+{
+"id": "3.3.8-01",
+"short": "",
+"text": "Aldehydes are readily oxidised to carboxylic acids.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aldehydes-and-ketones"
+]
+},
+{
+"id": "3.3.8-02",
+"short": "",
+"text": "Chemical tests to distinguish between aldehydes and ketones including Fehling’s solution and Tollens’ reagent.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aldehydes-and-ketones"
+]
+},
+{
+"id": "3.3.8-03",
+"short": "",
+"text": "Aldehydes can be reduced to primary alcohols, and ketones to secondary alcohols, using NaBH4 in aqueous solution. These reduction reactions are examples of nucleophilic addition.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aldehydes-and-ketones"
+]
+},
+{
+"id": "3.3.8-04",
+"short": "",
+"text": "The nucleophilic addition reactions of carbonyl compounds with KCN, followed by dilute acid, to produce hydroxynitriles.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aldehydes-and-ketones"
+]
+},
+{
+"id": "3.3.8-05",
+"short": "",
+"text": "Aldehydes and unsymmetrical ketones form mixtures of enantiomers when they react with KCN followed by dilute acid.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aldehydes-and-ketones"
+]
+},
+{
+"id": "3.3.8-06",
+"short": "",
+"text": "The hazards of using KCN.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aldehydes-and-ketones"
+]
+},
+{
+"id": "3.3.8-07",
+"short": "",
+"text": "Students should be able to: • write overall equations for reduction reactions using [H] as the reductant • outline the nucleophilic addition mechanism for reduction reactions with NaBH4 (the nucleophile should be shown as H–) • write overall equations for the formation of hydroxynitriles using HCN • outline the nucleophilic addition mechanism for the reaction with KCN followed by dilute acid • explain why nucleophilic addition reactions of KCN, followed by dilute acid, can produce a mixture of enantiomers.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aldehydes-and-ketones"
+]
+}
+]
+},
+{
+"code": "3.3.9",
+"title": "Carboxylic acids and derivatives",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.3.9.1",
+"title": "Carboxylic acids and esters",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "carboxylic-acids-and-derivatives",
+"statements": [
+{
+"id": "3.3.9.1-01",
+"short": "",
+"text": "The structures of: • carboxylic acids • esters.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+},
+{
+"id": "3.3.9.1-02",
+"short": "",
+"text": "Carboxylic acids are weak acids but will liberate CO2 from carbonates.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+},
+{
+"id": "3.3.9.1-03",
+"short": "",
+"text": "Carboxylic acids and alcohols react, in the presence of an acid catalyst, to give esters.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+},
+{
+"id": "3.3.9.1-04",
+"short": "",
+"text": "Common uses of esters (eg in solvents, plasticisers, perfumes and food flavourings).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+},
+{
+"id": "3.3.9.1-05",
+"short": "",
+"text": "Vegetable oils and animal fats are esters of propane-1,2,3-triol (glycerol).",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+},
+{
+"id": "3.3.9.1-06",
+"short": "",
+"text": "Esters can be hydrolysed in acid or alkaline conditions to form alcohols and carboxylic acids or salts of carboxylic acids.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+},
+{
+"id": "3.3.9.1-07",
+"short": "",
+"text": "Vegetable oils and animal fats can be hydrolysed in alkaline conditions to give soap (salts of long-chain carboxylic acids) and glycerol.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+},
+{
+"id": "3.3.9.1-08",
+"short": "",
+"text": "Biodiesel is a mixture of methyl esters of long-chain carboxylic acids.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+},
+{
+"id": "3.3.9.1-09",
+"short": "",
+"text": "Biodiesel is produced by reacting vegetable oils with methanol in the presence of a catalyst.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+}
+]
+},
+{
+"code": "3.3.9.2",
+"title": "Acylation",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "carboxylic-acids-and-derivatives",
+"statements": [
+{
+"id": "3.3.9.2-01",
+"short": "",
+"text": "The structures of: • acid anhydrides • acyl chlorides • amides.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+},
+{
+"id": "3.3.9.2-02",
+"short": "",
+"text": "The nucleophilic addition–elimination reactions of water, alcohols, ammonia and primary amines with acyl chlorides and acid anhydrides.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+},
+{
+"id": "3.3.9.2-03",
+"short": "",
+"text": "The industrial advantages of ethanoic anhydride over ethanoyl chloride in the manufacture of the drug aspirin.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+},
+{
+"id": "3.3.9.2-04",
+"short": "",
+"text": "Students should be able to outline the mechanism of nucleophilic addition–elimination reactions of acyl chlorides with water, alcohols, ammonia and primary amines.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+},
+{
+"id": "3.3.9.2-05",
+"short": "",
+"text": "Required practical 10 Preparation of: • a pure organic solid and test of its purity • a pure organic liquid.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids-and-derivatives"
+]
+}
+]
+},
+{
+"code": "3.3.10",
+"title": "Aromatic chemistry",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.3.10.1",
+"title": "Bonding",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "aromatic-chemistry",
+"statements": [
+{
+"id": "3.3.10.1-01",
+"short": "",
+"text": "The nature of the bonding in a benzene ring, limited to planar structure and bond length intermediate between single and double.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aromatic-chemistry"
+]
+},
+{
+"id": "3.3.10.1-02",
+"short": "",
+"text": "Delocalisation of p electrons makes benzene more stable than the theoretical molecule cyclohexa-1,3,5-triene.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aromatic-chemistry"
+]
+},
+{
+"id": "3.3.10.1-03",
+"short": "",
+"text": "Students should be able to: • use thermochemical evidence from enthalpies of hydrogenation to account for this extra stability • explain why substitution reactions occur in preference to addition reactions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aromatic-chemistry"
+]
+}
+]
+},
+{
+"code": "3.3.10.2",
+"title": "Electrophilic substitution",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "aromatic-chemistry",
+"statements": [
+{
+"id": "3.3.10.2-01",
+"short": "",
+"text": "Electrophilic attack on benzene rings results in substitution, limited to monosubstitutions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aromatic-chemistry"
+]
+},
+{
+"id": "3.3.10.2-02",
+"short": "",
+"text": "Nitration is an important step in synthesis, including the manufacture of explosives and formation of amines.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aromatic-chemistry"
+]
+},
+{
+"id": "3.3.10.2-03",
+"short": "",
+"text": "Friedel–Crafts acylation reactions are also important steps in synthesis.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aromatic-chemistry"
+]
+},
+{
+"id": "3.3.10.2-04",
+"short": "",
+"text": "Students should be able to outline the electrophilic substitution mechanisms of: • nitration, including the generation of the nitronium ion • acylation using AlCl3 as a catalyst.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"aromatic-chemistry"
+]
+}
+]
+},
+{
+"code": "3.3.11",
+"title": "Amines",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.3.11.1",
+"title": "Preparation",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "amines",
+"statements": [
+{
+"id": "3.3.11.1-01",
+"short": "",
+"text": "Primary aliphatic amines can be prepared by the reaction of ammonia with halogenoalkanes and by the reduction of nitriles.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines"
+]
+},
+{
+"id": "3.3.11.1-02",
+"short": "",
+"text": "Aromatic amines, prepared by the reduction of nitro compounds, are used in the manufacture of dyes.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines"
+]
+}
+]
+},
+{
+"code": "3.3.11.2",
+"title": "Base properties",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "amines",
+"statements": [
+{
+"id": "3.3.11.2-01",
+"short": "",
+"text": "Amines are weak bases.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines"
+]
+},
+{
+"id": "3.3.11.2-02",
+"short": "",
+"text": "The difference in base strength between ammonia, primary aliphatic and primary aromatic amines.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines"
+]
+},
+{
+"id": "3.3.11.2-03",
+"short": "",
+"text": "Students should be able to: • explain the difference in base strength in terms of the availability of the lone pair of electrons on the N atom.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines"
+]
+}
+]
+},
+{
+"code": "3.3.11.3",
+"title": "Nucleophilic properties",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "amines",
+"statements": [
+{
+"id": "3.3.11.3-01",
+"short": "",
+"text": "Amines are nucleophiles.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines"
+]
+},
+{
+"id": "3.3.11.3-02",
+"short": "",
+"text": "The nucleophilic substitution reactions of ammonia and amines with halogenoalkanes to form primary, secondary, tertiary amines and quaternary ammonium salts.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines"
+]
+},
+{
+"id": "3.3.11.3-03",
+"short": "",
+"text": "The use of quaternary ammonium salts as cationic surfactants.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines"
+]
+},
+{
+"id": "3.3.11.3-04",
+"short": "",
+"text": "The nucleophilic addition–elimination reactions of ammonia and primary amines with acyl chlorides and acid anhydrides.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines"
+]
+},
+{
+"id": "3.3.11.3-05",
+"short": "",
+"text": "Students should be able to outline the mechanisms of: • these nucleophilic substitution reactions • the nucleophilic addition–elimination reactions of ammonia and primary amines with acyl chlorides.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines"
+]
+}
+]
+},
+{
+"code": "3.3.12",
+"title": "Polymers",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.3.12.1",
+"title": "Condensation polymers",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "polymers",
+"statements": [
+{
+"id": "3.3.12.1-01",
+"short": "",
+"text": "Condensation polymers are formed by reactions between: • dicarboxylic acids and diols • dicarboxylic acids and diamines • amino acids.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"polymers"
+]
+},
+{
+"id": "3.3.12.1-02",
+"short": "",
+"text": "The repeating units in polyesters (eg Terylene) and polyamides (eg nylon 6,6 and Kevlar) and the linkages between these repeating units.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"polymers"
+]
+},
+{
+"id": "3.3.12.1-03",
+"short": "",
+"text": "Typical uses of these polymers.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"polymers"
+]
+},
+{
+"id": "3.3.12.1-04",
+"short": "",
+"text": "Students should be able to: • draw the repeating unit from monomer structure(s) • draw the repeating unit from a section of the polymer chain • draw the structure(s) of the monomer(s) from a section of the polymer • explain the nature of the intermolecular forces between molecules of condensation polymers.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"polymers"
+]
+}
+]
+},
+{
+"code": "3.3.12.2",
+"title": "Biodegradability and disposal of polymers",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "polymers",
+"statements": [
+{
+"id": "3.3.12.2-01",
+"short": "",
+"text": "Polyalkenes are chemically inert and non-biodegradable.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"polymers"
+]
+},
+{
+"id": "3.3.12.2-02",
+"short": "",
+"text": "Polyesters and polyamides can be broken down by hydrolysis and are biodegradable.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"polymers"
+]
+},
+{
+"id": "3.3.12.2-03",
+"short": "",
+"text": "The advantages and disadvantages of different methods of disposal of polymers, including recycling.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"polymers"
+]
+},
+{
+"id": "3.3.12.2-04",
+"short": "",
+"text": "Students should be able to: • explain why polyesters and polyamides can be hydrolysed but polyalkenes cannot.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"polymers"
+]
+}
+]
+},
+{
+"code": "3.3.13",
+"title": "Amino acids, proteins and DNA",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "3.3.13.1",
+"title": "Amino acids",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "amino-acids-proteins-and-dna",
+"statements": [
+{
+"id": "3.3.13.1-01",
+"short": "",
+"text": "Amino acids have both acidic and basic properties, including the formation of zwitterions.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.1-02",
+"short": "",
+"text": "Students should be able to draw the structures of amino acids as zwitterions and the ions formed from amino acids: • in acid solution • in alkaline solution.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+}
+]
+},
+{
+"code": "3.3.13.2",
+"title": "Proteins",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "amino-acids-proteins-and-dna",
+"statements": [
+{
+"id": "3.3.13.2-01",
+"short": "",
+"text": "Proteins are sequences of amino acids joined by peptide links.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.2-02",
+"short": "",
+"text": "The importance of hydrogen bonding and sulfur–sulfur bonds in proteins.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.2-03",
+"short": "",
+"text": "The primary, secondary (α-helix and β–pleated sheets) and tertiary structure of proteins.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.2-04",
+"short": "",
+"text": "Hydrolysis of the peptide link produces the constituent amino acids.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.2-05",
+"short": "",
+"text": "Amino acids can be separated and identified by thin-layer chromatography.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.2-06",
+"short": "",
+"text": "Amino acids can be located on a chromatogram using developing agents such as ninhydrin or ultraviolet light and identified by their Rf values.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.2-07",
+"short": "",
+"text": "Students should be able to: • draw the structure of a peptide formed from up to three amino acids • draw the structure of the amino acids formed by hydrolysis of a peptide • identify primary, secondary and tertiary structures in diagrams • explain how these structures are maintained by hydrogen bonding and S–S bonds • calculate Rf values from a chromatogram.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+}
+]
+},
+{
+"code": "3.3.13.3",
+"title": "Enzymes",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "amino-acids-proteins-and-dna",
+"statements": [
+{
+"id": "3.3.13.3-01",
+"short": "",
+"text": "Enzymes are proteins.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.3-02",
+"short": "",
+"text": "The action of enzymes as catalysts, including the concept of a stereospecific active site that binds to a substrate molecule.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.3-03",
+"short": "",
+"text": "The principle of a drug acting as an enzyme inhibitor by blocking the active site.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.3-04",
+"short": "",
+"text": "Computers can be used to help design such drugs.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.3-05",
+"short": "",
+"text": "Students should be able to: • explain why a stereospecific active site can only bond to one enantiomeric form of a substrate or drug.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+}
+]
+},
+{
+"code": "3.3.13.4",
+"title": "DNA",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "amino-acids-proteins-and-dna",
+"statements": [
+{
+"id": "3.3.13.4-01",
+"short": "",
+"text": "The structures of the phosphate ion, 2-deoxyribose (a pentose sugar) and the four bases adenine, cytosine, guanine and thymine are given in the Chemistry Data Booklet.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.4-02",
+"short": "",
+"text": "A nucleotide is made up from a phosphate ion bonded to 2-deoxyribose which is in turn bonded to one of the four bases adenine, cytosine, guanine and thymine.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.4-03",
+"short": "",
+"text": "A single strand of DNA (deoxyribonucleic acid) is a polymer of nucleotides linked by covalent bonds between the phosphate group of one nucleotide and the 2- deoxyribose of another nucleotide. This results in a sugar- phosphate-sugar-phosphate polymer chain with bases attached to the sugars in the chain.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.4-04",
+"short": "",
+"text": "DNA exists as two complementary strands arranged in the form of a double helix.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.4-05",
+"short": "",
+"text": "Students should be able to: • explain how hydrogen bonding between base pairs leads to the two complementary strands of DNA.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+}
+]
+},
+{
+"code": "3.3.13.5",
+"title": "Action of anticancer drugs",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "amino-acids-proteins-and-dna",
+"statements": [
+{
+"id": "3.3.13.5-01",
+"short": "",
+"text": "The Pt(II) complex cisplatin is used as an anticancer drug.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.5-02",
+"short": "",
+"text": "Cisplatin prevents DNA replication in cancer cells by a ligand replacement reaction with DNA in which a bond is formed between platinum and a nitrogen atom on guanine.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.5-03",
+"short": "",
+"text": "Appreciate that society needs to assess the balance between the benefits and the adverse effects of drugs, such as the anticancer drug cisplatin.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+},
+{
+"id": "3.3.13.5-04",
+"short": "",
+"text": "Students should be able to: • explain why cisplatin prevents DNA replication • explain why such drugs can have adverse effects.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amino-acids-proteins-and-dna"
+]
+}
+]
+},
+{
+"code": "3.3.14",
+"title": "Organic synthesis",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "organic-synthesis",
+"statements": [
+{
+"id": "3.3.14-01",
+"short": "",
+"text": "The synthesis of an organic compound can involve several steps.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"organic-synthesis"
+]
+},
+{
+"id": "3.3.14-02",
+"short": "",
+"text": "Students should be able to: • explain why chemists aim to design processes that do not require a solvent and that use non- hazardous starting materials • explain why chemists aim to design production methods with fewer steps that have a high percentage atom economy • use reactions in this specification to devise a synthesis, with up to four steps, for an organic compound.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"organic-synthesis"
+]
+}
+]
+},
+{
+"code": "3.3.15",
+"title": "Nuclear magnetic resonance spectroscopy",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "nmr-spectroscopy",
+"statements": [
+{
+"id": "3.3.15-01",
+"short": "",
+"text": "Appreciation that scientists have developed a range of analytical techniques which together enable the structures of new compounds to be confirmed.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-spectroscopy"
+]
+},
+{
+"id": "3.3.15-02",
+"short": "",
+"text": "Nuclear magnetic resonance (NMR) gives information about the position of 13C or 1H atoms in a molecule.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-spectroscopy"
+]
+},
+{
+"id": "3.3.15-03",
+"short": "",
+"text": "13C NMR gives simpler spectra than 1H NMR.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-spectroscopy"
+]
+},
+{
+"id": "3.3.15-04",
+"short": "",
+"text": "The use of the δ scale for recording chemical shift.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-spectroscopy"
+]
+},
+{
+"id": "3.3.15-05",
+"short": "",
+"text": "Chemical shift depends on the molecular environment.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-spectroscopy"
+]
+},
+{
+"id": "3.3.15-06",
+"short": "",
+"text": "Integrated spectra indicate the relative numbers of 1H atoms in different environments.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-spectroscopy"
+]
+},
+{
+"id": "3.3.15-07",
+"short": "",
+"text": "1H NMR spectra are obtained using samples dissolved in deuterated solvents or CCl4",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-spectroscopy"
+]
+},
+{
+"id": "3.3.15-08",
+"short": "",
+"text": "The use of tetramethylsilane (TMS) as a standard.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-spectroscopy"
+]
+},
+{
+"id": "3.3.15-09",
+"short": "",
+"text": "Students should be able to: • explain why TMS is a suitable substance to use as a standard • use 1H NMR and 13C NMR spectra and chemical shift data from the Chemistry Data Booklet to suggest possible structures or part structures for molecules • use integration data from 1H NMR spectra to determine the relative numbers of equivalent protons in the molecule • use the n+1 rule to deduce the spin–spin splitting patterns of adjacent, non-equivalent protons, limited to doublet, triplet and quartet formation in aliphatic compounds.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-spectroscopy"
+]
+}
+]
+},
+{
+"code": "3.3.16",
+"title": "Chromatography",
+"paper": 2,
+"option": null,
+"area": null,
+"theme": null,
+"module": 3,
+"aLevelOnly": true,
+"topic": "chromatography",
+"statements": [
+{
+"id": "3.3.16-01",
+"short": "",
+"text": "Chromatography can be used to separate and identify the components in a mixture.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"chromatography"
+]
+},
+{
+"id": "3.3.16-02",
+"short": "",
+"text": "Types of chromatography include: • thin-layer chromatography (TLC) – a plate is coated with a solid and a solvent moves up the plate • column chromatography (CC) – a column is packed with a solid and a solvent moves down the column • gas chromatography (GC) – a column is packed with a solid or with a solid coated by a liquid, and a gas is passed through the column under pressure at high temperature.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"chromatography"
+]
+},
+{
+"id": "3.3.16-03",
+"short": "",
+"text": "Separation depends on the balance between solubility in the moving phase and retention by the stationary phase.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"chromatography"
+]
+},
+{
+"id": "3.3.16-04",
+"short": "",
+"text": "Retention times and Rf values are used to identify different substances.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"chromatography"
+]
+},
+{
+"id": "3.3.16-05",
+"short": "",
+"text": "The use of mass spectrometry to analyse the components separated by GC.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"chromatography"
+]
+},
+{
+"id": "3.3.16-06",
+"short": "",
+"text": "Students should be able to: • calculate Rf values from a chromatogram • compare retention times and Rf values with standards to identify different substances.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"chromatography"
+]
+},
+{
+"id": "3.3.16-07",
+"short": "",
+"text": "Required practical 12 Separation of species by thin-layer chromatography.",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"chromatography"
+]
+}
+]
+}
+]

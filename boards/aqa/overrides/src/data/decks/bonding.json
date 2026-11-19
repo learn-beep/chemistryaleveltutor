@@ -1,0 +1,48 @@
+{
+ "topic": "bonding",
+ "name": "Bonding",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Ionic bonding",
+   "definition": "The electrostatic attraction between oppositely charged ions in a lattice.",
+   "examiner": "\"Electrostatic attraction\" and \"oppositely charged ions\" are the marks."
+  },
+  {
+   "term": "Covalent bond",
+   "definition": "A shared pair of electrons.",
+   "examiner": "A single covalent bond is one shared pair."
+  },
+  {
+   "term": "Co-ordinate (dative covalent) bond",
+   "definition": "A shared pair of electrons in which both electrons are supplied by one atom.",
+   "examiner": "Shown by an arrow from the atom that donates the lone pair."
+  },
+  {
+   "term": "Metallic bonding",
+   "definition": "The attraction between delocalised electrons and positive ions arranged in a lattice.",
+   "examiner": "Refer to delocalised electrons, not \"free\" electrons, and to a lattice."
+  },
+  {
+   "term": "Electronegativity",
+   "definition": "The power of an atom to attract the pair of electrons in a covalent bond.",
+   "examiner": "A difference in electronegativity between two bonded atoms gives a polar bond."
+  },
+  {
+   "term": "van der Waals forces",
+   "definition": "Induced dipole–dipole forces: a temporary dipole in one molecule induces a dipole in a neighbouring molecule.",
+   "examiner": "Present between all molecules; stronger with more electrons and a larger surface area."
+  },
+  {
+   "term": "Hydrogen bonding",
+   "definition": "The attraction between a δ+ hydrogen bonded to N, O or F and a lone pair on N, O or F in another molecule.",
+   "examiner": "Diagrams need the partial charges, all the lone pairs and the bond drawn from the lone pair to the hydrogen."
+  },
+  {
+   "term": "Electron pair repulsion",
+   "definition": "Pairs of electrons around a central atom repel each other and get as far apart as possible; lone pairs repel more than bonding pairs.",
+   "examiner": "State the number of bonding pairs and lone pairs before naming the shape and the bond angle."
+  }
+ ]
+}

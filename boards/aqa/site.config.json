@@ -1,0 +1,38 @@
+{
+ "site": {
+  "name": "A-level Chemistry Tutor",
+  "domain": "https://www.chemistryaleveltutor.com",
+  "whatsapp": "447888786687",
+  "email": "enquiries@chemistryaleveltutor.com",
+  "company": "aleveltutors.online Limited",
+  "companyNumber": "14401016",
+  "registeredOffice": "5 Northbrook Court, Northbrook Avenue, Winchester SO23 0JP",
+  "spec": "AQA A-level Chemistry (7405) and AS (7404), specification version 1.2.",
+  "examYear": 2027,
+  "board": "aqa",
+  "boardName": "AQA"
+ },
+ "whatsappMessage": "Hi, I'm looking for an AQA Chemistry Tutor. The student is in Year ..... Their name is ..................... we would like ........ lessons per week, the best two times for tutoring are ................. and ......................",
+ "paperNames": {
+  "7405-1": "Paper 1",
+  "7405-2": "Paper 2",
+  "7405-3": "Paper 3",
+  "7404-1": "Paper 1",
+  "7404-2": "Paper 2"
+ },
+ "oldSpecFlag": "not_current_spec",
+ "moduleFrom": "section",
+ "tutors": [],
+ "keepLabels": true,
+ "paperTitles": {
+  "7405-1": "Inorganic and physical chemistry",
+  "7405-2": "Organic and physical chemistry",
+  "7405-3": "Any content and practical skills",
+  "7404-1": "Inorganic and physical chemistry",
+  "7404-2": "Organic and physical chemistry"
+ },
+ "formatMap": {
+  "Extended response": "Level of response",
+  "Equation": "Equation writing"
+ }
+}
