@@ -1,0 +1,52 @@
+---
+import Base from '../../layouts/Base.astro';
+import { Edexcel_MATERIALS } from '../../lib/data';
+const given = [
+  ['Physical constants', 'The Avogadro constant (6.02 × 10²³ mol⁻¹), the elementary charge, the gas constant R (8.31 J mol⁻¹ K⁻¹), the molar volume of a gas at room temperature and pressure (24 dm³ mol⁻¹), the ionic product of water Kw (1.00 × 10⁻¹⁴ mol² dm⁻⁶) and 1 dm³ = 1000 cm³ = 0.001 m³'],
+  ['Infrared spectroscopy', 'Wavenumber ranges for C–H, N–H, O–H, C=C, C=O and other bonds, set out by type of compound (alkane, alkene, arene, aldehyde, amine, alcohol, carboxylic acid and so on)'],
+  ['Nuclear magnetic resonance', 'Charts of ¹³C and ¹H chemical shifts relative to TMS for carbon and hydrogen atoms in different environments'],
+  ['Pauling electronegativities', 'An electronegativity value for each element, laid out as a Periodic Table'],
+  ['Standard electrode potentials', 'A numbered list of right-hand electrode systems with their E⦵ values at 298 K, from the most negative to the most positive'],
+  ['The Periodic Table of the Elements', 'With relative atomic masses and atomic (proton) numbers. It is also printed on the back page of each question paper. Use the values as printed'],
+];
+const inQuestion = [
+  ['Specific heat capacity', 'For water or the solution, usually 4.18 J g⁻¹ °C⁻¹, printed in the question'],
+  ['Thermodynamic data', 'Enthalpy changes, entropies, bond enthalpies and lattice energies are given in the question or in a table with it'],
+  ['Ka, pKa and indicator ranges', 'Given in the question when a calculation or a choice of indicator needs them'],
+  ['Arrhenius equation', 'Given in the question in the form needed, for example ln k = –Ea/RT + constant'],
+  ['Unfamiliar data', 'Spectra, Rf values, melting temperatures of derivatives and other data are printed with the question'],
+];
+const learn = [
+  ['Moles', 'n = mass ÷ molar mass; n = concentration × volume (volume in dm³); n = volume of gas ÷ 24 dm³ at r.t.p.'],
+  ['Ideal gas equation', 'pV = nRT, with p in Pa, V in m³ and T in K'],
+  ['Yield and atom economy', '% yield = actual ÷ theoretical × 100; atom economy = molar mass of the desired product ÷ sum of the molar masses of all products × 100'],
+  ['Enthalpy', 'q = mcΔT; ΔH = –q ÷ n, in kJ mol⁻¹ with the sign; Hess’s Law cycles from formation or combustion data; mean bond enthalpies'],
+  ['Entropy and free energy', 'ΔS(total) = ΔS(system) + ΔS(surroundings); ΔS(surroundings) = –ΔH ÷ T; ΔG = ΔH – TΔS(system); ΔG = –RT ln K. Convert ΔS to kJ K⁻¹ mol⁻¹ before using it with ΔH'],
+  ['pH', 'pH = –log₁₀[H⁺]; [H⁺] = 10^–pH; Kw = [H⁺][OH⁻]; pKw = –log₁₀Kw; Ka = [H⁺][A⁻]/[HA]; pKa = –log₁₀Ka'],
+  ['Rates', 'rate = k[A]^m[B]^n, and how to work out the units of k; half-life is constant for a first order reaction'],
+  ['Equilibrium', 'Kc and Kp expressions from the equation; partial pressure = mole fraction × total pressure'],
+  ['Cells', 'E(cell) = E(right-hand electrode) – E(left-hand electrode); a reaction is feasible when E(cell) is positive'],
+  ['Uncertainty', '% uncertainty = uncertainty ÷ quantity measured × 100 (the uncertainty is doubled for a difference of two readings, such as a titre)'],
+];
+---
+<Base title="Edexcel A-level Chemistry Data Booklet: what is given and what you must learn" description="What is in the Edexcel A-level Chemistry Data Booklet (physical constants, infrared and NMR data, electronegativities, standard electrode potentials and the Periodic Table), what is printed in the question, and the equations you have to learn, such as pV = nRT, q = mcΔT and ΔG = ΔH – TΔS." context="data-sheet" leadLine="Not sure which equations you are expected to know? A tutor can go through them with you.">
+  <h1>The Data Booklet: what is given, and what you must learn</h1>
+  <p>You are given a clean copy of Pearson's Data Booklet in each of A-level Papers 1, 2 and 3. It has a page of physical constants, the infrared and NMR data, a table of electronegativities, the standard electrode potentials and the Periodic Table. It has no equations. The past-paper questions on this site do not include it, so have a copy beside you. This page describes the A-level (9CH0) booklet.</p>
+  <p><a class="btn" href={Edexcel_MATERIALS} rel="noopener">Get the Data Booklet from Pearson</a></p>
+  <h2>In the Data Booklet</h2>
+  <div class="table-wrap"><table><thead><tr><th>Item</th><th>What it gives</th></tr></thead><tbody>{given.map(([a, b]) => <tr><td>{a}</td><td>{b}</td></tr>)}</tbody></table></div>
+  <h2>Given in the question when it is needed</h2>
+  <div class="table-wrap"><table><thead><tr><th>Item</th><th>What you are given</th></tr></thead><tbody>{inQuestion.map(([a, b]) => <tr><td>{a}</td><td>{b}</td></tr>)}</tbody></table></div>
+  <h2>Not given: learn these</h2>
+  <div class="table-wrap"><table><thead><tr><th>Area</th><th>What to know</th></tr></thead><tbody>{learn.map(([a, b]) => <tr><td>{a}</td><td>{b}</td></tr>)}</tbody></table></div>
+  <p class="muted">The first list is from Pearson's Data Booklet for 9CH0 (Issue 2); the others were written by the site from the specification and the past papers. All three are being checked by our tutor. If something here differs from the booklet or the question in front of you, they are right: please <a href="/report/">tell us</a>.</p>
+  <h2>Using it in the exam</h2>
+  <ul>
+    <li>Use the relative atomic masses as printed. Mark schemes are written from those values.</li>
+    <li>In infrared questions quote the wavenumber range and the bond it shows, taken from the booklet for the type of compound, not from memory.</li>
+    <li>In NMR questions use the charts for the chemical shift, then the integration and the splitting (n + 1 rule) for ¹H spectra.</li>
+    <li>In electrode potential questions copy the E⦵ values and the half-equations exactly as listed, and say which system is the more positive.</li>
+    <li>Check units before substituting: R is in J, so energies must be in J; pV = nRT needs Pa and m³.</li>
+  </ul>
+  <p><a href="/maths-skills/">Calculations and maths skills</a> · <a href="/questions/type/calculations/">Every calculation question</a> · <a href="/questions/nmr-mass-spectrometry-and-chromatography/">NMR questions</a></p>
+</Base>

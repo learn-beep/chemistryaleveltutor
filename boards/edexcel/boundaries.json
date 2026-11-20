@@ -1,0 +1,102 @@
+{
+ "source": "Pearson's published grade boundaries (June series). The A-level total is the three papers added together: 90 + 90 + 120 = 300 raw marks, with no weighting. The AS total is 160 (two 80-mark papers). The June 2026 papers themselves are not yet public.",
+ "alevel": [
+  {
+   "series": "June 2026",
+   "max": 300,
+   "A*": 246,
+   "A": 212,
+   "B": 176,
+   "C": 140,
+   "D": 104,
+   "E": 68
+  },
+  {
+   "series": "June 2025",
+   "max": 300,
+   "A*": 246,
+   "A": 207,
+   "B": 170,
+   "C": 133,
+   "D": 96,
+   "E": 60
+  },
+  {
+   "series": "June 2024",
+   "max": 300,
+   "A*": 252,
+   "A": 216,
+   "B": 177,
+   "C": 138,
+   "D": 99,
+   "E": 61
+  },
+  {
+   "series": "June 2023",
+   "max": 300,
+   "A*": 241,
+   "A": 195,
+   "B": 158,
+   "C": 121,
+   "D": 85,
+   "E": 49
+  },
+  {
+   "series": "June 2022",
+   "max": 300,
+   "A*": 235,
+   "A": 192,
+   "B": 155,
+   "C": 119,
+   "D": 83,
+   "E": 47
+  }
+ ],
+ "as": [
+  {
+   "series": "June 2026",
+   "max": 160,
+   "A": 121,
+   "B": 104,
+   "C": 88,
+   "D": 72,
+   "E": 56
+  },
+  {
+   "series": "June 2025",
+   "max": 160,
+   "A": 106,
+   "B": 92,
+   "C": 78,
+   "D": 64,
+   "E": 51
+  },
+  {
+   "series": "June 2024",
+   "max": 160,
+   "A": 105,
+   "B": 91,
+   "C": 77,
+   "D": 63,
+   "E": 49
+  },
+  {
+   "series": "June 2023",
+   "max": 160,
+   "A": 99,
+   "B": 85,
+   "C": 71,
+   "D": 58,
+   "E": 45
+  },
+  {
+   "series": "June 2022",
+   "max": 160,
+   "A": 100,
+   "B": 85,
+   "C": 70,
+   "D": 56,
+   "E": 42
+  }
+ ]
+}

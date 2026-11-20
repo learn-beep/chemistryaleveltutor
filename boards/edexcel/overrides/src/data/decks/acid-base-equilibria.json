@@ -1,0 +1,43 @@
+{
+ "topic": "acid-base-equilibria",
+ "name": "Acid-base equilibria",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Brønsted–Lowry acid",
+   "definition": "A proton donor.",
+   "examiner": "A Brønsted–Lowry base is a proton acceptor. Be able to pick out the conjugate acid–base pairs in an equation."
+  },
+  {
+   "term": "Strong acid",
+   "definition": "An acid that is completely dissociated in aqueous solution.",
+   "examiner": "A weak acid is only partly dissociated. \"Strong\" is not the same as \"concentrated\"."
+  },
+  {
+   "term": "pH",
+   "definition": "pH = −log₁₀[H⁺].",
+   "examiner": "[H⁺] = 10^−pH."
+  },
+  {
+   "term": "Ionic product of water, Kw",
+   "definition": "Kw = [H⁺][OH⁻].",
+   "examiner": "1.00 × 10⁻¹⁴ mol² dm⁻⁶ at 298 K, from the Data Booklet. Its value changes with temperature; pure water is always neutral because [H⁺] = [OH⁻]."
+  },
+  {
+   "term": "Acid dissociation constant, Ka",
+   "definition": "Ka = [H⁺][A⁻] ÷ [HA] for a weak acid HA; pKa = −log₁₀Ka.",
+   "examiner": "For a weak acid alone, Ka = [H⁺]² ÷ [HA], which assumes [H⁺] = [A⁻] and that very little of the acid has dissociated. At half-neutralisation, pH = pKa."
+  },
+  {
+   "term": "Buffer solution",
+   "definition": "A solution that resists a change in pH when small amounts of acid or alkali are added.",
+   "examiner": "\"Resists change\" and \"small amounts\" are both needed; do not write that the pH stays the same."
+  },
+  {
+   "term": "Equivalence point",
+   "definition": "The point in a titration at which the acid and the base have reacted in exactly the amounts shown by the equation.",
+   "examiner": "Choose an indicator that changes colour within the vertical part of the pH curve."
+  }
+ ]
+}

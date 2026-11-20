@@ -1,0 +1,53 @@
+{
+ "topic": "formulae-equations-and-amounts-of-substance",
+ "name": "Formulae, equations and amounts of substance",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Avogadro constant",
+   "definition": "The number of particles in one mole of a substance.",
+   "examiner": "6.02 × 10²³ mol⁻¹, from the Data Booklet. Say what the particles are: atoms, molecules, ions or electrons."
+  },
+  {
+   "term": "Molar mass",
+   "definition": "The mass of one mole of a substance, in g mol⁻¹.",
+   "examiner": "Amount in moles = mass ÷ molar mass."
+  },
+  {
+   "term": "Empirical formula",
+   "definition": "The simplest whole-number ratio of atoms of each element in a compound.",
+   "examiner": "\"Simplest\" and \"ratio\" are both needed."
+  },
+  {
+   "term": "Molecular formula",
+   "definition": "The actual number of atoms of each element in a molecule of a compound.",
+   "examiner": "It is a whole-number multiple of the empirical formula; use the molar mass to find the multiple."
+  },
+  {
+   "term": "Molar volume of a gas",
+   "definition": "The volume occupied by one mole of any gas: 24 dm³ mol⁻¹ at room temperature and pressure.",
+   "examiner": "The value is in the Data Booklet. Convert cm³ to dm³ first."
+  },
+  {
+   "term": "Ideal gas equation",
+   "definition": "pV = nRT, with pressure in Pa, volume in m³ and temperature in K.",
+   "examiner": "Most marks are lost on units: cm³ to m³ is × 10⁻⁶, dm³ to m³ is × 10⁻³, kPa to Pa is × 1000."
+  },
+  {
+   "term": "Atom economy",
+   "definition": "(Molar mass of the desired product ÷ sum of the molar masses of all products) × 100.",
+   "examiner": "Use the balanced equation, so include the numbers in front of each formula."
+  },
+  {
+   "term": "Percentage yield",
+   "definition": "(Actual amount of product ÷ theoretical maximum amount of product) × 100.",
+   "examiner": "Work in moles or in mass, but the same for both."
+  },
+  {
+   "term": "Concordant titres",
+   "definition": "Titres that agree closely with each other.",
+   "examiner": "Only concordant titres go into the mean; leave out the rough titre."
+  }
+ ]
+}

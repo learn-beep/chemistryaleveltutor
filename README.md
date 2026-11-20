@@ -1,13 +1,13 @@
 # chemistryaleveltutor.com
 
-**Two boards (19 November 2026):** OCR Chemistry A is the site at the root; AQA Chemistry (7405 / 7404) is the section under `/aqa/`. See "AQA section" below.
+**Three boards (20 November 2026):** OCR Chemistry A is the site at the root; AQA Chemistry (7405 / 7404) is the section under `/aqa/` and Pearson Edexcel Chemistry (9CH0 / 8CH0) the section under `/edexcel/`. See "AQA section" and "Edexcel section" below.
 
 Static Astro site for OCR A-level Chemistry A (H432) and AS (H032), deployed on Netlify. Fourth site in the family after mathsaleveltutor.com, alevelpsychologytutor.com and economicsaleveltutor.com; built from the Economics template with the `subject-revision-site` skill on 10 November 2026.
 
 ## Run locally
     npm install
     npm run dev        # http://localhost:4321
-    npm run build      # node scripts/build.mjs: OCR at the root, AQA under /aqa/, one sitemap; writes dist/
+    npm run build      # node scripts/build.mjs: OCR at the root, AQA under /aqa/, Edexcel under /edexcel/, one sitemap; writes dist/
     npm run build:ocr  # the OCR site only (plain astro build)
 
 ## Deploy
@@ -46,3 +46,11 @@ New papers (OCR makes each summer's papers public about a year later): run the b
 - Mock shapes: A-level Papers 1 and 2, 105 structured marks; Paper 3, 60 structured + 30 multiple choice; AS papers, 65 structured + 15 multiple choice.
 - Board facts used: specification version 1.2 (no content change); June 2027 dates 7405/1 28 May am, 7405/2 10 June am, 7405/3 17 June am, 7404/1 11 May am, 7404/2 18 May am (AQA timetable v1.2); boundaries out of 300 and AS out of 160, 2022 to 2026.
 - Needs a tutor's check: the six AQA decks, the required-practical notes, the Data Booklet lists, the mechanisms checklist, the maths-skills notes and the level-of-response summary.
+
+## Edexcel section (/edexcel/)
+- Built exactly like the AQA section from `boards/edexcel/` (data, `exams.json`, `boundaries.json`, `site.config.json`, `topics.json`, `replace.json`, `overrides/`). `replace.json` is generated: edit `scripts/make_edexcel_replace.py` (it starts from the AQA pairs) and run `python3 scripts/make_edexcel_replace.py`.
+- Data: `python scripts/export_edexcel.py --bank "<Dropbox>\Teaching\Chemistry\Edexcel\Question Bank" --topics boards/edexcel/topics.json --config boards/edexcel/site.config.json --out boards/edexcel/data`, then `python scripts/webp_all.py "<that bank folder>"` (bundles named like `JUN24_9CH01`, `OCT20_8CH02`).
+- 32 topics: Edexcel Topics 1 to 19, the larger ones split into their parts (2A, 2B, 4A to 4C, 6A to 6E, 13A, 13B, 15A, 15B, 17A to 17C, 18A to 18C), in the same six groups as AQA. 47 papers (June 2016 to June 2025, with October 2020 and November 2021), 2,042 parts.
+- Differences from AQA: no separate multiple-choice section (the mock builder keeps whole questions, MCQ parts included); the six-markers are Edexcel's asterisk questions (4 marks indicative content + 2 reasoning), shown as "Extended response"; Core practicals 1 to 16 at `/core-practicals/`; Data Booklet page from the 9CH0 booklet (Issue 2); storage keys `malt-edexcel-…`.
+- Board facts used: specification Issue 3 (Feb 2024, no content change); June 2027 dates 9CH0/01 28 May am, 9CH0/02 10 June am, 9CH0/03 17 June am, 8CH0/01 11 May am, 8CH0/02 18 May am (Pearson final timetable); boundaries out of 300 (90 + 90 + 120) and AS out of 160, 2022 to 2026.
+- Needs a tutor's check: the seven Edexcel decks, the core-practical notes, the Data Booklet lists, the mechanisms checklist, the maths-skills notes and the six-mark marking summary.

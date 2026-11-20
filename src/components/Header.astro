@@ -2,12 +2,13 @@
 import site from '../data/site.json';
 import Icon from './Icon.astro';
 import Search from './Search.astro';
-// The first label is written as 'OC' + 'R' so that the AQA build's blanket OCR -> AQA replacement leaves it alone.
+// The first label is written as 'OC' + 'R' so that the other boards' blanket OCR -> AQA / Edexcel replacement leaves it alone.
+const other = site.board === 'aqa' || site.board === 'edexcel';
 ---
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href={site.board === 'aqa' ? '/aqa/' : '/'}><span>{site.name}</span></a>
-    <span class="board-switch" aria-label="Exam board"><a href="/" aria-current={site.board !== 'aqa' ? 'page' : undefined}>{'OC' + 'R'}</a><a href="/aqa/" aria-current={site.board === 'aqa' ? 'page' : undefined}>AQA</a></span>
+    <a class="brand" href={other ? `/${site.board}/` : '/'}><span>{site.name}</span></a>
+    <span class="board-switch" aria-label="Exam board"><a href="/" aria-current={!other ? 'page' : undefined}>{'OC' + 'R'}</a><a href="/aqa/" aria-current={site.board === 'aqa' ? 'page' : undefined}>AQA</a><a href="/edexcel/" aria-current={site.board === 'edexcel' ? 'page' : undefined}>Edexcel</a></span>
     <nav class="site-nav" aria-label="Main">
       <a href="/questions/"><Icon name="book" />Questions</a>
       <a href="/past-papers/"><Icon name="file" />Past papers</a>

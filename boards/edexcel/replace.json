@@ -1,0 +1,372 @@
+{
+ "all": [
+  [
+   "import { deckFor } from '../../lib/decks';",
+   "import { deckFor } from '../../lib/decks';\nimport { badgeClass, badgeText, motifFor, whereExamined } from '../../lib/groups';"
+  ],
+  [
+   "const mod = Number(topic.paper.replace('Module ', ''));",
+   ""
+  ],
+  [
+   "const motifKind = mod === 1 ? 'flask' : mod === 2 ? (topic.slug.includes('electron') || topic.slug.includes('atomic') || topic.slug.includes('bonding') ? 'orbital' : 'flask') : mod === 3 ? (topic.slug.includes('enthalpy') || topic.slug.includes('rates') || topic.slug.includes('equilibrium') ? 'energy' : 'orbital') : mod === 4 ? (topic.slug.includes('infrared') ? 'spectrum' : 'chain') : mod === 5 ? (topic.slug.includes('transition') ? 'orbital' : 'energy') : (topic.slug.includes('nmr') || topic.slug.includes('chromatography') ? 'spectrum' : topic.slug.includes('aromatic') ? 'benzene' : 'chain');",
+   "const motifKind = motifFor(topic);"
+  ],
+  [
+   "const whichPaper = { 1: 'all three papers', 2: 'all three papers', 3: 'Paper 1 and Paper 3', 4: 'Paper 2 and Paper 3', 5: 'Paper 1 and Paper 3', 6: 'Paper 2 and Paper 3' }[mod];",
+   "const where = whereExamined(topic);"
+  ],
+  [
+   "const asPaper = mod <= 4 ? 'AS Papers 1 and 2' : null;",
+   ""
+  ],
+  [
+   "<span class={`badge badge-${mod}`}>{topic.paper}</span>",
+   "<span class={badgeClass(topic.group)}>{badgeText(topic.group)}</span>"
+  ],
+  [
+   "<dd>A-level {whichPaper}{asPaper ? `; ${asPaper}` : ''}</dd>",
+   "<dd>{where}</dd>"
+  ],
+  [
+   "{topic.statements.length} learning outcome{topic.statements.length === 1 ? '' : 's'}",
+   "{topic.statements.length} statement{topic.statements.length === 1 ? '' : 's'}"
+  ],
+  [
+   "<h2>Learning outcomes</h2>",
+   "<h2>Specification statements</h2>"
+  ],
+  [
+   "Show the {topic.statements.length} learning outcomes from the specification",
+   "Show the {topic.statements.length} statements from the specification"
+  ],
+  [
+   "<button class=\"chip\" type=\"button\" aria-pressed=\"false\" data-filter=\"format:Structure / isomer\">Structures</button>",
+   "<button class=\"chip\" type=\"button\" aria-pressed=\"false\" data-filter=\"format:Diagram or structure\">Structures and diagrams</button>\n    <button class=\"chip\" type=\"button\" aria-pressed=\"false\" data-filter=\"format:Practical and data analysis\">Practical</button>"
+  ],
+  [
+   "Where a part needs a table, graph or structure from an earlier part, that part folds out above it; the mark scheme and examiner's comment open underneath. Have the OCR Data Sheet beside you.",
+   "Where a part needs a figure, table or structure from earlier in the question, that part folds out above it; the mark scheme and examiner's comment open underneath. Have Edexcel's Data Booklet beside you; the Periodic Table is on the back page of every paper."
+  ],
+  [
+   ".replace(/\\(.*$/, '')",
+   ".replace(/[.(].*$/, '')"
+  ],
+  [
+   "', with the levels and indicative points'",
+   "', with the indicative content and the marks for reasoning'"
+  ],
+  [
+   "const groups = [1, 2, 3, 4, 5, 6].map((n) => [`Module ${n}`, `Module ${n}`]);",
+   "import { GROUPS } from '../../lib/groups';\nconst groups = GROUPS.map((g) => [g.key.replace(' chemistry: ', ', '), g.key]);"
+  ],
+  [
+   "{[1, 2, 3, 4, 5, 6].map((n) => <button class=\"chip\" type=\"button\" data-all={`Module ${n}`}>All Module {n}</button>)}",
+   "{GROUPS.map((g) => <button class=\"chip\" type=\"button\" data-all={g.key}>All {g.key.replace(' chemistry: ', ', ')}</button>)}"
+  ],
+  [
+   "<button class=\"chip\" type=\"button\" data-v=\"Structure / isomer\">Structures and isomers</button>",
+   "<button class=\"chip\" type=\"button\" data-v=\"Diagram or structure\">Structures and diagrams</button><button class=\"chip\" type=\"button\" data-v=\"Explanation\">Explanations</button>"
+  ],
+  [
+   "const papers = [[1, 'Module 1: Development of practical skills in chemistry (AS and A level, all papers)'], [2, 'Module 2: Foundations in chemistry (AS and A level, all papers)'], [3, 'Module 3: Periodic table and energy (AS and A level; A-level Papers 1 and 3)'], [4, 'Module 4: Core organic chemistry (AS and A level; A-level Papers 2 and 3)'], [5, 'Module 5: Physical chemistry and transition elements (A level only; Papers 1 and 3)'], [6, 'Module 6: Organic chemistry and analysis (A level only; Papers 2 and 3)']];",
+   "const papers = [[1, 'Topics 1 to 10: AS and A level'], [2, 'Topics 11 to 19: A level only']];"
+  ],
+  [
+   "specification checklist (H432): all ${total} learning outcomes, tickable",
+   "specification checklist (9CH0): all ${total} statements, tickable"
+  ],
+  [
+   "All ${total} learning outcomes of the OCR A-level Chemistry A specification (H432) as a tickable checklist, with the AS content (Modules 1 to 4) marked and links",
+   "All ${total} content statements of the Pearson Edexcel A-level Chemistry specification (9CH0) as a tickable checklist, with the A-level-only topics marked and links"
+  ],
+  [
+   "Every learning outcome in the OCR Chemistry A specification (H432, Version 3.1), numbered as OCR numbers them. Tick what you're confident with; ticks are saved in this browser only. Modules 1 to 4 are the whole of the AS (H032) and are examined again at A level alongside Modules 5 and 6. Paper 1 covers Modules 1, 2, 3 and 5; Paper 2 covers Modules 1, 2, 4 and 6; Paper 3 can draw on all six.",
+   "Every content statement in the Pearson Edexcel Chemistry specification (9CH0, Issue 3), numbered as Edexcel numbers them, with the sixteen core practicals in their places. Tick what you're confident with; ticks are saved in this browser only. Topics 1 to 10 are the whole of the AS (8CH0) and the first year of the A level; Topics 11 to 19 are A level only. Paper 1 covers Topics 1 to 5, 8 and 10 to 15; Paper 2 covers Topics 2, 3, 5 to 7, 9 and 16 to 19; Paper 3 can draw on any topic and on the core practicals."
+  ],
+  [
+   "<span class=\"muted small-text\">{s.area}</span>",
+   "<span class=\"muted small-text\">{s.aLevelOnly ? 'A level only' : 'AS and A level'}</span>"
+  ],
+  [
+   "Papers 1 and 2 at A level are 100 marks each (15 multiple-choice marks then structured questions); Paper 3 is 70 marks of structured questions on any part of the course.",
+   "Papers 1 and 2 at A level are 90 marks each and Paper 3 is 120 marks. Every paper mixes multiple-choice, short-answer, calculation and extended-writing questions; there is no separate multiple-choice section. Paper 3 can draw on any topic and includes questions on practical methods. Each AS paper is 80 marks."
+  ],
+  [
+   "Papers 1 and 2 are marked out of 100 and Paper 3 out of 70. OCR simply adds the three raw marks, so the overall boundaries are out of 270 (Papers 1 and 2 are 37% of the A level each and Paper 3 is 26%).",
+   "Papers 1 and 2 are marked out of 90 and Paper 3 out of 120. Pearson adds the three raw marks, so the overall boundaries are out of 300 (Papers 1 and 2 are 30% of the A level each and Paper 3 is 40%)."
+  ],
+  [
+   "<label>Paper 1 mark <input type=\"number\" min=\"0\" max=\"100\" id=\"p1\"",
+   "<label>Paper 1 mark (out of 90) <input type=\"number\" min=\"0\" max=\"90\" id=\"p1\""
+  ],
+  [
+   "<label>Paper 2 mark <input type=\"number\" min=\"0\" max=\"100\" id=\"p2\"",
+   "<label>Paper 2 mark (out of 90) <input type=\"number\" min=\"0\" max=\"90\" id=\"p2\""
+  ],
+  [
+   "<label>Paper 3 mark (out of 70) <input type=\"number\" min=\"0\" max=\"70\" id=\"p3\"",
+   "<label>Paper 3 mark (out of 120) <input type=\"number\" min=\"0\" max=\"120\" id=\"p3\""
+  ],
+  [
+   "a total out of 270,",
+   "a total out of 300,"
+  ],
+  [
+   ", out of 270</h2>",
+   ", out of 300</h2>"
+  ],
+  [
+   ", out of 140</h2>",
+   ", out of 160</h2>"
+  ],
+  [
+   "${total}/270:",
+   "${total}/300:"
+  ],
+  [
+   "more than the 270 marks on the papers",
+   "more than the 300 marks on the papers"
+  ],
+  [
+   "const cell = (series, spec, n) =>",
+   "const order = (s) => (s === 'Specimen' ? 1 : 0);\nseriesList.sort((a, b) => order(a) - order(b));\nconst cell = (series, spec, n) =>"
+  ],
+  [
+   "<tbody>{seriesList.map((s) => <tr><td>{s}</td>{[1, 2].map(",
+   "<tbody>{seriesList.filter((s) => s !== 'Specimen').map((s) => <tr><td>{s}</td>{[1, 2].map("
+  ],
+  [
+   "the November 2020 and November 2021 papers are the autumn series OCR ran instead (the covers are dated October). The A-level papers start in June 2017 and the AS papers in June 2016.",
+   "the October 2020 and November 2021 papers are the autumn series Pearson ran instead. The A-level papers start in June 2017 and the AS papers in June 2016."
+  ],
+  [
+   "${paper.paper} (${paper.spec}/${paper.paperNo})`",
+   "${paper.paper} (${paper.spec}/${String(paper.paperNo).replace(/^0/, '')})`"
+  ],
+  [
+   "{paper.series.startsWith('November') ? ' · An autumn series, sat in place of the cancelled summer exams' : ''} · Have OCR's Data Sheet beside you",
+   "{/^(October|November)/.test(paper.series) ? ' · An autumn series, sat in place of the cancelled summer exams' : ''} · Have the <a href=\"/data-sheet/\">Data Booklet</a> beside you"
+  ],
+  [
+   "<tbody>{seriesList.map((s) => <tr><td>{s}</td>{[1, 2, 3].map(",
+   "<tbody>{seriesList.filter((s) => allPapers.some((p) => p.series === s && p.spec === '9CH0')).map((s) => <tr><td>{s}</td>{[1, 2, 3].map("
+  ],
+  [
+   "The thin blocks at the start of Papers 1 and 2 are the fifteen multiple-choice questions of Section A; Paper 3 has none.",
+   "The thin blocks are one-mark parts, many of them multiple choice: Edexcel spreads its multiple-choice questions through every paper."
+  ],
+  [
+   "and which were examined only through multiple choice; the",
+   "and which came up in the practical questions of Paper 3; the"
+  ],
+  [
+   "OCR's examiner reports occasionally give the proportion of marks scored nationally on a question. These are the {hard.length} parts on current content where it was under 35%",
+   "Pearson's examiners' reports sometimes give the mean mark, or the proportion of students who scored the marks, on a question. These are the {hard.length} parts on current content where it was under 35%"
+  ],
+  [
+   "June 2025 is the most recent series OCR has published. OCR keeps each summer's papers for teachers only for about a year, so the data here runs to the latest public series. November 2020 and November 2021 were the autumn series sat in place of the cancelled summer exams.",
+   "June 2025 is the most recent series Pearson has published. Pearson keeps each summer's papers for teachers only for about a year, so the data here runs to the latest public series. October 2020 and November 2021 were the autumn series sat in place of the cancelled summer exams."
+  ],
+  [
+   "All the six-mark level of response questions (the ones marked with an asterisk) set on OCR Chemistry A since 2016",
+   "All the six-mark extended-response questions (the ones marked with an asterisk) set on Edexcel Chemistry since 2016"
+  ],
+  [
+   "{lor.length} level of response questions, the ones marked with an asterisk (*), grouped by topic. Each A-level paper has two of them; each AS paper has one or two.",
+   "{lor.length} six-mark questions marked with an asterisk (*), grouped by topic. Every paper has one."
+  ],
+  [
+   "three levels and indicative points",
+   "indicative content and reasoning marks"
+  ],
+  [
+   "Level 3</td><td>5–6</td><td>All the strands of the question are answered with correct chemistry, in a clear and logical line of reasoning, with the evidence or working to support it.",
+   "Indicative content</td><td>up to 4</td><td>The mark scheme lists six indicative points. Six points seen earn 4 marks, five or four earn 3, three or two earn 2, and one earns 1."
+  ],
+  [
+   "Level 2</td><td>3–4</td><td>Most of the chemistry is right but one strand is missing or wrong, or the reasoning has some structure but gaps.",
+   "Structure and reasoning</td><td>up to 2</td><td>2 for a coherent, logical answer with linked points and reasoning sustained throughout; 1 for a partly structured answer with some links and lines of reasoning; 0 if the points are not linked."
+  ],
+  [
+   "Level 1</td><td>1–2</td><td>Some correct points, but one strand only or an answer without a clear structure.",
+   "In general</td><td>6 in all</td><td>The mark schemes say that five or six points would be expected to earn both reasoning marks, and three or four points one of them."
+  ],
+  [
+   "The examiner first decides the level from the chemistry, then picks the higher or lower mark in that level from how well the answer is communicated. Most questions have two or three strands (for example: do the calculation, identify the compound, explain the evidence): attempt every strand. Summary written by the site from OCR's marking instructions; being checked by our tutor.",
+   "The two marks are added together. Cover every part of the question, in a logical order, and link each point to the one before it. Summary written by the site from Pearson's mark schemes; being checked by our tutor."
+  ],
+  [
+   "Level 1 is 1–2 marks, Level 2 is 3–4, Level 3 is 5–6. Pick the level from the descriptors first, then the mark within it from how clear and well structured your answer is.",
+   "Count the indicative points you made: six earn 4 marks, five or four earn 3, three or two earn 2, one earns 1. Then add 2, 1 or 0 for how well the answer is structured and reasoned."
+  ],
+  [
+   "Build a timed mini-mock from real OCR Chemistry A past-paper questions in the shape of Paper 1, 2 or 3 (or the AS papers): the multiple-choice section, whole structured questions, or a full paper.",
+   "Build a timed mini-mock from real Edexcel Chemistry past-paper questions in the shape of Paper 1, 2 or 3 (or the AS papers): a multiple-choice drill, whole questions, or a full paper."
+  ],
+  [
+   "A-level Papers 1 and 2 are fifteen multiple-choice questions (Section A) and 85 marks of structured questions (Section B), in 2 hours 15 minutes. Paper 3 is 70 marks of structured questions on any part of the course, in 1 hour 30 minutes. AS Paper 1 is twenty multiple-choice questions and 50 marks of structured questions; AS Paper 2 is 70 marks of structured questions. Structured questions are kept whole, so every part has the information it needs. Have the Data Sheet beside you.",
+   "Edexcel has no separate multiple-choice section: the multiple-choice parts sit inside the questions. A-level Papers 1 and 2 are 90 marks in 1 hour 45 minutes; Paper 3 is 120 marks in 2 hours 30 minutes, on any topic and on practical methods. Each AS paper is 80 marks in 1 hour 30 minutes. Questions are kept whole, so every part has the information it needs. Have the Data Booklet beside you."
+  ],
+  [
+   ">Paper 1 (periodic table, elements and physical)</button>",
+   ">Paper 1 (inorganic and physical)</button>"
+  ],
+  [
+   ">Paper 2 (synthesis and analytical techniques)</button>",
+   ">Paper 2 (organic and physical)</button>"
+  ],
+  [
+   ">Paper 3 (unified chemistry)</button>",
+   ">Paper 3 (general and practical principles)</button>"
+  ],
+  [
+   "const SHAPE = { 'A level': { 'Paper 1': [15, 85, 81], 'Paper 2': [15, 85, 81], 'Paper 3': [0, 70, 77] }, AS: { 'Paper 1': [20, 50, 77], 'Paper 2': [0, 70, 77] } };",
+   "const SHAPE = { 'A level': { 'Paper 1': [15, 90, 70], 'Paper 2': [15, 90, 70], 'Paper 3': [0, 120, 75] }, AS: { 'Paper 1': [15, 80, 68], 'Paper 2': [15, 80, 68] } };"
+  ],
+  [
+   "'There is no AS Paper 3; the AS papers are Paper 1 (Breadth in chemistry) and Paper 2 (Depth in chemistry).'",
+   "'There is no AS Paper 3; the AS papers are Paper 1 (core inorganic and physical) and Paper 2 (core organic and physical).'"
+  ],
+  [
+   "full: `${mc ? `${mc} multiple-choice questions and ` : ''}${st} marks of structured questions (${mc + st} marks, ${mc + st === 100 ? '2 hours 15 minutes' : '1 hour 30 minutes'}).` };",
+   "full: `${st} marks of whole questions, multiple choice included (${sel.level === 'AS' ? '1 hour 30 minutes' : sel.paper === 'Paper 3' ? '2 hours 30 minutes' : '1 hour 45 minutes'}).` };"
+  ],
+  [
+   "else { picked = mcqs.slice(0, mc); fill(groups, st).forEach(add); }",
+   "else { fill(groups, st).forEach(add); }"
+  ],
+  [
+   "Dropping marks on calculations, mechanisms or the six-markers? Book a trial session with a specialist OCR chemistry tutor.",
+   "Dropping marks on calculations, mechanisms or the core practicals? Book a trial session with an A-level chemistry tutor."
+  ],
+  [
+   "<h2>Work with an OCR chemistry tutor</h2>",
+   "<h2>Work with an A-level chemistry tutor</h2>"
+  ],
+  [
+   "and OCR's mark schemes want the exact wording",
+   "and Edexcel's mark schemes want the key phrases"
+  ],
+  [
+   "with OCR specialist tutors.",
+   "with an A-level chemistry tutor."
+  ],
+  [
+   "{\"t\": \"Practical questions by PAG\", \"u\": \"/practicals/\", \"kind\": \"Tool\"}",
+   "{\"t\": \"Core practicals 1 to 16\", \"u\": \"/core-practicals/\", \"kind\": \"Tool\"}"
+  ],
+  [
+   "{\"t\": \"Data Sheet: what is given\", \"u\": \"/data-sheet/\", \"kind\": \"Tool\"}",
+   "{\"t\": \"Data Booklet: what is given\", \"u\": \"/data-sheet/\", \"kind\": \"Tool\"}"
+  ],
+  [
+   "/practicals/",
+   "/core-practicals/"
+  ],
+  [
+   "const groups = shuffle(groupsOf(pool.filter((q) => q.f !== 'Multiple choice')));",
+   "const groups = shuffle(groupsOf(pool));"
+  ],
+  [
+   "A: mc ? `${mc} multiple-choice questions, marked instantly",
+   "A: mc ? `${mc} multiple-choice parts drawn from across the papers, marked instantly"
+  ],
+  [
+   ">Structured questions, about 40 marks</button>",
+   ">Whole questions, about 40 marks</button>"
+  ],
+  [
+   "B: `Whole structured questions adding up",
+   "B: `Whole questions adding up"
+  ],
+  [
+   "leadLine=\"Stuck at Level 2 on the six-markers? Message us.\"",
+   "leadLine=\"Dropping marks on the six-markers? Message us.\""
+  ],
+  [
+   "<th>Level</th><th>Marks</th><th>What it takes</th>",
+   "<th>Marks for</th><th>Marks</th><th>How they are given</th>"
+  ],
+  [
+   "and decide your level.",
+   "and work out your mark."
+  ],
+  [
+   "<h1>Six-mark level of response questions</h1>",
+   "<h1>Six-mark extended-response questions</h1>"
+  ],
+  [
+   "six-mark level of response question, by topic",
+   "six-mark extended-response question, by topic"
+  ],
+  [
+   ".replace('November ', 'Nov ')",
+   ".replace('November ', 'Nov ').replace('October ', 'Oct ')"
+  ],
+  [
+   ".replace('November ', 'N')",
+   ".replace('November ', 'N')"
+  ],
+  [
+   "const i = lines.findIndex((l) => /\\*/.test(l)); const pick = (i >= 0 ? lines.slice(i, i + 3) : lines.slice(-3)).join(' '); return pick.replace(/^\\d*\\s*\\(?[a-z]?\\)?\\s*(\\([ivx]+\\))?\\*?\\s*/i, '')",
+   "const all = lines.join(' ').replace(/\\s(e[erc]*\\s?){4,}.*$/, ''); const m = all.match(/\\b(Explain|Describe|Discuss|Compare|Devise|Deduce|Evaluate|Comment|Give|Justify|Outline|Assess|Suggest|Predict|Identify|Plan|Determine|Analyse)\\b.*/); const pick = m ? m[0] : all.slice(-230); return pick"
+  ],
+  [
+   "Level of response",
+   "Extended response"
+  ],
+  [
+   "level of response",
+   "extended response"
+  ],
+  [
+   "malt-",
+   "malt-edexcel-"
+  ],
+  [
+   "https://www.ocr.org.uk/qualifications/as-and-a-level/chemistry-a-h032-h432-from-2015/assessment/",
+   "https://qualifications.pearson.com/en/qualifications/edexcel-a-levels/chemistry-2015.coursematerials.html"
+  ],
+  [
+   "OCR AS and A-level Chemistry past-paper questions since 2016",
+   "Edexcel AS and A-level Chemistry past-paper questions since 2016"
+  ],
+  [
+   "OCR A-level Chemistry A (H432)",
+   "Edexcel A-level Chemistry (9CH0)"
+  ],
+  [
+   "OCR Chemistry A ",
+   "Edexcel Chemistry "
+  ],
+  [
+   "(H432)",
+   "(9CH0)"
+  ],
+  [
+   "H432",
+   "9CH0"
+  ],
+  [
+   "(H032)",
+   "(8CH0)"
+  ],
+  [
+   "H032",
+   "8CH0"
+  ],
+  [
+   "OCR's",
+   "Edexcel's"
+  ],
+  [
+   "OCR",
+   "Edexcel"
+  ]
+ ],
+ "delete": [
+  "src/pages/practicals",
+  "src/data/decks"
+ ]
+}

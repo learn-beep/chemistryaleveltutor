@@ -22,7 +22,7 @@ fs.rmSync(DIST, { recursive: true, force: true });
 run('npx astro build', root);
 
 // 2. AQA
-for (const board of ['aqa']) {
+for (const board of ['aqa', 'edexcel']) {
   const B = path.join(root, 'boards', board);
   const work = path.join(BUILD, board);
   fs.rmSync(work, { recursive: true, force: true });

@@ -1,0 +1,38 @@
+{
+ "topic": "entropy",
+ "name": "Energetics II: entropy",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Entropy",
+   "definition": "A measure of the disorder of a system.",
+   "examiner": "Gases have much higher entropy than liquids or solids; more moles of gas in the products means ΔS(system) is positive."
+  },
+  {
+   "term": "Entropy change of the system",
+   "definition": "ΔS(system) = sum of the entropies of the products − sum of the entropies of the reactants.",
+   "examiner": "Multiply each entropy by the number in the balanced equation."
+  },
+  {
+   "term": "Entropy change of the surroundings",
+   "definition": "ΔS(surroundings) = −ΔH ÷ T.",
+   "examiner": "Convert ΔH to J mol⁻¹, or ΔS to kJ, so the units match. T is in kelvin."
+  },
+  {
+   "term": "Total entropy change",
+   "definition": "ΔS(total) = ΔS(system) + ΔS(surroundings).",
+   "examiner": "A reaction is feasible when ΔS(total) is positive."
+  },
+  {
+   "term": "Gibbs free energy change",
+   "definition": "ΔG = ΔH − TΔS(system). A reaction is feasible when ΔG is zero or negative.",
+   "examiner": "Feasible does not mean fast: a high activation energy can stop a feasible reaction from being seen."
+  },
+  {
+   "term": "Free energy and the equilibrium constant",
+   "definition": "ΔG = −RT ln K.",
+   "examiner": "A large negative ΔG gives a large K, so the equilibrium lies well to the right."
+  }
+ ]
+}

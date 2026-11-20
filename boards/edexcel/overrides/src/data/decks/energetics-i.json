@@ -1,0 +1,38 @@
+{
+ "topic": "energetics-i",
+ "name": "Energetics I",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Enthalpy change",
+   "definition": "The heat energy change measured at constant pressure.",
+   "examiner": "Standard conditions are 100 kPa and a specified temperature, usually 298 K."
+  },
+  {
+   "term": "Standard enthalpy change of formation",
+   "definition": "The enthalpy change when one mole of a substance is formed from its elements in their standard states, under standard conditions.",
+   "examiner": "One mole of the substance; from its elements; standard states. The value for an element in its standard state is zero."
+  },
+  {
+   "term": "Standard enthalpy change of combustion",
+   "definition": "The enthalpy change when one mole of a substance is burned completely in oxygen, under standard conditions.",
+   "examiner": "\"Completely\" or \"in excess oxygen\" is needed."
+  },
+  {
+   "term": "Standard enthalpy change of neutralisation",
+   "definition": "The enthalpy change when one mole of water is formed from an acid and an alkali, under standard conditions.",
+   "examiner": "Per mole of water formed, not per mole of acid."
+  },
+  {
+   "term": "Hess’s Law",
+   "definition": "The enthalpy change for a reaction is independent of the route taken.",
+   "examiner": "With formation data: products − reactants. With combustion data: reactants − products."
+  },
+  {
+   "term": "Mean bond enthalpy",
+   "definition": "The enthalpy change when one mole of a bond in the gas phase is broken, averaged over a range of different compounds.",
+   "examiner": "Values from mean bond enthalpies differ from experimental ones because the real bond enthalpy depends on the molecule, and the data refer to gases."
+  }
+ ]
+}

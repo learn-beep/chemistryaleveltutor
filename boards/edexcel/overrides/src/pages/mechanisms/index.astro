@@ -1,0 +1,27 @@
+---
+import Base from '../../layouts/Base.astro';
+import QuestionCard from '../../components/QuestionCard.astro';
+import { allQuestions, allTopics } from '../../lib/data';
+const qs = allQuestions.filter((q) => q.format === 'Mechanism' && !q.notCurrentSpec).sort((a, b) => b.year - a.year);
+const byTopic = allTopics.map((t) => [t, qs.filter((q) => q.topics.includes(t.slug))]).filter(([, x]) => x.length).sort((a, b) => b[1].length - a[1].length);
+// The mechanisms the specification requires, and what the mark schemes credit. Written by the site; to be checked by a tutor.
+const families = [
+  ['Radical substitution', 'alkanes', 'AS', 'An alkane with chlorine or bromine in UV light. Initiation (homolytic fission of the halogen molecule into two radicals), two propagation steps, and termination. Radicals are shown with a dot; curly half-arrows are not expected. Write an equation for each step, and know why further substitution limits the method.'],
+  ['Electrophilic addition', 'alkenes', 'AS', 'An alkene with a halogen, a hydrogen halide or another given binary compound. Arrow from the C=C bond to the electrophile, arrow from the H–Br (or Br–Br) bond to the atom that leaves, the carbocation, then an arrow from a lone pair on the anion to C⁺. With an unsymmetrical alkene the major product comes from the more stable carbocation (tertiary > secondary > primary).'],
+  ['Nucleophilic substitution', 'halogenoalkanes', 'AS', 'A primary halogenoalkane with aqueous potassium hydroxide or with ammonia. Arrow from the lone pair on the nucleophile to the δ+ carbon, and an arrow from the C–X bond to the halogen. With ammonia a second molecule removes H⁺ from the intermediate.'],
+  ['SN1 and SN2', 'kinetics-ii', 'A level', 'Primary halogenoalkanes are hydrolysed in one step involving both species (SN2, rate = k[RX][OH⁻]); tertiary halogenoalkanes ionise first to a carbocation in the slow step (SN1, rate = k[RX]). The rate equation is the evidence for the mechanism, and so is optical activity: SN1 through a planar carbocation gives a racemic mixture.'],
+  ['Nucleophilic addition', 'carbonyl-compounds', 'A level', 'An aldehyde or ketone with HCN in the presence of KCN. Arrow from the lone pair on the carbon of ⁻CN to the δ+ carbonyl carbon, arrow from the C=O bond to O, then the O⁻ takes H⁺ from HCN. Show the lone pairs and dipoles. Attack from either side of the planar carbonyl group gives a racemic mixture.'],
+  ['Electrophilic substitution', 'arenes-benzene', 'A level', 'Benzene: halogenation with a halogen carrier, nitration (NO₂⁺ from concentrated nitric and sulfuric acids) and Friedel–Crafts alkylation and acylation. Arrow from the ring to the electrophile, the intermediate with a broken ring and a + charge, then an arrow from the C–H bond back into the ring as H⁺ is lost. Include the equation that makes the electrophile.'],
+];
+const others = 'The papers also ask you to complete or deduce unfamiliar mechanisms by analogy, and to deduce a mechanism from a rate equation (Topic 16): the same rules for arrows, lone pairs and charges apply.';
+---
+<Base title="Edexcel A-level Chemistry mechanisms: every mechanism question with the mark scheme" description="Every Edexcel Chemistry past-paper mechanism question (radical substitution, electrophilic addition, nucleophilic substitution, SN1 and SN2, nucleophilic addition, electrophilic substitution) with the mark scheme's mechanism behind the button, plus a checklist of what each curly arrow must show." context="mechanisms" leadLine="Curly arrows starting in the wrong place? It is one of the quickest things a tutor can put right.">
+  <h1>Mechanisms</h1>
+  <p>{qs.length} past-paper questions that ask you to name, outline or complete a mechanism, by topic, each with the mark scheme's own mechanism behind the button. A curly arrow shows the movement of a pair of electrons: it must start at a bond or a lone pair and finish at the atom or bond where the electrons go. Most of the marks lost here are for arrows that start or end in the wrong place, and for missing lone pairs and charges.</p>
+  <h2>The mechanisms you must be able to outline</h2>
+  <div class="table-wrap"><table><thead><tr><th>Mechanism</th><th>Level</th><th>What the mark scheme looks for</th><th>Questions</th></tr></thead>
+  <tbody>{families.map(([name, slug, level, note]) => <tr><td><a href={`/questions/${slug}/`}>{name}</a></td><td>{level}</td><td>{note}</td><td>{qs.filter((q) => q.topics.includes(slug)).length ? <a href={`#${slug}`}>{qs.filter((q) => q.topics.includes(slug)).length} here</a> : <a href={`/questions/${slug}/`}>topic page</a>}</td></tr>)}</tbody></table></div>
+  <p class="muted">{others} Written by the site from the specification and the mark schemes; being checked by our tutor.</p>
+  <h2>Every mechanism question, by topic</h2>
+  {byTopic.map(([t, x]) => <section id={t.slug}><h3><a href={`/questions/${t.slug}/`}>{t.name}</a> <span class="muted">({x.length})</span></h3>{x.map((q) => <QuestionCard q={q} />)}</section>)}
+</Base>

@@ -1,0 +1,48 @@
+{
+ "topic": "bonding",
+ "name": "Bonding",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Ionic bonding",
+   "definition": "The strong electrostatic attraction between oppositely charged ions.",
+   "examiner": "\"Electrostatic attraction\" and \"oppositely charged ions\" are the marks."
+  },
+  {
+   "term": "Covalent bond",
+   "definition": "The strong electrostatic attraction between two nuclei and the shared pair of electrons between them.",
+   "examiner": "Writing only \"a shared pair of electrons\" may not be enough when the question asks for the attraction."
+  },
+  {
+   "term": "Dative covalent bond",
+   "definition": "A covalent bond in which both electrons of the shared pair come from one atom.",
+   "examiner": "Shown by an arrow from the atom that donates the lone pair."
+  },
+  {
+   "term": "Metallic bonding",
+   "definition": "The strong electrostatic attraction between metal ions and the delocalised electrons.",
+   "examiner": "Refer to delocalised electrons, not \"free\" electrons."
+  },
+  {
+   "term": "Electronegativity",
+   "definition": "The ability of an atom to attract the bonding electrons in a covalent bond.",
+   "examiner": "Pauling values are in the Data Booklet. A difference in electronegativity between two bonded atoms gives a polar bond."
+  },
+  {
+   "term": "London forces",
+   "definition": "Instantaneous dipole–induced dipole forces: a temporary dipole in one molecule induces a dipole in a neighbouring molecule.",
+   "examiner": "Present between all molecules; stronger with more electrons and more points of contact between molecules."
+  },
+  {
+   "term": "Hydrogen bonding",
+   "definition": "The attraction between a δ+ hydrogen bonded to N, O or F and a lone pair on N, O or F in another molecule.",
+   "examiner": "Diagrams need the partial charges, the lone pair and a bond angle of 180° around the hydrogen."
+  },
+  {
+   "term": "Electron-pair repulsion",
+   "definition": "Pairs of electrons around a central atom repel each other and get as far apart as possible; lone pairs repel more than bonding pairs.",
+   "examiner": "State the number of bonding pairs and lone pairs before naming the shape and the bond angle."
+  }
+ ]
+}

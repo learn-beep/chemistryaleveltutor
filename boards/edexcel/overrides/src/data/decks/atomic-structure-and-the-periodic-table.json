@@ -1,0 +1,43 @@
+{
+ "topic": "atomic-structure-and-the-periodic-table",
+ "name": "Atomic structure and the Periodic Table",
+ "checked": false,
+ "studies": [],
+ "terms": [
+  {
+   "term": "Mass number",
+   "definition": "The total number of protons and neutrons in the nucleus of an atom.",
+   "examiner": "The atomic (proton) number is the number of protons in the nucleus."
+  },
+  {
+   "term": "Isotopes",
+   "definition": "Atoms of the same element with the same number of protons but different numbers of neutrons.",
+   "examiner": "Isotopes of an element have the same electronic configuration, so the same chemical properties."
+  },
+  {
+   "term": "Relative isotopic mass",
+   "definition": "The mass of an atom of an isotope, relative to one-twelfth of the mass of an atom of carbon-12.",
+   "examiner": "It refers to one isotope; relative atomic mass is the weighted mean for the element."
+  },
+  {
+   "term": "Relative atomic mass",
+   "definition": "The weighted mean mass of an atom of an element, relative to one-twelfth of the mass of an atom of carbon-12.",
+   "examiner": "\"Weighted mean\" and the carbon-12 comparison are both needed. From a mass spectrum, multiply each isotopic mass by its abundance, add, and divide by the total abundance."
+  },
+  {
+   "term": "Orbital",
+   "definition": "A region within an atom that can hold up to two electrons with opposite spins.",
+   "examiner": "An s sub-shell has one orbital, p has three and d has five."
+  },
+  {
+   "term": "First ionisation energy",
+   "definition": "The energy required to remove an electron from each atom in one mole of gaseous atoms.",
+   "examiner": "\"Gaseous\" is needed, and the equation must have state symbols: X(g) → X⁺(g) + e⁻."
+  },
+  {
+   "term": "Periodicity",
+   "definition": "A repeating pattern in properties across different periods of the Periodic Table.",
+   "examiner": "Be ready to explain the trends in ionisation energy and melting temperature across Periods 2 and 3."
+  }
+ ]
+}

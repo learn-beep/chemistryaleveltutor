@@ -1,0 +1,5115 @@
+[
+{
+"code": "1",
+"title": "Atomic Structure and the Periodic Table",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "atomic-structure-and-the-periodic-table",
+"statements": [
+{
+"id": "1.1",
+"short": "",
+"text": "know the structure of an atom in terms of electrons, protons and neutrons",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.2",
+"short": "",
+"text": "know the relative mass and relative charge of protons, neutrons and electrons",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.3",
+"short": "",
+"text": "know what is meant by the terms ‘atomic (proton) number’ and ‘mass number’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.4",
+"short": "",
+"text": "be able to determine the number of each type of sub-atomic particle in an atom, molecule or ion from the atomic (proton) number and mass number",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.5",
+"short": "",
+"text": "understand the term ‘isotopes’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.6",
+"short": "",
+"text": "be able to define the terms ‘relative isotopic mass’ and ‘relative atomic mass’, based on the ^12C scale",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.7",
+"short": "",
+"text": "understand the terms ‘relative molecular mass’ and ‘relative formula mass’, including calculating these values from relative atomic masses [Definitions of these terms will not be expected. The term ‘relative formula mass’ should be used for compounds with giant structures.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.8",
+"short": "",
+"text": "be able to analyse and interpret data from mass spectrometry to calculate relative atomic mass from relative abundance of isotopes and vice versa",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.9",
+"short": "",
+"text": "be able to predict the mass spectra, including relative peak heights, for diatomic molecules, including chlorine",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.10",
+"short": "",
+"text": "understand how mass spectrometry can be used to determine the relative molecular mass of a molecule [Limited to the m/z value for the molecular ion, M^+, giving the relative molecular mass of the molecule.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.11",
+"short": "",
+"text": "be able to define the terms ‘first ionisation energy’ and ‘successive ionisation energies’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.12",
+"short": "",
+"text": "understand how ionisation energies are influenced by the number of protons, the electron shielding and the electron sub-shell from which the electron is removed",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.13",
+"short": "",
+"text": "understand reasons for the general increase in first ionisation energy across a period",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.14",
+"short": "",
+"text": "understand reasons for the decrease in first ionisation energy down a group",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.15",
+"short": "",
+"text": "understand how ideas about electronic configuration developed from: • i the fact that atomic emission spectra provide evidence for the existence of quantum shells • ii the fact that successive ionisation energies provide evidence for the existence of quantum shells and the group to which the element belongs • iii the fact that the first ionisation energy of successive elements provides evidence for electron sub-shells",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.16",
+"short": "",
+"text": "know the number of electrons that can fill the first four quantum shells",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.17",
+"short": "",
+"text": "know that an orbital is a region within an atom that can hold up to two electrons with opposite spins",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.18",
+"short": "",
+"text": "know the shape of an s-orbital and a p-orbital",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.19",
+"short": "",
+"text": "know the number of electrons that occupy s, p and d-subshells",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.20",
+"short": "",
+"text": "know that electrons fill subshells singly, before pairing up, and that two electrons in the same orbital must have opposite spins",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.21",
+"short": "",
+"text": "be able to predict the electronic configurations, using 1s notation and electrons- in-boxes notation, of: • i atoms, given the atomic number, Z, up to Z = 36 • ii ions, given the atomic number, Z, and the ionic charge, for s and p block ions only, up to Z = 36",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.22",
+"short": "",
+"text": "know that elements can be classified as s, p and d-block elements",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.23",
+"short": "",
+"text": "understand that electronic configuration determines the chemical properties of an element",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.24",
+"short": "",
+"text": "understand periodicity in terms of a repeating pattern across different periods",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.25",
+"short": "",
+"text": "understand reasons for the trends in the following properties of the elements from periods 2 and 3 of the Periodic Table: • i the melting and boiling temperatures of the elements, based on given data, in terms of structure and bonding • ii ionisation energy based on given data or recall of the plots of ionisation energy versus atomic number",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+},
+{
+"id": "1.26",
+"short": "",
+"text": "be able to illustrate periodicity using data, including electronic configurations, atomic radii, melting and boiling temperatures and first ionisation energies",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"atomic-structure-and-the-periodic-table"
+]
+}
+]
+},
+{
+"code": "2",
+"title": "Bonding and Structure",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "2.A",
+"title": "Bonding",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "bonding",
+"statements": [
+{
+"id": "2.1",
+"short": "",
+"text": "know that ionic bonding is the strong electrostatic attraction between oppositely charged ions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.2",
+"short": "",
+"text": "understand the effects that ionic radius and ionic charge have on the strength of ionic bonding",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.3",
+"short": "",
+"text": "understand the formation of ions in terms of electron loss or gain",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.4",
+"short": "",
+"text": "be able to draw electronic configuration diagrams of cations and anions using dot-and-cross diagrams",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.5",
+"short": "",
+"text": "understand reasons for the trends in ionic radii down a group and for a set of isoelectronic ions, e.g. N^3– to Al^3+",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.6",
+"short": "",
+"text": "understand that the physical properties of ionic compounds and the migration of ions provide evidence for the existence of ions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.7",
+"short": "",
+"text": "know that a covalent bond is the strong electrostatic attraction between two nuclei and the shared pair of electrons between them",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.8",
+"short": "",
+"text": "be able to draw dot-and-cross diagrams to show electrons in covalent substances, including: • i molecules with single, double and triple bonds • ii species exhibiting dative covalent (coordinate) bonding, including Al2Cl6 and ammonium ion",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.9",
+"short": "",
+"text": "understand the relationship between bond lengths and bond strengths for covalent bonds",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.10",
+"short": "",
+"text": "understand that the shape of a simple molecule or ion is determined by the repulsion between the electron pairs that surround a central atom",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.11",
+"short": "",
+"text": "understand reasons for the shapes of, and bond angles in, simple molecules and ions with up to six outer pairs of electrons (any combination of bonding pairs and lone pairs) [Examples should include BeCl2, BCl3, CH4, NH3, NH4^+, H2O, CO2, PCl5(g) and SF6(g) and related molecules and ions; as well as simple organic molecules in this specification.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.12",
+"short": "",
+"text": "be able to predict the shapes of, and bond angles in, simple molecules and ions analogous to those specified above using electron-pair repulsion theory",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.13",
+"short": "",
+"text": "know that electronegativity is the ability of an atom to attract the bonding electrons in a covalent bond",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.14",
+"short": "",
+"text": "know that ionic and covalent bonding are the extremes of a continuum of bonding type and that electronegativity differences lead to bond polarity in bonds and molecules",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.15",
+"short": "",
+"text": "understand that molecules with polar bonds may not be polar molecules and be able to predict whether or not a given molecule is likely to be polar",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.16",
+"short": "",
+"text": "understand the nature of intermolecular forces resulting from the following interactions: • i London forces (instantaneous dipole – induced dipole) • ii permanent dipoles • iii hydrogen bonds",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.17",
+"short": "",
+"text": "understand the interactions in molecules, such as H2O, liquid NH3 and liquid HF, which give rise to hydrogen bonding",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.18",
+"short": "",
+"text": "understand the following anomalous properties of water resulting from hydrogen bonding: • i its relatively high melting temperature and boiling temperature • ii the density of ice compared to that of water",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.19",
+"short": "",
+"text": "be able to predict the presence of hydrogen bonding in molecules analogous to those mentioned above",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.20",
+"short": "",
+"text": "understand, in terms of intermolecular forces, physical properties shown by materials, including: • i the trends in boiling temperatures of alkanes with increasing chain length • ii the effect of branching in the carbon chain on the boiling temperatures of alkanes • iii the relatively low volatility (higher boiling temperatures) of alcohols compared to alkanes with a similar number of electrons • iv the trends in boiling temperatures of the hydrogen halides, HF to HI",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.21",
+"short": "",
+"text": "understand factors that influence the choice of solvents, including: • i water, to dissolve some ionic compounds, in terms of the hydration of the ions • ii water, to dissolve simple alcohols, in terms of hydrogen bonding • iii water, as a poor solvent for compounds (to include polar molecules such as halogenoalkanes), in terms of inability to form hydrogen bonds • iv non-aqueous solvents, for compounds that have similar intermolecular forces to those in the solvent",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+},
+{
+"id": "2.22",
+"short": "",
+"text": "know that metallic bonding is the strong electrostatic attraction between metal ions and the delocalised electrons",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"bonding"
+]
+}
+]
+},
+{
+"code": "2.B",
+"title": "Structure",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "structure",
+"statements": [
+{
+"id": "2.23",
+"short": "",
+"text": "know that giant lattices are present in: • i ionic solids (giant ionic lattices) • ii covalently bonded solids, such as diamond, graphite and silicon(IV) oxide (giant covalent lattices) • iii solid metals (giant metallic lattices)",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"structure"
+]
+},
+{
+"id": "2.24",
+"short": "",
+"text": "know that the structure of covalently bonded substances such as iodine, I2, and ice, H2O, is simple molecular",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"structure"
+]
+},
+{
+"id": "2.25",
+"short": "",
+"text": "know the different structures formed by carbon atoms, including graphite, diamond and graphene",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"structure"
+]
+},
+{
+"id": "2.26",
+"short": "",
+"text": "be able to predict the type of structure and bonding present in a substance from numerical data and/or other information",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"structure"
+]
+},
+{
+"id": "2.27",
+"short": "",
+"text": "be able to predict the physical properties of a substance, including melting and boiling temperature, electrical conductivity and solubility in water, in terms of: • i the types of particle present (atoms, molecules, ions, electrons) • ii the structure of the substance • iii the type of bonding and the presence of intermolecular forces, where relevant",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"structure"
+]
+}
+]
+},
+{
+"code": "3",
+"title": "Redox I",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "redox-i",
+"statements": [
+{
+"id": "3.1",
+"short": "",
+"text": "know what is meant by the term ‘oxidation number’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox-i"
+]
+},
+{
+"id": "3.2",
+"short": "",
+"text": "be able to calculate the oxidation number of elements in compounds and ions [The use of oxidation numbers in peroxides and metal hydrides is expected.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox-i"
+]
+},
+{
+"id": "3.3",
+"short": "",
+"text": "understand oxidation and reduction in terms of electron transfer and changes in oxidation number, applied to reactions of s- and p-block elements",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox-i"
+]
+},
+{
+"id": "3.4",
+"short": "",
+"text": "understand oxidation and reduction in terms of electron loss or electron gain",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox-i"
+]
+},
+{
+"id": "3.5",
+"short": "",
+"text": "know that oxidising agents gain electrons",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox-i"
+]
+},
+{
+"id": "3.6",
+"short": "",
+"text": "know that reducing agents lose electrons",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox-i"
+]
+},
+{
+"id": "3.7",
+"short": "",
+"text": "understand that a disproportionation reaction involves an element in a single species being simultaneously oxidised and reduced",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox-i"
+]
+},
+{
+"id": "3.8",
+"short": "",
+"text": "know that oxidation number is a useful concept in terms of the classification of reactions as redox and as disproportionation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox-i"
+]
+},
+{
+"id": "3.9",
+"short": "",
+"text": "be able to indicate the oxidation number of an element in a compound or ion, using a Roman numeral",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox-i"
+]
+},
+{
+"id": "3.10",
+"short": "",
+"text": "be able to write formulae given oxidation numbers",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox-i"
+]
+},
+{
+"id": "3.11",
+"short": "",
+"text": "understand that metals, in general, form positive ions by loss of electrons with an increase in oxidation number",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox-i"
+]
+},
+{
+"id": "3.12",
+"short": "",
+"text": "understand that non-metals, in general, form negative ions by gain of electrons with a decrease in oxidation number",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox-i"
+]
+},
+{
+"id": "3.13",
+"short": "",
+"text": "be able to write ionic half-equations and use them to construct full ionic equations",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"redox-i"
+]
+}
+]
+},
+{
+"code": "4",
+"title": "Inorganic Chemistry and the Periodic Table",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "4.A",
+"title": "The elements of Groups 1 and 2",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "groups-1-and-2",
+"statements": [
+{
+"id": "4.1",
+"short": "",
+"text": "understand reasons for the trend in ionisation energy down Group 2",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"groups-1-and-2"
+]
+},
+{
+"id": "4.2",
+"short": "",
+"text": "understand reasons for the trend in reactivity of the Group 2 elements down the group",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"groups-1-and-2"
+]
+},
+{
+"id": "4.3",
+"short": "",
+"text": "know the reactions of the elements Mg to Ba in Group 2 with oxygen, chlorine and water",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"groups-1-and-2"
+]
+},
+{
+"id": "4.4",
+"short": "",
+"text": "know the reactions of the oxides of Group 2 elements with water and dilute acid, and their hydroxides with dilute acid",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"groups-1-and-2"
+]
+},
+{
+"id": "4.5",
+"short": "",
+"text": "know the trends in solubility of the hydroxides and sulfates of Group 2 elements",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"groups-1-and-2"
+]
+},
+{
+"id": "4.6",
+"short": "",
+"text": "understand reasons for the trends in thermal stability of the nitrates and the carbonates of the elements in Groups 1 and 2 in terms of the size and charge of the cations involved",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"groups-1-and-2"
+]
+},
+{
+"id": "4.7",
+"short": "",
+"text": "understand the formation of characteristic flame colours by Group 1 and 2 compounds in terms of electron transitions [Students will be expected to know the flame colours for Groups 1 and 2 compounds.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"groups-1-and-2"
+]
+},
+{
+"id": "4.8",
+"short": "",
+"text": "understand experimental procedures to show: • i patterns in thermal decomposition of Group 1 and 2 nitrates and carbonates • ii flame colours in compounds of Group 1 and 2 elements",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"groups-1-and-2"
+]
+}
+]
+},
+{
+"code": "4.B",
+"title": "The elements of Group 7 (halogens)",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "group-7-the-halogens",
+"statements": [
+{
+"id": "4.9",
+"short": "",
+"text": "understand reasons for the trends in melting and boiling temperatures, physical state at room temperature, and electronegativity for Group 7 elements",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "4.10",
+"short": "",
+"text": "understand reasons for the trend in reactivity of Group 7 elements down the group",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "4.11",
+"short": "",
+"text": "understand the trend in reactivity of Group 7 elements in terms of the redox reactions of Cl2, Br2 and I2 with halide ions in aqueous solution, followed by the addition of an organic solvent",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "4.12",
+"short": "",
+"text": "understand, in terms of changes in oxidation number, the following reactions of the halogens: • i oxidation reactions with Group 1 and 2 metals • ii the disproportionation reaction of chlorine with water and the use of chlorine in water treatment • iii the disproportionation reaction of chlorine with cold, dilute aqueous sodium hydroxide to form bleach • iv the disproportionation reaction of chlorine with hot alkali • v reactions analogous to those specified above",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "4.13",
+"short": "",
+"text": "understand the following reactions: • i solid Group 1 halides with concentrated sulfuric acid, to illustrate the trend in reducing ability of the hydrogen halides • ii precipitation reactions of the aqueous anions Cl^–, Br^– and I^– with aqueous silver nitrate solution, followed by aqueous ammonia solution • iii hydrogen halides with ammonia and with water (to produce acids)",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+},
+{
+"id": "4.14",
+"short": "",
+"text": "be able to make predictions about fluorine and astatine and their compounds, in terms of knowledge of trends in halogen chemistry",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"group-7-the-halogens"
+]
+}
+]
+},
+{
+"code": "4.C",
+"title": "Analysis of inorganic compounds",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "analysis-of-inorganic-compounds",
+"statements": [
+{
+"id": "4.15",
+"short": "",
+"text": "know reactions, including ionic equations where appropriate, for identifying: • i carbonate ions, CO3^2-, and hydrogencarbonate ions, HCO3^–, using an aqueous acid to form carbon dioxide • ii sulfate ions, SO4^2-, using acidified barium chloride solution • iii ammonium ions, NH4^+, using sodium hydroxide solution and warming to form ammonia [Tests for halide ions and for the ions of Group 1 and 2 metals are also required, but are covered elsewhere in this Topic.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"analysis-of-inorganic-compounds"
+]
+}
+]
+},
+{
+"code": "5",
+"title": "Formulae, Equations and Amounts of Substance",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "formulae-equations-and-amounts-of-substance",
+"statements": [
+{
+"id": "5.1",
+"short": "",
+"text": "know that the mole (mol) is the unit for amount of a substance",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.2",
+"short": "",
+"text": "be able to use the Avogadro constant, L, (6.02 × 10^23 mol^-1) in calculations",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.3",
+"short": "",
+"text": "know that the molar mass of a substance is the mass per mole of the substance in g mol^-1",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.4",
+"short": "",
+"text": "know what is meant by the terms ‘empirical formula’ and ‘molecular formula’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.5",
+"short": "",
+"text": "be able to use experimental data to calculate • i. empirical formulae • ii. molecular formulae including the use of pV = nRT for gases and volatile liquids [Calculations of empirical formula may involve composition by mass or percentage composition by mass data.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.6",
+"short": "",
+"text": "be able to write balanced full and ionic equations, including state symbols, for chemical reactions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.7",
+"short": "",
+"text": "be able to calculate amounts of substances (in mol) in reactions involving mass, volume of gas, volume of solution and concentration [These calculations may involve reactants and/or products.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.8",
+"short": "",
+"text": "be able to calculate reacting masses from chemical equations, and vice versa, using the concepts of amount of substance and molar mass",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.9",
+"short": "",
+"text": "be able to calculate reacting volumes of gases from chemical equations, and vice versa, using the concepts of amount of substance",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.10",
+"short": "",
+"text": "be able to calculate reacting volumes of gases from chemical equations, and vice versa, using the concepts of molar volume of gases",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.11",
+"short": "",
+"text": "be able to calculate solution concentrations, in mol dm^-3 and g dm^-3, including simple acid-base titrations using a range of acids, alkalis and indicators [The use of both phenolphthalein and methyl orange as indicators will be expected.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.12",
+"short": "",
+"text": "be able to: • i calculate measurement uncertainties and measurement errors in experimental results • ii comment on sources of error in experimental procedures",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.13",
+"short": "",
+"text": "understand how to minimise the percentage error and percentage uncertainty in experiments involving measurements",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.14",
+"short": "",
+"text": "be able to calculate percentage yields and percentage atom economies using chemical equations and experimental results molar mass of the desired product Atom economy of a reaction = × 100% sum of the molar masses of all products",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.15",
+"short": "",
+"text": "be able to relate ionic and full equations, with state symbols, to observations from simple test tube reactions, to include: • i displacement reactions • ii reactions of acids • iii precipitation reactions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+},
+{
+"id": "5.16",
+"short": "",
+"text": "understand risks and hazards in practical procedures and suggest appropriate precautions where necessary",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"formulae-equations-and-amounts-of-substance"
+]
+}
+]
+},
+{
+"code": "6",
+"title": "Organic Chemistry I",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "6.A",
+"title": "Introduction to organic chemistry",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "introduction-to-organic-chemistry",
+"statements": [
+{
+"id": "6.1",
+"short": "",
+"text": "know that a hydrocarbon is a compound of hydrogen and carbon only",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "6.2",
+"short": "",
+"text": "be able to represent organic molecules using empirical formulae, molecular formulae, general formulae, structural formulae, displayed formulae and skeletal formulae",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "6.3",
+"short": "",
+"text": "know what is meant by the terms ‘homologous series’ and ‘functional group’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "6.4",
+"short": "",
+"text": "be able to name compounds relevant to this specification using the rules of International Union of Pure and Applied Chemistry (IUPAC) nomenclature [Students will be expected to know prefixes for compounds up to C10]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "6.5",
+"short": "",
+"text": "be able to classify reactions as addition, elimination, substitution, oxidation, reduction, hydrolysis or polymerisation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "6.6",
+"short": "",
+"text": "understand the term ‘structural isomerism’ and determine the possible structural, displayed and skeletal formulae of an organic molecule, given its molecular formula",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+},
+{
+"id": "6.7",
+"short": "",
+"text": "understand the term ‘stereoisomerism’, as illustrated by E/Z isomerism (including cis-trans isomerism where two of the substituent groups are the same)",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"introduction-to-organic-chemistry"
+]
+}
+]
+},
+{
+"code": "6.B",
+"title": "Alkanes",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "alkanes",
+"statements": [
+{
+"id": "6.8",
+"short": "",
+"text": "know the general formula for alkanes",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "6.9",
+"short": "",
+"text": "know that alkanes and cycloalkanes are saturated hydrocarbons",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "6.10",
+"short": "",
+"text": "understand that alkane fuels are obtained from the fractional distillation, cracking and reforming of crude oil [Reforming is described as the processing of straight-chain hydrocarbons into branched-chain alkanes and cyclic hydrocarbons for efficient combustion.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "6.11",
+"short": "",
+"text": "know that pollutants, including carbon monoxide, oxides of nitrogen and sulfur, carbon particulates and unburned hydrocarbons, are formed during the combustion of alkane fuels",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "6.12",
+"short": "",
+"text": "understand the problems arising from pollutants from the combustion of fuels, limited to the toxicity of carbon monoxide and the acidity of oxides of nitrogen and sulfur",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "6.13",
+"short": "",
+"text": "understand how the use of a catalytic converter solves some problems caused by pollutants",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "6.14",
+"short": "",
+"text": "understand the use of alternative fuels, including biodiesel and alcohols derived from renewable sources such as plants, in terms of a comparison with non-renewable fossil fuels",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "6.15",
+"short": "",
+"text": "know that a radical: • i is a species with an unpaired electron and is represented in mechanisms by a single dot • ii is formed by homolytic fission of a covalent bond and results in the formation of radicals",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "6.16",
+"short": "",
+"text": "understand the reactions of alkanes with: • i oxygen in air (combustion) • ii halogens, in terms of the mechanism of radical substitution through initiation, propagation and termination steps [The use of curly half-arrows is not expected in this mechanism.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+},
+{
+"id": "6.17",
+"short": "",
+"text": "understand the limitations of the use of radical substitution reactions in the synthesis of organic molecules, in terms of further substitution reactions and the formation of a mixture of products",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkanes"
+]
+}
+]
+},
+{
+"code": "6.C",
+"title": "Alkenes",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "alkenes",
+"statements": [
+{
+"id": "6.18",
+"short": "",
+"text": "know the general formula for alkenes",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "6.19",
+"short": "",
+"text": "know that alkenes and cycloalkenes are unsaturated hydrocarbons",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "6.20",
+"short": "",
+"text": "understand the bonding in alkenes in terms of σ- and π- bonds",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "6.21",
+"short": "",
+"text": "know what is meant by the term ‘electrophile’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "6.22",
+"short": "",
+"text": "understand the addition reactions of alkenes with: • i hydrogen, in the presence of a nickel catalyst, to form an alkane • ii halogens to produce dihalogenoalkanes • iii hydrogen halides to produce halogenoalkanes • iv steam, in the presence of an acid catalyst, to produce alcohols • v potassium manganate(VII), in acid conditions, to oxidise the double bond and produce a diol [Knowledge of the application of this reaction to the manufacture of margarine by catalytic hydrogenation of unsaturated vegetable oils is expected.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "6.23",
+"short": "",
+"text": "understand that heterolytic bond fission of a covalent bond results in the formation of ions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "6.24",
+"short": "",
+"text": "understand the mechanism of the electrophilic addition reactions between alkenes and: • i halogens • ii hydrogen halides, including addition to unsymmetrical alkenes • iii other given binary compounds [Use of the curly arrow notation is expected − curly arrows should start from either a bond or from a lone pair of electrons. Knowledge of the relative stability of primary, secondary and tertiary carbocation intermediates is expected.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "6.25",
+"short": "",
+"text": "know the qualitative test for a C=C double bond using bromine or bromine water",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "6.26",
+"short": "",
+"text": "know that alkenes form polymers through addition polymerisation [Be able to identify the repeat unit of an addition polymer given the monomer, and vice versa.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "6.27",
+"short": "",
+"text": "know that waste polymers can be separated into specific types of polymer for: • i recycling • ii incineration to release energy • iii use as a feedstock for cracking",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "6.28",
+"short": "",
+"text": "understand, in terms of the use of energy and resources over the life cycle of polymer products, that chemists can contribute to the more sustainable use of materials",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+},
+{
+"id": "6.29",
+"short": "",
+"text": "understand how chemists limit the problems caused by polymer disposal by: • i developing biodegradable polymers • ii removing toxic waste gases caused by incineration of plastics",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alkenes"
+]
+}
+]
+},
+{
+"code": "6.D",
+"title": "Halogenoalkanes",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "halogenoalkanes",
+"statements": [
+{
+"id": "6.30",
+"short": "",
+"text": "know that halogenoalkanes can be classified as primary, secondary or tertiary",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+},
+{
+"id": "6.31",
+"short": "",
+"text": "understand what is meant by the term ‘nucleophile’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+},
+{
+"id": "6.32",
+"short": "",
+"text": "understand the reactions of halogenoalkanes with: • i aqueous potassium hydroxide to produce alcohols (where the hydroxide ion acts as a nucleophile) • ii aqueous silver nitrate in ethanol (where water acts as a nucleophile) • iii potassium cyanide to produce nitriles (where the cyanide ion acts as a nucleophile) • iv ammonia to produce primary amines (where the ammonia molecule acts as a nucleophile) • v ethanolic potassium hydroxide to produce alkenes (where the hydroxide ion acts as a base) [Students should know this as an example of increasing the length of the carbon chain.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+},
+{
+"id": "6.33",
+"short": "",
+"text": "understand that experimental observations and data can be used to compare the relative rates of hydrolysis of: • i primary, secondary and tertiary halogenoalkanes • ii chloro-, bromo-, and iodoalkanes using aqueous silver nitrate in ethanol",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+},
+{
+"id": "6.34",
+"short": "",
+"text": "know the trend in reactivity of primary, secondary and tertiary halogenoalkanes",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+},
+{
+"id": "6.35",
+"short": "",
+"text": "understand, in terms of bond enthalpy, the trend in reactivity of chloro-, bromo-, and iodoalkanes",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+},
+{
+"id": "6.36",
+"short": "",
+"text": "understand the mechanisms of the nucleophilic substitution reactions between primary halogenoalkanes and: • i aqueous potassium hydroxide • ii ammonia",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"halogenoalkanes"
+]
+}
+]
+},
+{
+"code": "6.E",
+"title": "Alcohols",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "alcohols",
+"statements": [
+{
+"id": "6.37",
+"short": "",
+"text": "know that alcohols can be classified as primary, secondary or tertiary",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+},
+{
+"id": "6.38",
+"short": "",
+"text": "understand the reactions of alcohols with: • i oxygen in air (combustion) • ii halogenating agents: • PCl5 to produce chloroalkanes • 50% concentrated sulfuric acid and potassium bromide to produce bromoalkanes • red phosphorus and iodine to produce iodoalkanes • iii potassium dichromate(VI) in dilute sulfuric acid to oxidise primary alcohols to aldehydes (including a test for the aldehyde using Benedict’s/Fehling’s solution) and carboxylic acids, and secondary alcohols to ketones • iv concentrated phosphoric acid to form alkenes by elimination [In equations, the oxidising agent can be represented as [O]. Descriptions of the mechanisms of these reactions are not expected.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+},
+{
+"id": "6.39",
+"short": "",
+"text": "understand the following techniques used in the preparation and purification of a liquid organic compound: • i heating under reflux • ii extraction with a solvent in a separating funnel • iii distillation • iv drying with an anhydrous salt • v boiling temperature determination",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"alcohols"
+]
+}
+]
+},
+{
+"code": "7",
+"title": "Modern Analytical Techniques I",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": null,
+"statements": []
+},
+{
+"code": "7.A",
+"title": "Mass spectrometry",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "mass-spectrometry-and-infrared-spectroscopy",
+"statements": [
+{
+"id": "7.1",
+"short": "",
+"text": "be able to use data from a mass spectrometer to: • i determine the relative molecular mass of an organic compound from the molecular ion peak • ii suggest possible structures of a simple organic compound from the m/z of the molecular ion and fragmentation patterns",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"mass-spectrometry-and-infrared-spectroscopy"
+]
+}
+]
+},
+{
+"code": "7.B",
+"title": "Infrared (IR) spectroscopy",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "mass-spectrometry-and-infrared-spectroscopy",
+"statements": [
+{
+"id": "7.2",
+"short": "",
+"text": "be able to use data from infrared spectra to deduce functional groups present in organic compounds and to predict infrared absorptions, given wavenumber data, due to familiar functional groups, including: • i C–H stretching absorption in alkanes, alkenes and aldehydes • ii C=C stretching absorption in alkenes • iii O–H stretching absorption in alcohols • iv C=O stretching absorption in aldehydes and ketones • v C=O stretching absorption and the broad O-H stretching absorption in carboxylic acids • vi N–H stretching absorption in amines",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"mass-spectrometry-and-infrared-spectroscopy"
+]
+}
+]
+},
+{
+"code": "8",
+"title": "Energetics I",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "energetics-i",
+"statements": [
+{
+"id": "8.1",
+"short": "",
+"text": "know that standard conditions are 100 kPa and a specified temperature, usually 298 K",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics-i"
+]
+},
+{
+"id": "8.2",
+"short": "",
+"text": "know that the enthalpy change is the heat energy change measured at constant pressure",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics-i"
+]
+},
+{
+"id": "8.3",
+"short": "",
+"text": "be able to construct and interpret enthalpy level diagrams showing an enthalpy change, including appropriate signs for exothermic and endothermic reactions [Activation energy is not shown in enthalpy level diagrams but it is shown in reaction profile diagrams.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics-i"
+]
+},
+{
+"id": "8.4",
+"short": "",
+"text": "be able to define standard enthalpy change of: • i reaction • ii formation • iii combustion • iv neutralisation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics-i"
+]
+},
+{
+"id": "8.5",
+"short": "",
+"text": "understand experiments to measure enthalpy changes in terms of: • i processing results using the expression: energy transferred = mass x specific heat capacity × temperature change (Q=mcΔT) • ii evaluating sources of error and assumptions made in the experiments o o o [Students will need to consider experiments where: substances are mixed in an insulated container and the temperature change is measured enthalpy of combustion is measured, such as using a series of alcohols in a spirit burner the enthalpy change cannot be measured directly.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics-i"
+]
+},
+{
+"id": "8.6",
+"short": "",
+"text": "be able to calculate enthalpy changes in kJ mol^-1 from given experimental results [Both a sign and units are expected in the final answer.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics-i"
+]
+},
+{
+"id": "8.7",
+"short": "",
+"text": "be able to construct enthalpy cycles using Hess’s Law",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics-i"
+]
+},
+{
+"id": "8.8",
+"short": "",
+"text": "be able to calculate enthalpy changes from data using Hess’s Law",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics-i"
+]
+},
+{
+"id": "8.9",
+"short": "",
+"text": "know what is meant by the terms ‘bond enthalpy’ and ‘mean bond enthalpy’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics-i"
+]
+},
+{
+"id": "8.10",
+"short": "",
+"text": "be able to calculate an enthalpy change of reaction using mean bond enthalpies and explain the limitations of this method of calculation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics-i"
+]
+},
+{
+"id": "8.11",
+"short": "",
+"text": "be able to calculate mean bond enthalpies from enthalpy changes of reaction",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"energetics-i"
+]
+}
+]
+},
+{
+"code": "9",
+"title": "Kinetics I",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "kinetics-i",
+"statements": [
+{
+"id": "9.1",
+"short": "",
+"text": "understand, in terms of collision theory, the effect of a change in concentration, temperature, pressure and surface area on the rate of a chemical reaction",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics-i"
+]
+},
+{
+"id": "9.2",
+"short": "",
+"text": "understand that reactions only take place when collisions take place with sufficient energy, known as activation energy",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics-i"
+]
+},
+{
+"id": "9.3",
+"short": "",
+"text": "be able to calculate the rate of a reaction from: • i data showing the time taken for reaction • ii the gradient of a suitable graph, by drawing a tangent, either for initial rate, or at a time, t",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics-i"
+]
+},
+{
+"id": "9.4",
+"short": "",
+"text": "understand qualitatively, in terms of the Maxwell-Boltzmann distribution of molecular energies, how changes in temperature affect the rate of a reaction",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics-i"
+]
+},
+{
+"id": "9.5",
+"short": "",
+"text": "understand the role of catalysts in providing alternative reaction routes of lower activation energy",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics-i"
+]
+},
+{
+"id": "9.6",
+"short": "",
+"text": "be able to draw the reaction profiles for uncatalysed and catalysed reactions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics-i"
+]
+},
+{
+"id": "9.7",
+"short": "",
+"text": "be able to interpret the action of a catalyst in terms of a qualitative understanding of the Maxwell-Boltzmann distribution of molecular energies",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics-i"
+]
+},
+{
+"id": "9.8",
+"short": "",
+"text": "understand the use of a solid (heterogeneous) catalyst for industrial reactions, in the gas phase, in terms of providing a surface for the reaction",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics-i"
+]
+},
+{
+"id": "9.9",
+"short": "",
+"text": "understand the economic benefits of the use of catalysts in industrial reactions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"kinetics-i"
+]
+}
+]
+},
+{
+"code": "10",
+"title": "Equilibrium I",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 1,
+"aLevelOnly": false,
+"topic": "equilibrium-i",
+"statements": [
+{
+"id": "10.1",
+"short": "",
+"text": "know that many reactions are readily reversible and that they can reach a state of dynamic equilibrium in which: • i the rate of the forward reaction is equal to the rate of the backward reaction • ii the concentrations of reactants and products remain constant",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"equilibrium-i"
+]
+},
+{
+"id": "10.2",
+"short": "",
+"text": "be able to predict and justify the qualitative effect of a change in temperature, concentration or pressure on a homogeneous system in equilibrium",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"equilibrium-i"
+]
+},
+{
+"id": "10.3",
+"short": "",
+"text": "evaluate data to explain the necessity, for many industrial processes, to reach a compromise between the yield and the rate of reaction",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"equilibrium-i"
+]
+},
+{
+"id": "10.4",
+"short": "",
+"text": "be able to deduce an expression for Kc , for homogeneous and heterogeneous systems, in terms of equilibrium concentrations",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": true,
+"topics": [
+"equilibrium-i"
+]
+}
+]
+},
+{
+"code": "11",
+"title": "Equilibrium II",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "equilibrium-ii",
+"statements": [
+{
+"id": "11.1",
+"short": "",
+"text": "be able to deduce an expression for Kp, for homogeneous and heterogeneous systems, in terms of equilibrium partial pressures in atm",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"equilibrium-ii"
+]
+},
+{
+"id": "11.2",
+"short": "",
+"text": "be able to calculate a value, with units where appropriate, for the equilibrium constant (Kc and Kp) for homogeneous and heterogeneous reactions, from experimental data",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"equilibrium-ii"
+]
+},
+{
+"id": "11.3",
+"short": "",
+"text": "know the effect of changing temperature on the equilibrium constant (Kc and Kp), for both exothermic and endothermic reactions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"equilibrium-ii"
+]
+},
+{
+"id": "11.4",
+"short": "",
+"text": "understand that the effect of temperature on the position of equilibrium is explained using a change in the value of the equilibrium constant",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"equilibrium-ii"
+]
+},
+{
+"id": "11.5",
+"short": "",
+"text": "understand that the value of the equilibrium constant is not affected by changes in concentration or pressure or by the addition of a catalyst",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"equilibrium-ii"
+]
+}
+]
+},
+{
+"code": "12",
+"title": "Acid-base Equilibria",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "acid-base-equilibria",
+"statements": [
+{
+"id": "12.1",
+"short": "",
+"text": "know that a Brønsted–Lowry acid is a proton donor and a Brønsted–Lowry base is a proton acceptor",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.2",
+"short": "",
+"text": "know that acid-base reactions involve the transfer of protons",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.3",
+"short": "",
+"text": "be able to identify Brønsted–Lowry conjugate acid-base pairs",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.4",
+"short": "",
+"text": "be able to define the term ‘pH’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.5",
+"short": "",
+"text": "be able to calculate pH from hydrogen ion concentration",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.6",
+"short": "",
+"text": "be able to calculate the concentration of hydrogen ions, in mol dm^-3, in a solution from its pH, using the expression [H^+] = 10^–pH",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.7",
+"short": "",
+"text": "understand the difference between a strong acid and a weak acid in terms of degree of dissociation",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.8",
+"short": "",
+"text": "be able to calculate the pH of a strong acid",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.9",
+"short": "",
+"text": "be able to deduce the expression for the acid dissociation constant, Ka, for a weak acid and carry out relevant calculations",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.10",
+"short": "",
+"text": "be able to calculate the pH of a weak acid making relevant assumptions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.11",
+"short": "",
+"text": "be able to define the ionic product of water, Kw",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.12",
+"short": "",
+"text": "be able to calculate the pH of a strong base from its concentration, using Kw",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.13",
+"short": "",
+"text": "be able to define the terms ‘pKa’ and ‘pKw’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.14",
+"short": "",
+"text": "be able to analyse data from the following experiments: • i measuring the pH of a variety of substances, e.g. equimolar solutions of strong and weak acids, strong and weak bases, and salts • ii comparing the pH of a strong acid and a weak acid after dilution 10, 100 and 1000 times",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.15",
+"short": "",
+"text": "be able to calculate Ka for a weak acid from experimental data given the pH of a solution containing a known mass of acid",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.16",
+"short": "",
+"text": "be able to draw and interpret titration curves using all combinations of strong and weak monobasic acids and bases",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.17",
+"short": "",
+"text": "be able to select a suitable indicator, using a titration curve and appropriate data",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.18",
+"short": "",
+"text": "know what is meant by the term ‘buffer solution’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.19",
+"short": "",
+"text": "understand the action of a buffer solution",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.20",
+"short": "",
+"text": "be able to calculate the pH of a buffer solution given appropriate data",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.21",
+"short": "",
+"text": "be able to calculate the concentrations of solutions required to prepare a buffer solution of a given pH",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.22",
+"short": "",
+"text": "understand how to use a weak acid–strong base titration curve to: • i demonstrate buffer action • ii determine Ka from the pH at the point where half the acid is neutralised",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.23",
+"short": "",
+"text": "understand why there is a difference in enthalpy changes of neutralisation values for strong and weak acids",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+},
+{
+"id": "12.24",
+"short": "",
+"text": "understand the roles of carbonic acid molecules and hydrogencarbonate ions in controlling the pH of blood",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"acid-base-equilibria"
+]
+}
+]
+},
+{
+"code": "13",
+"title": "Energetics II",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "13.A",
+"title": "Lattice energy",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "lattice-energy",
+"statements": [
+{
+"id": "13.1",
+"short": "",
+"text": "be able to define lattice energy as the energy change when one mole of an ionic solid is formed from its gaseous ions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"lattice-energy"
+]
+},
+{
+"id": "13.2",
+"short": "",
+"text": "be able to define the terms: • i enthalpy change of atomisation, ΔatH • ii electron affinity",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"lattice-energy"
+]
+},
+{
+"id": "13.3",
+"short": "",
+"text": "be able to construct Born-Haber cycles and carry out related calculations",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"lattice-energy"
+]
+},
+{
+"id": "13.4",
+"short": "",
+"text": "know that lattice energy provides a measure of ionic bond strength",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"lattice-energy"
+]
+},
+{
+"id": "13.5",
+"short": "",
+"text": "understand that a comparison of the experimental lattice energy value (from a Born-Haber cycle) with the theoretical value (obtained from electrostatic theory) in a particular compound indicates the degree of covalent bonding",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"lattice-energy"
+]
+},
+{
+"id": "13.6",
+"short": "",
+"text": "understand the meaning of polarisation as applied to ions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"lattice-energy"
+]
+},
+{
+"id": "13.7",
+"short": "",
+"text": "know that the polarising power of a cation depends on its radius and charge",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"lattice-energy"
+]
+},
+{
+"id": "13.8",
+"short": "",
+"text": "know that the polarisability of an anion depends on its radius and charge",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"lattice-energy"
+]
+},
+{
+"id": "13.9",
+"short": "",
+"text": "be able to define the terms ‘enthalpy change of solution, ΔsolH’, and ‘enthalpy change of hydration, ΔhydH’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"lattice-energy"
+]
+},
+{
+"id": "13.10",
+"short": "",
+"text": "be able to use energy cycles and energy level diagrams to carry out calculations involving enthalpy change of solution, enthalpy change of hydration and lattice energy",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"lattice-energy"
+]
+},
+{
+"id": "13.11",
+"short": "",
+"text": "understand the effect of ionic charge and ionic radius on the values of: • i lattice energy • ii enthalpy change of hydration",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"lattice-energy"
+]
+}
+]
+},
+{
+"code": "13.B",
+"title": "Entropy",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "entropy",
+"statements": [
+{
+"id": "13.12",
+"short": "",
+"text": "understand that, since some endothermic reactions can occur at room temperature, enthalpy changes alone do not control whether reactions occur",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"entropy"
+]
+},
+{
+"id": "13.13",
+"short": "",
+"text": "know that entropy is a measure of the disorder of a system and that the natural direction of change is increasing total entropy (positive entropy change)",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"entropy"
+]
+},
+{
+"id": "13.14",
+"short": "",
+"text": "understand why entropy changes occur during: • i changes of state • ii dissolving of a solid ionic lattice • iii reactions in which there is a change in the number of moles from reactants to products o o o o mixing solid barium hydroxide, Ba(OH)2.8H2O, with solid ammonium [Students should be able to discuss typical reactions in terms of disorder and enthalpy change, including: dissolving ammonium nitrate crystals in water reacting ethanoic acid with ammonium carbonate burning magnesium ribbon in air chloride.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"entropy"
+]
+},
+{
+"id": "13.15",
+"short": "",
+"text": "understand that the total entropy change in any reaction is the entropy change in the system added to the entropy change in the surroundings, shown by the expression: ΔStotal = ΔSsystem + ΔSsurroundings",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"entropy"
+]
+},
+{
+"id": "13.16",
+"short": "",
+"text": "be able to calculate the entropy change for the system, ΔSsystem , in a reaction, given the entropies of the reactants and products",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"entropy"
+]
+},
+{
+"id": "13.17",
+"short": "",
+"text": "be able to calculate the entropy change in the surroundings, and hence ΔStotal , using the expression: ∆ ∆ = − [H S surroundings T]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"entropy"
+]
+},
+{
+"id": "13.18",
+"short": "",
+"text": "know that the balance between the entropy change and the enthalpy change determines the feasibility of a reaction and is represented by the equation ΔG = ΔH − TΔSsystem",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"entropy"
+]
+},
+{
+"id": "13.19",
+"short": "",
+"text": "be able to use the equation ΔG = ΔH − TΔSsystem to: • i predict whether a reaction is feasible • ii determine the temperature at which a reaction is feasible",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"entropy"
+]
+},
+{
+"id": "13.20",
+"short": "",
+"text": "be able to use the equation ΔG = −RT ln K to show that reactions which are feasible in terms of ΔG have large values for the equilibrium constant and vice versa",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"entropy"
+]
+},
+{
+"id": "13.21",
+"short": "",
+"text": "understand why a reaction for which the ΔG value is negative may not occur in practice",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"entropy"
+]
+},
+{
+"id": "13.22",
+"short": "",
+"text": "know that reactions that are thermodynamically feasible may be inhibited by kinetic factors",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"entropy"
+]
+}
+]
+},
+{
+"code": "14",
+"title": "Redox II",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "redox-ii",
+"statements": [
+{
+"id": "14.1",
+"short": "",
+"text": "understand the terms ‘oxidation’ and ‘reduction’ in terms of electron transfer, applied to s-, p- and d-block elements",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.2",
+"short": "",
+"text": "understand the terms ‘oxidation’ and ‘reduction’ in terms of changes in oxidation number, applied to s-, p- and d-block elements",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.3",
+"short": "",
+"text": "know what is meant by the term ‘standard electrode potential’, E^o",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.4",
+"short": "",
+"text": "know that the standard electrode potential, E^o, refers to conditions of: • i 298 K temperature • ii 100 kPa pressure of gases • iii 1.00 mol dm^-3 concentration of ions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.5",
+"short": "",
+"text": "know the features of the standard hydrogen electrode and understand why a reference electrode is necessary",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.6",
+"short": "",
+"text": "understand that different methods are used to measure standard electrode potentials of: • i metals or non-metals in contact with their ions in aqueous solution • ii ions of the same element with different oxidation numbers",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.7",
+"short": "",
+"text": "be able to calculate a standard emf, E^o cell, by combining two standard electrode potentials",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.8",
+"short": "",
+"text": "be able to write cell diagrams using the conventional representation of half-cells",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.9",
+"short": "",
+"text": "understand the importance of the conditions when measuring the electrode potential, E",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.10",
+"short": "",
+"text": "be able to predict the thermodynamic feasibility of a reaction using standard electrode potentials",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.11",
+"short": "",
+"text": "understand that E^o cell is directly proportional to the total entropy change and to ln K for a reaction",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.12",
+"short": "",
+"text": "understand the limitations of predictions made using standard electrode potentials, in terms of kinetic inhibition and departure from standard conditions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.13",
+"short": "",
+"text": "know that standard electrode potentials can be listed as an electrochemical series",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.14",
+"short": "",
+"text": "understand how disproportionation reactions relate to standard electrode potentials",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.15",
+"short": "",
+"text": "understand the application of electrode potentials to storage cells",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.16",
+"short": "",
+"text": "understand that the energy released on the reaction of a fuel with oxygen is utilised in a fuel cell to generate a voltage [Knowledge that methanol and other hydrogen-rich fuels are used in fuel cells is expected.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.17",
+"short": "",
+"text": "know the electrode reactions that occur in a hydrogen-oxygen fuel cell [Knowledge of hydrogen-oxygen fuel cells with both acidic and alkaline electrolytes is expected.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.18",
+"short": "",
+"text": "be able to carry out both structured and non-structured titration calculations including Fe^2+/MnO4^−, and I2/S2O3^2−",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+},
+{
+"id": "14.19",
+"short": "",
+"text": "understand the methods used in redox titrations",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"redox-ii"
+]
+}
+]
+},
+{
+"code": "15",
+"title": "Transition Metals",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "15.A",
+"title": "Principles of transition metal chemistry",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "transition-metals-principles",
+"statements": [
+{
+"id": "15.1",
+"short": "",
+"text": "be able to deduce the electronic configurations of atoms and ions of the d-block elements of period 4 (Sc–Zn), given the atomic number and charge (if any)",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.2",
+"short": "",
+"text": "know that transition metals are d-block elements that form one or more stable ions with incompletely-filled d-orbitals",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.3",
+"short": "",
+"text": "understand why transition metals show variable oxidation number",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.4",
+"short": "",
+"text": "know what is meant by the term ‘ligand’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.5",
+"short": "",
+"text": "understand that dative (coordinate) bonding is involved in the formation of complex ions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.6",
+"short": "",
+"text": "know that a complex ion is a central metal ion surrounded by ligands",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.7",
+"short": "",
+"text": "know that transition metals form coloured ions in solution",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.8",
+"short": "",
+"text": "understand that the colour of aqueous ions, and other complex ions, results from the splitting of the energy levels of the d-orbitals by ligands",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.9",
+"short": "",
+"text": "understand why there is a lack of colour in some aqueous ions and other complex ions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.10",
+"short": "",
+"text": "understand that colour changes in transition metal ions may arise as a result of changes in: • i oxidation number • ii ligand • iii coordination number",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.11",
+"short": "",
+"text": "understand the meaning of the term ‘coordination number’",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.12",
+"short": "",
+"text": "understand why H2O, OH^− and NH3 act as monodentate ligands",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.13",
+"short": "",
+"text": "understand why complexes with six-fold coordination have an octahedral shape, such as those formed by metal ions with H2O, OH^− and NH3 as ligands",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.14",
+"short": "",
+"text": "know that transition metal ions may form tetrahedral complexes with relatively large ligands such as Cl^−",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.15",
+"short": "",
+"text": "know that square planar complexes are also formed by transition metal ions and that cis-platin is an example of such a complex",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.16",
+"short": "",
+"text": "understand why cis-platin used in cancer treatment is supplied as a single isomer and not in a mixture with the trans form",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.17",
+"short": "",
+"text": "be able to identify bidentate ligands, such as NH2CH2CH2NH2 and multidentate ligands, such as EDTA^4−",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.18",
+"short": "",
+"text": "know that haemoglobin is an iron(II) complex containing a multidentate ligand [The structure of the haem group will not be assessed.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+},
+{
+"id": "15.19",
+"short": "",
+"text": "know that a ligand exchange reaction occurs when an oxygen molecule bound to haemoglobin is replaced by a carbon monoxide molecule",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-principles"
+]
+}
+]
+},
+{
+"code": "15.B",
+"title": "Reactions of transition metal elements",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "transition-metals-reactions",
+"statements": [
+{
+"id": "15.20",
+"short": "",
+"text": "know the colours of the oxidation states of vanadium (+5, +4, +3 and +2) in its compounds",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.21",
+"short": "",
+"text": "understand redox reactions for the interconversion of the oxidation states of vanadium (+5, +4, +3 and +2), in terms of the relevant E^o values",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.22",
+"short": "",
+"text": "understand, in terms of the relevant E^o values, that the dichromate(VI) ion, Cr2O7^2−: • i can be reduced to Cr^3+ and Cr^2+ ions using zinc in acidic conditions • ii can be produced by the oxidation of Cr^3+ ions using hydrogen peroxide in alkaline conditions (followed by acidification)",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.23",
+"short": "",
+"text": "know that the dichromate(VI) ion, Cr2O7^2−, can be converted into chromate(VI) ions as a result of the equilibrium 2CrO4^2−+ 2H^+ ⇌ Cr2O7^2−+ H2O",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.24",
+"short": "",
+"text": "be able to record observations and write suitable equations for the reactions of Cr^3+(aq), Fe^2+(aq), Fe^3+(aq), Co^2+(aq) and Cu^2+(aq) with aqueous sodium hydroxide and aqueous ammonia, including in excess",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.25",
+"short": "",
+"text": "be able to write ionic equations to show the difference between ligand exchange and amphoteric behaviour for the reactions in (24) above",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.26",
+"short": "",
+"text": "understand that ligand exchange, and an accompanying colour change, occurs in the formation of: • i [Cu(ΝΗ3)4(Η2Ο)2]^2+ from [Cu(Η2Ο)6]^2+ via Cu(OH)2(Η2Ο)4 • ii [CuCl4]^2− from [Cu(Η2Ο)6]^2+ • iii [CoCl4]^2− from [Co(Η2Ο)6]^2+",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.27",
+"short": "",
+"text": "understand that the substitution of small, uncharged ligands (such as H2O) by larger, charged ligands (such as Cl^−) can lead to a change in coordination number",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.28",
+"short": "",
+"text": "understand, in terms of the large positive increase in ΔSsystem, that the substitution of a monodentate ligand by a bidentate or multidentate ligand leads to a more stable complex ion",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.29",
+"short": "",
+"text": "know that transition metals and their compounds can act as heterogeneous and homogeneous catalysts",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.30",
+"short": "",
+"text": "know that a heterogeneous catalyst is in a different phase from the reactants and that the reaction occurs at the surface of the catalyst",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.31",
+"short": "",
+"text": "understand, in terms of oxidation number, how V2O5 acts as a catalyst in the contact process",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.32",
+"short": "",
+"text": "understand how a catalytic converter decreases carbon monoxide and nitrogen monoxide emissions from internal combustion engines by: • i adsorption of CO and NO molecules onto the surface of the catalyst • ii weakening of bonds and chemical reaction • iii desorption of CO2 and N2 product molecules from the surface of the catalyst",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.33",
+"short": "",
+"text": "know that a homogeneous catalyst is in the same phase as the reactants and appreciate that the catalysed reaction will proceed via an intermediate species",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.34",
+"short": "",
+"text": "understand the role of Fe^2+ ions in catalysing the reaction between I^− and S2O8^2− ions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+},
+{
+"id": "15.35",
+"short": "",
+"text": "know the role of Mn^2+ ions in autocatalysing the reaction between MnO4^− and C2O4^2− ions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"transition-metals-reactions"
+]
+}
+]
+},
+{
+"code": "16",
+"title": "Kinetics II",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "kinetics-ii",
+"statements": [
+{
+"id": "16.1",
+"short": "",
+"text": "understand the terms: • i rate of reaction • ii rate equation • iii order with respect to a substance in a rate equation • iv overall order of reaction • v rate constant • vi half-life • vii rate-determining step • viii activation energy • ix heterogeneous and homogenous catalyst",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"kinetics-ii"
+]
+},
+{
+"id": "16.2",
+"short": "",
+"text": "be able to determine and use rate equations of the form: rate = k[A]^m[B]^n, where m and n are 0, 1 or 2",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"kinetics-ii"
+]
+},
+{
+"id": "16.3",
+"short": "",
+"text": "be able to select and justify a suitable experimental technique to obtain rate data for a given reaction, including: • i titration • ii colorimetry • iii mass change • iv volume of gas evolved • v other suitable technique(s) for a given reaction",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"kinetics-ii"
+]
+},
+{
+"id": "16.4",
+"short": "",
+"text": "understand experiments that can be used to investigate reaction rates by: • i an initial-rate method, carrying out separate experiments where different initial concentrations of one reagent are used • ii a continuous monitoring method to generate data to enable concentration- time or volume-time graphs to be plotted [A ‘clock reaction’ is an acceptable approximation of this method]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"kinetics-ii"
+]
+},
+{
+"id": "16.5",
+"short": "",
+"text": "be able to calculate the rate of reaction and the half-life of a first-order reaction using data from a concentration-time or a volume-time graph",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"kinetics-ii"
+]
+},
+{
+"id": "16.6",
+"short": "",
+"text": "be able to deduce the order (0, 1 or 2) with respect to a substance in a rate equation using data from: • i a concentration-time graph • ii a rate-concentration graph",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"kinetics-ii"
+]
+},
+{
+"id": "16.7",
+"short": "",
+"text": "be able to deduce the order (0, 1 or 2) with respect to a substance in a rate equation using data from an initial-rate method",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"kinetics-ii"
+]
+},
+{
+"id": "16.8",
+"short": "",
+"text": "understand how to: • i obtain data to calculate the order with respect to the reactants (and the hydrogen ion) in the acid-catalysed iodination of propanone • ii use these data to make predictions about species involved in the rate-determining step • iii deduce a possible mechanism for the reaction",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"kinetics-ii"
+]
+},
+{
+"id": "16.9",
+"short": "",
+"text": "be able to deduce a rate-determining step from a rate equation and vice versa",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"kinetics-ii"
+]
+},
+{
+"id": "16.10",
+"short": "",
+"text": "be able to deduce a reaction mechanism, using knowledge from a rate equation and the stoichiometric equation for a reaction",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"kinetics-ii"
+]
+},
+{
+"id": "16.11",
+"short": "",
+"text": "understand that knowledge of the rate equations for the hydrolysis of halogenoalkanes can be used to provide evidence for SN1 or SN2 mechanisms for tertiary and primary halogenoalkane hydrolysis",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"kinetics-ii"
+]
+},
+{
+"id": "16.12",
+"short": "",
+"text": "be able to use graphical methods to find the activation energy for a reaction from experimental data [The Arrhenius equation will be given if needed.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"kinetics-ii"
+]
+}
+]
+},
+{
+"code": "17",
+"title": "Organic Chemistry II",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "17.A",
+"title": "Chirality",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "chirality",
+"statements": [
+{
+"id": "17.1",
+"short": "",
+"text": "know that optical isomerism is a result of chirality in molecules with a single chiral centre",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"chirality"
+]
+},
+{
+"id": "17.2",
+"short": "",
+"text": "understand that optical isomerism results from chiral centre(s) in a molecule with asymmetric carbon atom(s) and that optical isomers are object and non- superimposable mirror images",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"chirality"
+]
+},
+{
+"id": "17.3",
+"short": "",
+"text": "know that optical activity is the ability of a single optical isomer to rotate the plane of polarisation of plane-polarised monochromatic light in molecules containing a single chiral centre",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"chirality"
+]
+},
+{
+"id": "17.4",
+"short": "",
+"text": "understand the nature of a racemic mixture",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"chirality"
+]
+},
+{
+"id": "17.5",
+"short": "",
+"text": "be able to use data on optical activity of reactants and products as evidence for SN1 and SN2 mechanisms",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"chirality"
+]
+}
+]
+},
+{
+"code": "17.B",
+"title": "Carbonyl compounds",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "carbonyl-compounds",
+"statements": [
+{
+"id": "17.6",
+"short": "",
+"text": "be able to identify the aldehyde and ketone functional groups",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carbonyl-compounds"
+]
+},
+{
+"id": "17.7",
+"short": "",
+"text": "understand that aldehydes and ketones: • i do not form intermolecular hydrogen bonds and this affects their physical properties • ii can form hydrogen bonds with water and this affects their solubility",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carbonyl-compounds"
+]
+},
+{
+"id": "17.8",
+"short": "",
+"text": "understand the reactions of carbonyl compounds with: • i Fehling’s or Benedict’s solution, Tollens’ reagent and acidified dichromate(VI) ions • ii lithium tetrahydridoaluminate (lithium aluminium hydride) in dry ether • iii HCN, in the presence of KCN, as a nucleophilic addition reaction, using curly arrows, relevant lone pairs, dipoles and evidence of optical activity to show the mechanism • iv 2,4-dinitrophenylhydrazine (2,4-DNPH), as a qualitative test for the presence of a carbonyl group and to identify a carbonyl compound given data for the melting temperatures of derivatives • v iodine in the presence of alkali [In equations, the oxidising agent can be represented as [O] In equations, the reducing agent can be represented as [H] The equation for this reaction is not required]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carbonyl-compounds"
+]
+}
+]
+},
+{
+"code": "17.C",
+"title": "Carboxylic acids",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "carboxylic-acids",
+"statements": [
+{
+"id": "17.9",
+"short": "",
+"text": "be able to identify the carboxylic acid functional group",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids"
+]
+},
+{
+"id": "17.10",
+"short": "",
+"text": "understand that hydrogen bonding affects the physical properties of carboxylic acids, in relation to their boiling temperatures and solubility",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids"
+]
+},
+{
+"id": "17.11",
+"short": "",
+"text": "understand that carboxylic acids can be prepared by the oxidation of alcohols or aldehydes, and the hydrolysis of nitriles",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids"
+]
+},
+{
+"id": "17.12",
+"short": "",
+"text": "understand the reactions of carboxylic acids with: • i lithium tetrahydridoaluminate (lithium aluminium hydride) in dry ether • ii bases to produce salts • iii phosphorus(V) chloride (phosphorus pentachloride) • iv alcohols in the presence of an acid catalyst",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids"
+]
+},
+{
+"id": "17.13",
+"short": "",
+"text": "be able to identify the acyl chloride and ester functional groups",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids"
+]
+},
+{
+"id": "17.14",
+"short": "",
+"text": "understand the reactions of acyl chlorides with: • i water • ii alcohols • iii concentrated ammonia • iv amines",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids"
+]
+},
+{
+"id": "17.15",
+"short": "",
+"text": "understand the hydrolysis reactions of esters, in acidic and alkaline solution",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids"
+]
+},
+{
+"id": "17.16",
+"short": "",
+"text": "understand how polyesters are formed by condensation polymerisation reactions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"carboxylic-acids"
+]
+}
+]
+},
+{
+"code": "18",
+"title": "Organic Chemistry III",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "18.A",
+"title": "Arenes - benzene",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "arenes-benzene",
+"statements": [
+{
+"id": "18.1",
+"short": "",
+"text": "understand that the bonding in benzene has been represented using the Kekulé and the delocalised model, the latter in terms of overlap of p-orbitals to form π-bonds",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"arenes-benzene"
+]
+},
+{
+"id": "18.2",
+"short": "",
+"text": "understand that evidence for the delocalised model of the bonding in benzene is provided by data from enthalpy changes of hydrogenation and carbon-carbon bond lengths [Students may represent the structure of benzene as: or as appropriate in equations and mechanisms.]",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"arenes-benzene"
+]
+},
+{
+"id": "18.3",
+"short": "",
+"text": "understand why benzene is resistant to bromination, compared with alkenes, in terms of delocalisation of π-bonds in benzene and the localised electron density of the π-bond in alkenes",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"arenes-benzene"
+]
+},
+{
+"id": "18.4",
+"short": "",
+"text": "understand the reactions of benzene with: • i oxygen in air (combustion with a smoky flame) • ii bromine, in the presence of a catalyst • iii a mixture of concentrated nitric and sulfuric acids • iv halogenoalkanes and acyl chlorides with aluminium chloride as catalyst (Friedel-Crafts reaction)",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"arenes-benzene"
+]
+},
+{
+"id": "18.5",
+"short": "",
+"text": "understand the mechanism of the electrophilic substitution reactions of benzene (halogenation, nitration and Friedel-Crafts reactions), including the generation of the electrophile",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"arenes-benzene"
+]
+},
+{
+"id": "18.6",
+"short": "",
+"text": "understand the reaction of phenol with bromine water",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"arenes-benzene"
+]
+},
+{
+"id": "18.7",
+"short": "",
+"text": "understand reasons for the relative ease of bromination of phenol, compared to benzene",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"arenes-benzene"
+]
+}
+]
+},
+{
+"code": "18.B",
+"title": "Amines, amides, amino acids and proteins",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "amines-amides-amino-acids-and-proteins",
+"statements": [
+{
+"id": "18.8",
+"short": "",
+"text": "be able to identify: • i the amine and amide functional groups • ii molecules that are amino acids",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines-amides-amino-acids-and-proteins"
+]
+},
+{
+"id": "18.9",
+"short": "",
+"text": "understand the reactions of primary aliphatic amines, using butylamine as an example, with: • i water to form an alkaline solution • ii acids to form salts • iii ethanoyl chloride • iv halogenoalkanes • v copper(II) ions to form complex ions",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines-amides-amino-acids-and-proteins"
+]
+},
+{
+"id": "18.10",
+"short": "",
+"text": "understand reasons for the difference in basicity of ammonia, primary aliphatic and primary aromatic amines given suitable data",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines-amides-amino-acids-and-proteins"
+]
+},
+{
+"id": "18.11",
+"short": "",
+"text": "understand, in terms of reagents and general reaction conditions, the preparation of primary aliphatic amines: • i from halogenoalkanes • ii by the reduction of nitriles",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines-amides-amino-acids-and-proteins"
+]
+},
+{
+"id": "18.12",
+"short": "",
+"text": "know that aromatic nitro-compounds can be reduced, using tin and concentrated hydrochloric acid, to form amines",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines-amides-amino-acids-and-proteins"
+]
+},
+{
+"id": "18.13",
+"short": "",
+"text": "understand that amides can be prepared from acyl chlorides",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines-amides-amino-acids-and-proteins"
+]
+},
+{
+"id": "18.14",
+"short": "",
+"text": "know that the formation of a polyamide is a condensation polymerisation reaction",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines-amides-amino-acids-and-proteins"
+]
+},
+{
+"id": "18.15",
+"short": "",
+"text": "be able to draw the structural formulae of the repeat units of condensation polymers formed by reactions between: • i dicarboxylic acids and diols • ii dicarboxylic acids and diamines • iii amino acids",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines-amides-amino-acids-and-proteins"
+]
+},
+{
+"id": "18.16",
+"short": "",
+"text": "understand the properties of 2-amino acids, including: • i acidity and basicity in solution, as a result of the formation of zwitterions • ii effect of aqueous solutions on plane-polarised monochromatic light",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines-amides-amino-acids-and-proteins"
+]
+},
+{
+"id": "18.17",
+"short": "",
+"text": "understand that the peptide bond in proteins: • i is formed when amino acids combine, by condensation polymerisation • ii can be hydrolysed to form the constituent amino acids, which can be separated by chromatography",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"amines-amides-amino-acids-and-proteins"
+]
+}
+]
+},
+{
+"code": "18.C",
+"title": "Organic Synthesis",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "organic-synthesis",
+"statements": [
+{
+"id": "18.18",
+"short": "",
+"text": "be able to deduce the empirical formulae, molecular formulae and structural formulae of compounds from data obtained from combustion analysis, elemental percentage composition, characteristic reactions of functional groups, infrared spectra, mass spectra and nuclear magnetic resonance",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"organic-synthesis"
+]
+},
+{
+"id": "18.19",
+"short": "",
+"text": "be able to plan reaction schemes, of up to four steps, to form both familiar and unfamiliar compounds",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"organic-synthesis"
+]
+},
+{
+"id": "18.20",
+"short": "",
+"text": "understand methods of increasing the length of the carbon chain in a molecule by the use of magnesium to form Grignard reagents and the reactions of the latter with carbon dioxide and with carbonyl compounds in dry ether",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"organic-synthesis"
+]
+},
+{
+"id": "18.21",
+"short": "",
+"text": "be able to select and justify suitable practical procedures for carrying out reactions involving compounds with functional groups included in the specification, including identifying appropriate control measures to reduce risk, based on data about hazards",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"organic-synthesis"
+]
+},
+{
+"id": "18.22",
+"short": "",
+"text": "understand the following techniques used in the preparation and purification of organic compounds: • i refluxing • ii purification by washing • iii solvent extraction • iv recrystallisation • v drying • vi distillation, including steam distillation • vii melting temperature determination • viii boiling temperature determination",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"organic-synthesis"
+]
+}
+]
+},
+{
+"code": "19",
+"title": "Modern Analytical Techniques II",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": null,
+"statements": []
+},
+{
+"code": "19.A",
+"title": "Mass Spectrometry",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "nmr-mass-spectrometry-and-chromatography",
+"statements": [
+{
+"id": "19.1",
+"short": "",
+"text": "be able to use data from mass spectra to: • i suggest possible structures of a simple organic compound given relative molecular masses, accurate to four decimal places • ii calculate the accurate relative molecular mass of a compound, given relative atomic masses to four decimal places, and therefore identify a compound",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-mass-spectrometry-and-chromatography"
+]
+}
+]
+},
+{
+"code": "19.B",
+"title": "Nuclear magnetic resonance (NMR)",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "nmr-mass-spectrometry-and-chromatography",
+"statements": [
+{
+"id": "19.2",
+"short": "",
+"text": "understand that ^13C NMR spectroscopy provides information about the positions of ^13C atoms in a molecule",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-mass-spectrometry-and-chromatography"
+]
+},
+{
+"id": "19.3",
+"short": "",
+"text": "be able to use data from ^13C NMR spectroscopy to: • i predict the different environments for carbon atoms present in a molecule, given values of chemical shift, δ • ii justify the number of peaks present in a ^13C NMR spectrum because of carbon atoms in different environments",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-mass-spectrometry-and-chromatography"
+]
+},
+{
+"id": "19.4",
+"short": "",
+"text": "understand that high resolution proton NMR provides information about the positions of ^1H atoms in a molecule",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-mass-spectrometry-and-chromatography"
+]
+},
+{
+"id": "19.5",
+"short": "",
+"text": "be able to use data from high resolution ^1H NMR spectroscopy to: • i predict the different types of proton present in a molecule, given values of chemical shift, δ • ii relate relative peak areas, or ratio numbers of protons, to the relative numbers of ^1H atoms in different environments • iii deduce the splitting patterns of adjacent, non-equivalent protons using the (n+1) rule and hence suggest the possible structures for a molecule • iv predict the chemical shifts and splitting patterns of the ^1H atoms in a given molecule",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-mass-spectrometry-and-chromatography"
+]
+}
+]
+},
+{
+"code": "19.C",
+"title": "Chromatography",
+"paper": 0,
+"option": null,
+"area": null,
+"theme": null,
+"module": 2,
+"aLevelOnly": true,
+"topic": "nmr-mass-spectrometry-and-chromatography",
+"statements": [
+{
+"id": "19.6",
+"short": "",
+"text": "know that chromatography separates components of a mixture between a mobile phase and a stationary phase",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-mass-spectrometry-and-chromatography"
+]
+},
+{
+"id": "19.7",
+"short": "",
+"text": "be able to calculate Rf values from one-way chromatograms",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-mass-spectrometry-and-chromatography"
+]
+},
+{
+"id": "19.8",
+"short": "",
+"text": "know that high performance liquid chromatography, HPLC, and gas chromatography, GC: • i are types of column chromatography • ii separate substances because of different retention times in the column • iii may be used in conjunction with mass spectrometry, in applications such as forensics or drugs testing in sport",
+"guidance": "",
+"level": "",
+"points": [],
+"page": null,
+"aLevelPart": "",
+"as": false,
+"topics": [
+"nmr-mass-spectrometry-and-chromatography"
+]
+}
+]
+}
+]
