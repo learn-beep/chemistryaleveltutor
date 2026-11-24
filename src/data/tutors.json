@@ -1,12 +1,12 @@
 [
  {
-  "name": "Lariab",
-  "slug": "lariab",
+  "name": "Laraib",
+  "slug": "laraib",
   "title": "A-level Chemistry tutor · OCR A, AQA, Edexcel and all other boards · online one-to-one",
   "photo": null,
   "fee": "£100 per hour",
   "bio": [
-   "Lariab is a practising medical doctor who has been tutoring for eight years, with more than a thousand hours of online lessons behind her. She achieved 11 A*s at GCSE and A*AAA at A level, so she knows what the top grades take. She has over 60 five-star reviews, and the feedback from her students most often mentions her focus on exam technique and past-paper practice.",
+   "Laraib is a practising medical doctor who has been tutoring for eight years, with more than a thousand hours of online lessons behind her. She achieved 11 A*s at GCSE and A*AAA at A level, so she knows what the top grades take. She has over 60 five-star reviews, and the feedback from her students most often mentions her focus on exam technique and past-paper practice.",
    "Her lessons are tailored to each student. She explains every topic clearly and makes sure it is properly understood before moving on, and she is patient and encouraging while still pushing each student to do as well as they can.",
    "She teaches every exam board, including OCR A, AQA and Edexcel, and builds her lessons around what earns marks on the student's own papers: setting out multi-step calculations so the method marks are safe, drawing mechanisms the way the mark scheme wants them, structuring the six-mark extended answers, and the practical-skills questions that run through every paper."
   ],
@@ -20,6 +20,62 @@
    "Progress updates and feedback for parents on request",
    "Mock-paper walk-throughs before the May and June exams"
   ],
-  "reviews": []
+  "reviews": [
+   {
+    "text": "Laraib is really good at explaining and keeping me focused. She also uses the lesson time very efficiently as she covers so much in one lesson but I am still able to understand everything and she often prompts me with past paper questions at random times which helps me think :)",
+    "stars": 5,
+    "who": "Shihui T",
+    "when": "March 2025"
+   },
+   {
+    "text": "My daughter has been very happy with her chemistry tutor sessions. Each session she walks away feeling more confident in her understanding of the material. Materials are also presented in a way that helps make it easier to remember and learn. Thank you!",
+    "stars": 5,
+    "who": "Maryam L",
+    "when": "February 2025"
+   },
+   {
+    "text": "Excellent teacher for my 16 year old in 6th form studying Chemistry and Biology.. Laraib has been a great asset in making My daughter understand what is needed and filling in all the gaps.",
+    "stars": 5,
+    "who": "Maria S",
+    "when": "January 2023"
+   },
+   {
+    "text": "Fantastic tutor! Very thorough with her teaching and is patient to make sure you understand.",
+    "stars": 5,
+    "who": "Nayana J",
+    "when": "October 2022"
+   },
+   {
+    "text": "Laraib is a fantastic tutor, her lessons are well structured and to the point. She is great at explaining any problem I come across, and provides many helpful resources. I couldn't ask for a better tutor!",
+    "stars": 5,
+    "who": "Daria P",
+    "when": "February 2021"
+   },
+   {
+    "text": "Laraib is a great tutor and has helped me very much in A level Chemistry which i have really struggled with and i have noticed a massive improvement in my chemistry knowledge which has been reflected in my recent tests and it's all thanks to her. She goes through the content thoroughly teaching you all the knowledge and then goes through exam questions so that you can learn how to apply that knowledge. Therefore i would highly recommend her as a tutor.",
+    "stars": 5,
+    "who": "Khadija S",
+    "when": "January 2021"
+   },
+   {
+    "text": "Laraib is a very knowledgable tutor and understands the content she teaches amazingly. She goes through content I don't understand and ensures I understand what she says before moving on to the next thing. She also helps with homework and has a flexible schedule. I felt comfortable with her teaching from my first lesson with her.",
+    "stars": 5,
+    "who": "Fatima N",
+    "when": "November 2020"
+   },
+   {
+    "text": "Laraib has been tutoring me for a little while now and I’m noticing significant improvement in my a level chemistry lessons. She’s great at breaking down difficult concepts into ways I can understand. I’m now feeling confident and can’t wait to carry on improving!",
+    "stars": 5,
+    "who": "Robert O",
+    "when": "October 2020"
+   },
+   {
+    "text": "Laraib was an exceptional tutor. I was really struggling with A level chemistry and biology and she completely transformed my grades. I finally understood all the concepts and felt so much more confident. She has so much knowledge and understanding of what she teaches, making her a very competent tutor. She tutors efficiently, wasting no time and making the lessons very engaging so I stay focused. Thanks to her, I excelled my exams and saw a MAJOR improvement. She explains everything at the right pace, and gives exam advice and tips too. I would 100% recommend! Well worth it!",
+    "stars": 5,
+    "who": "Muhammed H",
+    "when": "June 2020"
+   }
+  ],
+  "reviewSource": "Reviews from Laraib's Tutorful profile, where she has a 5.0 average from 65 reviews across all her subjects"
  }
 ]
