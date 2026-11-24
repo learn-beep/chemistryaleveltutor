@@ -2,7 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import tutors from '../../data/tutors.json';
 const tutor = tutors[0];
-const title = tutor ? `OCR A-level chemistry tutor: ${tutor.name}, online one-to-one` : 'OCR A-level chemistry tutor: online one-to-one lessons';
+const title = tutor ? `A-level chemistry tutor (OCR, AQA, Edexcel): ${tutor.name}, online one-to-one` : 'OCR A-level chemistry tutor: online one-to-one lessons';
 const desc = tutor ? tutor.bio[0] : 'Online one-to-one A-level Chemistry tutoring for the OCR specification, from an experienced specialist tutor. Paid trial lesson, no packages, lesson by lesson.';
 ---
 <Base title={title} description={desc} context="tutors" leadLine="Tell us the year group, target grade and availability, and we will arrange a trial session.">
